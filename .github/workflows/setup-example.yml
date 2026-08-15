@@ -1,0 +1,64 @@
+# Example GitHub Actions workflow showing how to use secrets
+# This workflow demonstrates credential setup for CI/CD
+
+name: Setup and Test
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  setup-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      
+      - name: Create credentials from secrets
+        run: |
+          mkdir -p SproutsProject
+          echo '${{ secrets.GOOGLE_CREDENTIALS }}' > SproutsProject/credentials.json
+          echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}' > SproutsProject/service-account-key.json
+          chmod 600 SproutsProject/*.json
+      
+      - name: Install dependencies
+        run: |
+          cd SproutsProject
+          pip install -r requirements.txt
+      
+      - name: Verify credentials exist
+        run: |
+          if [ -f "SproutsProject/credentials.json" ]; then
+            echo "✅ credentials.json created"
+          else
+            echo "❌ credentials.json missing"
+            exit 1
+          fi
+          
+          if [ -f "SproutsProject/service-account-key.json" ]; then
+            echo "✅ service-account-key.json created"
+          else
+            echo "❌ service-account-key.json missing"
+            exit 1
+          fi
+      
+      # Add your test commands here
+      # - name: Run tests
+      #   run: |
+      #     cd SproutsProject
+      #     python -m pytest tests/
+      
+      - name: Cleanup credentials
+        if: always()
+        run: |
+          rm -f SproutsProject/credentials.json
+          rm -f SproutsProject/service-account-key.json
