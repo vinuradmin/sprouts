@@ -1,0 +1,4630 @@
+{
+    "869 Ellis Street, San Francisco, 94109|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "44 mins",
+        "value": 2652
+    },
+    "869 Ellis Street, San Francisco, 94109|3762 Piedmont Ave Oakland 94611": {
+        "text": "50 mins",
+        "value": 3002
+    },
+    "869 Ellis Street, San Francisco, 94109|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "52 mins",
+        "value": 3114
+    },
+    "869 Ellis Street, San Francisco, 94109|100 Grand Avenue Oakland CA 94612": {
+        "text": "40 mins",
+        "value": 2426
+    },
+    "869 Ellis Street, San Francisco, 94109|1618 Franklin Street Oakland,CA 94612": {
+        "text": "36 mins",
+        "value": 2184
+    },
+    "869 Ellis Street, San Francisco, 94109|324 24th Street, Oakland, California, 94591": {
+        "text": "43 mins",
+        "value": 2594
+    },
+    "869 Ellis Street, San Francisco, 94109|960 Moraga Rd Lafayette CA 94549": {
+        "text": "1 hour 1 min",
+        "value": 3655
+    },
+    "869 Ellis Street, San Francisco, 94109|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "45 mins",
+        "value": 2710
+    },
+    "869 Ellis Street, San Francisco, 94109|362 17th St Oakland CA 94612": {
+        "text": "37 mins",
+        "value": 2216
+    },
+    "869 Ellis Street, San Francisco, 94109|3936 telegraph Ave. oakland ca": {
+        "text": "39 mins",
+        "value": 2357
+    },
+    "869 Ellis Street, San Francisco, 94109|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "869 Ellis Street, San Francisco, 94109|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "17 mins",
+        "value": 994
+    },
+    "869 Ellis Street, San Francisco, 94109|509 Laguna St, San Francisco, CA 94102": {
+        "text": "17 mins",
+        "value": 1028
+    },
+    "869 Ellis Street, San Francisco, 94109|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "24 mins",
+        "value": 1442
+    },
+    "869 Ellis Street, San Francisco, 94109|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "26 mins",
+        "value": 1567
+    },
+    "869 Ellis Street, San Francisco, 94109|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "25 mins",
+        "value": 1523
+    },
+    "869 Ellis Street, San Francisco, 94109|1 Sansome Street San Francisco, CA 94104": {
+        "text": "16 mins",
+        "value": 949
+    },
+    "869 Ellis Street, San Francisco, 94109|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "43 mins",
+        "value": 2607
+    },
+    "869 Ellis Street, San Francisco, 94109|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "27 mins",
+        "value": 1595
+    },
+    "869 Ellis Street, San Francisco, 94109|2226 polk st. San Francisco CA 94109": {
+        "text": "12 mins",
+        "value": 701
+    },
+    "869 Ellis Street, San Francisco, 94109|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "25 mins",
+        "value": 1485
+    },
+    "869 Ellis Street, San Francisco, 94109|2534 Mission St, San Francisco, CA": {
+        "text": "20 mins",
+        "value": 1178
+    },
+    "869 Ellis Street, San Francisco, 94109|2495 third street, san francisco, CA, 94107": {
+        "text": "37 mins",
+        "value": 2192
+    },
+    "869 Ellis Street, San Francisco, 94109|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "7 mins",
+        "value": 447
+    },
+    "869 Ellis Street, San Francisco, 94109|679 Chenery St, San Francisco, CA 94131": {
+        "text": "27 mins",
+        "value": 1612
+    },
+    "869 Ellis Street, San Francisco, 94109|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "9 mins",
+        "value": 522
+    },
+    "869 Ellis Street, San Francisco, 94109|1602, South El Camino Real": {
+        "text": "1 hour 20 mins",
+        "value": 4781
+    },
+    "869 Ellis Street, San Francisco, 94109|1625 N Shoreline Blvd": {
+        "text": "2 hours 4 mins",
+        "value": 7416
+    },
+    "869 Ellis Street, San Francisco, 94109|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 239830
+    },
+    "869 Ellis Street, San Francisco, 94109|125 1st Ave New York New York 10003": {
+        "text": "2 days 18 hours",
+        "value": 236855
+    },
+    "869 Ellis Street, San Francisco, 94109|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 237248
+    },
+    "869 Ellis Street, San Francisco, 94109|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 240075
+    },
+    "869 Ellis Street, San Francisco, 94109|30 W 18th St": {
+        "text": "2 days 0 hours",
+        "value": 171518
+    },
+    "869 Ellis Street, San Francisco, 94109|403 Grand Street": {
+        "text": "2 days 18 hours",
+        "value": 236354
+    },
+    "869 Ellis Street, San Francisco, 94109|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 240305
+    },
+    "869 Ellis Street, San Francisco, 94109|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 238003
+    },
+    "869 Ellis Street, San Francisco, 94109|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237715
+    },
+    "869 Ellis Street, San Francisco, 94109|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "869 Ellis Street, San Francisco, 94109|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "48 mins",
+        "value": 2859
+    },
+    "869 Ellis Street, San Francisco, 94109|4201 Market St, Oakland, CA 94608": {
+        "text": "52 mins",
+        "value": 3134
+    },
+    "869 Ellis Street, San Francisco, 94109|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 2 mins",
+        "value": 3699
+    },
+    "6324 Geary blvd, San Francisco , 94121|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "1 hour 10 mins",
+        "value": 4198
+    },
+    "6324 Geary blvd, San Francisco , 94121|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 14 mins",
+        "value": 4418
+    },
+    "6324 Geary blvd, San Francisco , 94121|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 17 mins",
+        "value": 4615
+    },
+    "6324 Geary blvd, San Francisco , 94121|100 Grand Avenue Oakland CA 94612": {
+        "text": "1 hour 7 mins",
+        "value": 4000
+    },
+    "6324 Geary blvd, San Francisco , 94121|1618 Franklin Street Oakland,CA 94612": {
+        "text": "1 hour 1 min",
+        "value": 3642
+    },
+    "6324 Geary blvd, San Francisco , 94121|324 24th Street, Oakland, California, 94591": {
+        "text": "1 hour 8 mins",
+        "value": 4094
+    },
+    "6324 Geary blvd, San Francisco , 94121|960 Moraga Rd Lafayette CA 94549": {
+        "text": "1 hour 27 mins",
+        "value": 5214
+    },
+    "6324 Geary blvd, San Francisco , 94121|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "1 hour 10 mins",
+        "value": 4192
+    },
+    "6324 Geary blvd, San Francisco , 94121|362 17th St Oakland CA 94612": {
+        "text": "1 hour 1 min",
+        "value": 3674
+    },
+    "6324 Geary blvd, San Francisco , 94121|3936 telegraph Ave. oakland ca": {
+        "text": "1 hour 4 mins",
+        "value": 3858
+    },
+    "6324 Geary blvd, San Francisco , 94121|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "6324 Geary blvd, San Francisco , 94121|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "53 mins",
+        "value": 3173
+    },
+    "6324 Geary blvd, San Francisco , 94121|509 Laguna St, San Francisco, CA 94102": {
+        "text": "39 mins",
+        "value": 2319
+    },
+    "6324 Geary blvd, San Francisco , 94121|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "45 mins",
+        "value": 2671
+    },
+    "6324 Geary blvd, San Francisco , 94121|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "37 mins",
+        "value": 2217
+    },
+    "6324 Geary blvd, San Francisco , 94121|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "46 mins",
+        "value": 2772
+    },
+    "6324 Geary blvd, San Francisco , 94121|1 Sansome Street San Francisco, CA 94104": {
+        "text": "37 mins",
+        "value": 2228
+    },
+    "6324 Geary blvd, San Francisco , 94121|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "29 mins",
+        "value": 1728
+    },
+    "6324 Geary blvd, San Francisco , 94121|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "47 mins",
+        "value": 2844
+    },
+    "6324 Geary blvd, San Francisco , 94121|2226 polk st. San Francisco CA 94109": {
+        "text": "39 mins",
+        "value": 2364
+    },
+    "6324 Geary blvd, San Francisco , 94121|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "28 mins",
+        "value": 1671
+    },
+    "6324 Geary blvd, San Francisco , 94121|2534 Mission St, San Francisco, CA": {
+        "text": "51 mins",
+        "value": 3058
+    },
+    "6324 Geary blvd, San Francisco , 94121|2495 third street, san francisco, CA, 94107": {
+        "text": "59 mins",
+        "value": 3510
+    },
+    "6324 Geary blvd, San Francisco , 94121|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "33 mins",
+        "value": 1958
+    },
+    "6324 Geary blvd, San Francisco , 94121|679 Chenery St, San Francisco, CA 94131": {
+        "text": "46 mins",
+        "value": 2730
+    },
+    "6324 Geary blvd, San Francisco , 94121|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "34 mins",
+        "value": 2033
+    },
+    "6324 Geary blvd, San Francisco , 94121|1602, South El Camino Real": {
+        "text": "1 hour 34 mins",
+        "value": 5632
+    },
+    "6324 Geary blvd, San Francisco , 94121|1625 N Shoreline Blvd": {
+        "text": "2 hours 22 mins",
+        "value": 8537
+    },
+    "6324 Geary blvd, San Francisco , 94121|4617 AVENUE D": {
+        "text": "3 days 13 hours",
+        "value": 306613
+    },
+    "6324 Geary blvd, San Francisco , 94121|125 1st Ave New York New York 10003": {
+        "text": "3 days 13 hours",
+        "value": 304467
+    },
+    "6324 Geary blvd, San Francisco , 94121|116 W Houston Street New York NY 10012": {
+        "text": "3 days 12 hours",
+        "value": 303932
+    },
+    "6324 Geary blvd, San Francisco , 94121|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "3 days 13 hours",
+        "value": 307211
+    },
+    "6324 Geary blvd, San Francisco , 94121|30 W 18th St": {
+        "text": "2 days 15 hours",
+        "value": 226205
+    },
+    "6324 Geary blvd, San Francisco , 94121|403 Grand Street": {
+        "text": "3 days 12 hours",
+        "value": 304043
+    },
+    "6324 Geary blvd, San Francisco , 94121|3041 Avenue V Brooklyn NY 11229": {
+        "text": "3 days 13 hours",
+        "value": 307071
+    },
+    "6324 Geary blvd, San Francisco , 94121|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "3 days 13 hours",
+        "value": 304554
+    },
+    "6324 Geary blvd, San Francisco , 94121|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "3 days 13 hours",
+        "value": 305005
+    },
+    "6324 Geary blvd, San Francisco , 94121|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "6324 Geary blvd, San Francisco , 94121|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "1 hour 13 mins",
+        "value": 4360
+    },
+    "6324 Geary blvd, San Francisco , 94121|4201 Market St, Oakland, CA 94608": {
+        "text": "1 hour 14 mins",
+        "value": 4445
+    },
+    "6324 Geary blvd, San Francisco , 94121|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 16 mins",
+        "value": 4544
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "52 mins",
+        "value": 3136
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|3762 Piedmont Ave Oakland 94611": {
+        "text": "58 mins",
+        "value": 3495
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 0 mins",
+        "value": 3598
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|100 Grand Avenue Oakland CA 94612": {
+        "text": "49 mins",
+        "value": 2910
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|324 24th Street, Oakland, California, 94591": {
+        "text": "51 mins",
+        "value": 3078
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "53 mins",
+        "value": 3161
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|362 17th St Oakland CA 94612": {
+        "text": "45 mins",
+        "value": 2700
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "33 mins",
+        "value": 1985
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "1 hour 2 mins",
+        "value": 3746
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "34 mins",
+        "value": 2066
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|1 Sansome Street San Francisco, CA 94104": {
+        "text": "28 mins",
+        "value": 1685
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 15 mins",
+        "value": 4512
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "36 mins",
+        "value": 2138
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|2226 polk st. San Francisco CA 94109": {
+        "text": "49 mins",
+        "value": 2943
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "1 hour 4 mins",
+        "value": 3828
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|2495 third street, san francisco, CA, 94107": {
+        "text": "48 mins",
+        "value": 2865
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|679 Chenery St, San Francisco, CA 94131": {
+        "text": "14 mins",
+        "value": 846
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "48 mins",
+        "value": 2861
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|1602, South El Camino Real": {
+        "text": "1 hour 29 mins",
+        "value": 5311
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|1625 N Shoreline Blvd": {
+        "text": "1 hour 58 mins",
+        "value": 7056
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 240400
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 237818
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 240645
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 240875
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "56 mins",
+        "value": 3343
+    },
+    "246 Santa Rosa Ave, San Francisco, 94112|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 5 mins",
+        "value": 3914
+    },
+    "737 Post St, San Francisco, 94102|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "41 mins",
+        "value": 2449
+    },
+    "737 Post St, San Francisco, 94102|3762 Piedmont Ave Oakland 94611": {
+        "text": "47 mins",
+        "value": 2807
+    },
+    "737 Post St, San Francisco, 94102|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "49 mins",
+        "value": 2911
+    },
+    "737 Post St, San Francisco, 94102|100 Grand Avenue Oakland CA 94612": {
+        "text": "37 mins",
+        "value": 2223
+    },
+    "737 Post St, San Francisco, 94102|1618 Franklin Street Oakland,CA 94612": {
+        "text": "33 mins",
+        "value": 1981
+    },
+    "737 Post St, San Francisco, 94102|324 24th Street, Oakland, California, 94591": {
+        "text": "40 mins",
+        "value": 2391
+    },
+    "737 Post St, San Francisco, 94102|960 Moraga Rd Lafayette CA 94549": {
+        "text": "58 mins",
+        "value": 3452
+    },
+    "737 Post St, San Francisco, 94102|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "41 mins",
+        "value": 2473
+    },
+    "737 Post St, San Francisco, 94102|362 17th St Oakland CA 94612": {
+        "text": "34 mins",
+        "value": 2013
+    },
+    "737 Post St, San Francisco, 94102|3936 telegraph Ave. oakland ca": {
+        "text": "36 mins",
+        "value": 2154
+    },
+    "737 Post St, San Francisco, 94102|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "737 Post St, San Francisco, 94102|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "27 mins",
+        "value": 1617
+    },
+    "737 Post St, San Francisco, 94102|509 Laguna St, San Francisco, CA 94102": {
+        "text": "27 mins",
+        "value": 1646
+    },
+    "737 Post St, San Francisco, 94102|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "17 mins",
+        "value": 1016
+    },
+    "737 Post St, San Francisco, 94102|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "24 mins",
+        "value": 1465
+    },
+    "737 Post St, San Francisco, 94102|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "19 mins",
+        "value": 1133
+    },
+    "737 Post St, San Francisco, 94102|1 Sansome Street San Francisco, CA 94104": {
+        "text": "12 mins",
+        "value": 706
+    },
+    "737 Post St, San Francisco, 94102|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "39 mins",
+        "value": 2365
+    },
+    "737 Post St, San Francisco, 94102|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "20 mins",
+        "value": 1202
+    },
+    "737 Post St, San Francisco, 94102|2226 polk st. San Francisco CA 94109": {
+        "text": "15 mins",
+        "value": 871
+    },
+    "737 Post St, San Francisco, 94102|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "25 mins",
+        "value": 1502
+    },
+    "737 Post St, San Francisco, 94102|2534 Mission St, San Francisco, CA": {
+        "text": "29 mins",
+        "value": 1741
+    },
+    "737 Post St, San Francisco, 94102|2495 third street, san francisco, CA, 94107": {
+        "text": "33 mins",
+        "value": 1991
+    },
+    "737 Post St, San Francisco, 94102|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "6 mins",
+        "value": 348
+    },
+    "737 Post St, San Francisco, 94102|679 Chenery St, San Francisco, CA 94131": {
+        "text": "28 mins",
+        "value": 1690
+    },
+    "737 Post St, San Francisco, 94102|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "6 mins",
+        "value": 333
+    },
+    "737 Post St, San Francisco, 94102|1602, South El Camino Real": {
+        "text": "1 hour 11 mins",
+        "value": 4281
+    },
+    "737 Post St, San Francisco, 94102|1625 N Shoreline Blvd": {
+        "text": "1 hour 55 mins",
+        "value": 6916
+    },
+    "737 Post St, San Francisco, 94102|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 239623
+    },
+    "737 Post St, San Francisco, 94102|125 1st Ave New York New York 10003": {
+        "text": "2 days 18 hours",
+        "value": 236648
+    },
+    "737 Post St, San Francisco, 94102|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 237041
+    },
+    "737 Post St, San Francisco, 94102|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 239868
+    },
+    "737 Post St, San Francisco, 94102|30 W 18th St": {
+        "text": "2 days 0 hours",
+        "value": 171311
+    },
+    "737 Post St, San Francisco, 94102|403 Grand Street": {
+        "text": "2 days 18 hours",
+        "value": 236147
+    },
+    "737 Post St, San Francisco, 94102|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 240098
+    },
+    "737 Post St, San Francisco, 94102|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237796
+    },
+    "737 Post St, San Francisco, 94102|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237508
+    },
+    "737 Post St, San Francisco, 94102|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "737 Post St, San Francisco, 94102|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "44 mins",
+        "value": 2656
+    },
+    "737 Post St, San Francisco, 94102|4201 Market St, Oakland, CA 94608": {
+        "text": "49 mins",
+        "value": 2941
+    },
+    "737 Post St, San Francisco, 94102|3308 Grand Ave, Oakland CA 94610": {
+        "text": "55 mins",
+        "value": 3299
+    },
+    "78 Haight, San Francisco , 94102|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "19 mins",
+        "value": 1162
+    },
+    "78 Haight, San Francisco , 94102|3762 Piedmont Ave Oakland 94611": {
+        "text": "17 mins",
+        "value": 1027
+    },
+    "78 Haight, San Francisco , 94102|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "17 mins",
+        "value": 1015
+    },
+    "78 Haight, San Francisco , 94102|100 Grand Avenue Oakland CA 94612": {
+        "text": "19 mins",
+        "value": 1110
+    },
+    "78 Haight, San Francisco , 94102|1618 Franklin Street Oakland,CA 94612": {
+        "text": "21 mins",
+        "value": 1240
+    },
+    "78 Haight, San Francisco , 94102|324 24th Street, Oakland, California, 94591": {
+        "text": "19 mins",
+        "value": 1148
+    },
+    "78 Haight, San Francisco , 94102|960 Moraga Rd Lafayette CA 94549": {
+        "text": "28 mins",
+        "value": 1654
+    },
+    "78 Haight, San Francisco , 94102|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "25 mins",
+        "value": 1481
+    },
+    "78 Haight, San Francisco , 94102|362 17th St Oakland CA 94612": {
+        "text": "20 mins",
+        "value": 1184
+    },
+    "78 Haight, San Francisco , 94102|3936 telegraph Ave. oakland ca": {
+        "text": "18 mins",
+        "value": 1087
+    },
+    "78 Haight, San Francisco , 94102|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "78 Haight, San Francisco , 94102|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "7 mins",
+        "value": 413
+    },
+    "78 Haight, San Francisco , 94102|509 Laguna St, San Francisco, CA 94102": {
+        "text": "4 mins",
+        "value": 236
+    },
+    "78 Haight, San Francisco , 94102|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "17 mins",
+        "value": 1045
+    },
+    "78 Haight, San Francisco , 94102|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "15 mins",
+        "value": 911
+    },
+    "78 Haight, San Francisco , 94102|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "14 mins",
+        "value": 859
+    },
+    "78 Haight, San Francisco , 94102|1 Sansome Street San Francisco, CA 94104": {
+        "text": "13 mins",
+        "value": 809
+    },
+    "78 Haight, San Francisco , 94102|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "17 mins",
+        "value": 1045
+    },
+    "78 Haight, San Francisco , 94102|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "14 mins",
+        "value": 855
+    },
+    "78 Haight, San Francisco , 94102|2226 polk st. San Francisco CA 94109": {
+        "text": "10 mins",
+        "value": 585
+    },
+    "78 Haight, San Francisco , 94102|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "11 mins",
+        "value": 683
+    },
+    "78 Haight, San Francisco , 94102|2534 Mission St, San Francisco, CA": {
+        "text": "8 mins",
+        "value": 476
+    },
+    "78 Haight, San Francisco , 94102|2495 third street, san francisco, CA, 94107": {
+        "text": "12 mins",
+        "value": 735
+    },
+    "78 Haight, San Francisco , 94102|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "9 mins",
+        "value": 510
+    },
+    "78 Haight, San Francisco , 94102|679 Chenery St, San Francisco, CA 94131": {
+        "text": "12 mins",
+        "value": 708
+    },
+    "78 Haight, San Francisco , 94102|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "7 mins",
+        "value": 446
+    },
+    "78 Haight, San Francisco , 94102|1602, South El Camino Real": {
+        "text": "26 mins",
+        "value": 1578
+    },
+    "78 Haight, San Francisco , 94102|1625 N Shoreline Blvd": {
+        "text": "41 mins",
+        "value": 2453
+    },
+    "78 Haight, San Francisco , 94102|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 155250
+    },
+    "78 Haight, San Francisco , 94102|125 1st Ave New York New York 10003": {
+        "text": "1 day 19 hours",
+        "value": 154127
+    },
+    "78 Haight, San Francisco , 94102|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 153716
+    },
+    "78 Haight, San Francisco , 94102|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 155014
+    },
+    "78 Haight, San Francisco , 94102|30 W 18th St": {
+        "text": "1 day 7 hours",
+        "value": 111247
+    },
+    "78 Haight, San Francisco , 94102|403 Grand Street": {
+        "text": "1 day 19 hours",
+        "value": 153998
+    },
+    "78 Haight, San Francisco , 94102|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 154584
+    },
+    "78 Haight, San Francisco , 94102|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "1 day 19 hours",
+        "value": 154649
+    },
+    "78 Haight, San Francisco , 94102|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "1 day 19 hours",
+        "value": 154461
+    },
+    "78 Haight, San Francisco , 94102|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "78 Haight, San Francisco , 94102|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "19 mins",
+        "value": 1165
+    },
+    "78 Haight, San Francisco , 94102|4201 Market St, Oakland, CA 94608": {
+        "text": "16 mins",
+        "value": 959
+    },
+    "78 Haight, San Francisco , 94102|3308 Grand Ave, Oakland CA 94610": {
+        "text": "18 mins",
+        "value": 1072
+    },
+    "1539 28th ave appt C, Oakland , 94601|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "13 mins",
+        "value": 783
+    },
+    "1539 28th ave appt C, Oakland , 94601|3762 Piedmont Ave Oakland 94611": {
+        "text": "11 mins",
+        "value": 687
+    },
+    "1539 28th ave appt C, Oakland , 94601|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "11 mins",
+        "value": 640
+    },
+    "1539 28th ave appt C, Oakland , 94601|100 Grand Avenue Oakland CA 94612": {
+        "text": "12 mins",
+        "value": 742
+    },
+    "1539 28th ave appt C, Oakland , 94601|1618 Franklin Street Oakland,CA 94612": {
+        "text": "11 mins",
+        "value": 647
+    },
+    "1539 28th ave appt C, Oakland , 94601|324 24th Street, Oakland, California, 94591": {
+        "text": "13 mins",
+        "value": 796
+    },
+    "1539 28th ave appt C, Oakland , 94601|960 Moraga Rd Lafayette CA 94549": {
+        "text": "21 mins",
+        "value": 1275
+    },
+    "1539 28th ave appt C, Oakland , 94601|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "20 mins",
+        "value": 1203
+    },
+    "1539 28th ave appt C, Oakland , 94601|362 17th St Oakland CA 94612": {
+        "text": "11 mins",
+        "value": 659
+    },
+    "1539 28th ave appt C, Oakland , 94601|3936 telegraph Ave. oakland ca": {
+        "text": "14 mins",
+        "value": 843
+    },
+    "1539 28th ave appt C, Oakland , 94601|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "1539 28th ave appt C, Oakland , 94601|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "21 mins",
+        "value": 1243
+    },
+    "1539 28th ave appt C, Oakland , 94601|509 Laguna St, San Francisco, CA 94102": {
+        "text": "24 mins",
+        "value": 1463
+    },
+    "1539 28th ave appt C, Oakland , 94601|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "23 mins",
+        "value": 1360
+    },
+    "1539 28th ave appt C, Oakland , 94601|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "31 mins",
+        "value": 1855
+    },
+    "1539 28th ave appt C, Oakland , 94601|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "22 mins",
+        "value": 1347
+    },
+    "1539 28th ave appt C, Oakland , 94601|1 Sansome Street San Francisco, CA 94104": {
+        "text": "24 mins",
+        "value": 1420
+    },
+    "1539 28th ave appt C, Oakland , 94601|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "39 mins",
+        "value": 2347
+    },
+    "1539 28th ave appt C, Oakland , 94601|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "22 mins",
+        "value": 1343
+    },
+    "1539 28th ave appt C, Oakland , 94601|2226 polk st. San Francisco CA 94109": {
+        "text": "30 mins",
+        "value": 1802
+    },
+    "1539 28th ave appt C, Oakland , 94601|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "33 mins",
+        "value": 1985
+    },
+    "1539 28th ave appt C, Oakland , 94601|2534 Mission St, San Francisco, CA": {
+        "text": "28 mins",
+        "value": 1681
+    },
+    "1539 28th ave appt C, Oakland , 94601|2495 third street, san francisco, CA, 94107": {
+        "text": "26 mins",
+        "value": 1572
+    },
+    "1539 28th ave appt C, Oakland , 94601|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "25 mins",
+        "value": 1504
+    },
+    "1539 28th ave appt C, Oakland , 94601|679 Chenery St, San Francisco, CA 94131": {
+        "text": "26 mins",
+        "value": 1544
+    },
+    "1539 28th ave appt C, Oakland , 94601|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "27 mins",
+        "value": 1611
+    },
+    "1539 28th ave appt C, Oakland , 94601|1602, South El Camino Real": {
+        "text": "33 mins",
+        "value": 1967
+    },
+    "1539 28th ave appt C, Oakland , 94601|1625 N Shoreline Blvd": {
+        "text": "45 mins",
+        "value": 2696
+    },
+    "1539 28th ave appt C, Oakland , 94601|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 155049
+    },
+    "1539 28th ave appt C, Oakland , 94601|125 1st Ave New York New York 10003": {
+        "text": "1 day 19 hours",
+        "value": 153926
+    },
+    "1539 28th ave appt C, Oakland , 94601|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 153515
+    },
+    "1539 28th ave appt C, Oakland , 94601|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 154812
+    },
+    "1539 28th ave appt C, Oakland , 94601|30 W 18th St": {
+        "text": "1 day 7 hours",
+        "value": 111046
+    },
+    "1539 28th ave appt C, Oakland , 94601|403 Grand Street": {
+        "text": "1 day 19 hours",
+        "value": 153797
+    },
+    "1539 28th ave appt C, Oakland , 94601|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 154383
+    },
+    "1539 28th ave appt C, Oakland , 94601|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "1 day 19 hours",
+        "value": 154448
+    },
+    "1539 28th ave appt C, Oakland , 94601|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "1 day 19 hours",
+        "value": 154260
+    },
+    "1539 28th ave appt C, Oakland , 94601|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "1539 28th ave appt C, Oakland , 94601|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "13 mins",
+        "value": 773
+    },
+    "1539 28th ave appt C, Oakland , 94601|4201 Market St, Oakland, CA 94608": {
+        "text": "13 mins",
+        "value": 789
+    },
+    "1539 28th ave appt C, Oakland , 94601|3308 Grand Ave, Oakland CA 94610": {
+        "text": "10 mins",
+        "value": 628
+    },
+    "660 gates st , San Francisco , 94110|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "1 hour 0 mins",
+        "value": 3621
+    },
+    "660 gates st , San Francisco , 94110|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 3 mins",
+        "value": 3801
+    },
+    "660 gates st , San Francisco , 94110|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 8 mins",
+        "value": 4062
+    },
+    "660 gates st , San Francisco , 94110|100 Grand Avenue Oakland CA 94612": {
+        "text": "56 mins",
+        "value": 3331
+    },
+    "660 gates st , San Francisco , 94110|324 24th Street, Oakland, California, 94591": {
+        "text": "58 mins",
+        "value": 3499
+    },
+    "660 gates st , San Francisco , 94110|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "1 hour 0 mins",
+        "value": 3574
+    },
+    "660 gates st , San Francisco , 94110|362 17th St Oakland CA 94612": {
+        "text": "52 mins",
+        "value": 3121
+    },
+    "660 gates st , San Francisco , 94110|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "660 gates st , San Francisco , 94110|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "36 mins",
+        "value": 2156
+    },
+    "660 gates st , San Francisco , 94110|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "57 mins",
+        "value": 3425
+    },
+    "660 gates st , San Francisco , 94110|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "37 mins",
+        "value": 2237
+    },
+    "660 gates st , San Francisco , 94110|1 Sansome Street San Francisco, CA 94104": {
+        "text": "31 mins",
+        "value": 1841
+    },
+    "660 gates st , San Francisco , 94110|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 17 mins",
+        "value": 4619
+    },
+    "660 gates st , San Francisco , 94110|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "38 mins",
+        "value": 2309
+    },
+    "660 gates st , San Francisco , 94110|2226 polk st. San Francisco CA 94109": {
+        "text": "47 mins",
+        "value": 2840
+    },
+    "660 gates st , San Francisco , 94110|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "56 mins",
+        "value": 3356
+    },
+    "660 gates st , San Francisco , 94110|2495 third street, san francisco, CA, 94107": {
+        "text": "43 mins",
+        "value": 2569
+    },
+    "660 gates st , San Francisco , 94110|679 Chenery St, San Francisco, CA 94131": {
+        "text": "12 mins",
+        "value": 697
+    },
+    "660 gates st , San Francisco , 94110|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "46 mins",
+        "value": 2758
+    },
+    "660 gates st , San Francisco , 94110|1602, South El Camino Real": {
+        "text": "1 hour 16 mins",
+        "value": 4571
+    },
+    "660 gates st , San Francisco , 94110|1625 N Shoreline Blvd": {
+        "text": "2 hours 0 mins",
+        "value": 7206
+    },
+    "660 gates st , San Francisco , 94110|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 240626
+    },
+    "660 gates st , San Francisco , 94110|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 238044
+    },
+    "660 gates st , San Francisco , 94110|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 240871
+    },
+    "660 gates st , San Francisco , 94110|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 241101
+    },
+    "660 gates st , San Francisco , 94110|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "1 hour 3 mins",
+        "value": 3807
+    },
+    "660 gates st , San Francisco , 94110|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 11 mins",
+        "value": 4286
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "11 mins",
+        "value": 636
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|3762 Piedmont Ave Oakland 94611": {
+        "text": "7 mins",
+        "value": 426
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "8 mins",
+        "value": 489
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|100 Grand Avenue Oakland CA 94612": {
+        "text": "9 mins",
+        "value": 558
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|324 24th Street, Oakland, California, 94591": {
+        "text": "9 mins",
+        "value": 568
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "18 mins",
+        "value": 1052
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|362 17th St Oakland CA 94612": {
+        "text": "11 mins",
+        "value": 667
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "21 mins",
+        "value": 1258
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "29 mins",
+        "value": 1754
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "21 mins",
+        "value": 1246
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|1 Sansome Street San Francisco, CA 94104": {
+        "text": "22 mins",
+        "value": 1318
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "37 mins",
+        "value": 2245
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "21 mins",
+        "value": 1241
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|2226 polk st. San Francisco CA 94109": {
+        "text": "28 mins",
+        "value": 1701
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "31 mins",
+        "value": 1883
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|2495 third street, san francisco, CA, 94107": {
+        "text": "25 mins",
+        "value": 1470
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|679 Chenery St, San Francisco, CA 94131": {
+        "text": "24 mins",
+        "value": 1443
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "25 mins",
+        "value": 1509
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|1602, South El Camino Real": {
+        "text": "32 mins",
+        "value": 1918
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|1625 N Shoreline Blvd": {
+        "text": "44 mins",
+        "value": 2647
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 154908
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 153373
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 154671
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 154242
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "11 mins",
+        "value": 672
+    },
+    "3118 High St Oakland, CA  94619 United States, Oakland , 94619|3308 Grand Ave, Oakland CA 94610": {
+        "text": "6 mins",
+        "value": 367
+    },
+    "33 8th St, San Francisco, 94103|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "35 mins",
+        "value": 2083
+    },
+    "33 8th St, San Francisco, 94103|3762 Piedmont Ave Oakland 94611": {
+        "text": "42 mins",
+        "value": 2510
+    },
+    "33 8th St, San Francisco, 94103|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "42 mins",
+        "value": 2526
+    },
+    "33 8th St, San Francisco, 94103|100 Grand Avenue Oakland CA 94612": {
+        "text": "31 mins",
+        "value": 1830
+    },
+    "33 8th St, San Francisco, 94103|324 24th Street, Oakland, California, 94591": {
+        "text": "33 mins",
+        "value": 1998
+    },
+    "33 8th St, San Francisco, 94103|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "35 mins",
+        "value": 2073
+    },
+    "33 8th St, San Francisco, 94103|362 17th St Oakland CA 94612": {
+        "text": "27 mins",
+        "value": 1620
+    },
+    "33 8th St, San Francisco, 94103|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "33 8th St, San Francisco, 94103|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "20 mins",
+        "value": 1172
+    },
+    "33 8th St, San Francisco, 94103|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "38 mins",
+        "value": 2271
+    },
+    "33 8th St, San Francisco, 94103|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "15 mins",
+        "value": 883
+    },
+    "33 8th St, San Francisco, 94103|1 Sansome Street San Francisco, CA 94104": {
+        "text": "10 mins",
+        "value": 602
+    },
+    "33 8th St, San Francisco, 94103|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "41 mins",
+        "value": 2451
+    },
+    "33 8th St, San Francisco, 94103|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "16 mins",
+        "value": 955
+    },
+    "33 8th St, San Francisco, 94103|2226 polk st. San Francisco CA 94109": {
+        "text": "22 mins",
+        "value": 1290
+    },
+    "33 8th St, San Francisco, 94103|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "40 mins",
+        "value": 2389
+    },
+    "33 8th St, San Francisco, 94103|2495 third street, san francisco, CA, 94107": {
+        "text": "33 mins",
+        "value": 1950
+    },
+    "33 8th St, San Francisco, 94103|679 Chenery St, San Francisco, CA 94131": {
+        "text": "17 mins",
+        "value": 1044
+    },
+    "33 8th St, San Francisco, 94103|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "14 mins",
+        "value": 828
+    },
+    "33 8th St, San Francisco, 94103|1602, South El Camino Real": {
+        "text": "1 hour 25 mins",
+        "value": 5096
+    },
+    "33 8th St, San Francisco, 94103|1625 N Shoreline Blvd": {
+        "text": "1 hour 54 mins",
+        "value": 6848
+    },
+    "33 8th St, San Francisco, 94103|4617 AVENUE D": {
+        "text": "2 days 18 hours",
+        "value": 239262
+    },
+    "33 8th St, San Francisco, 94103|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 236680
+    },
+    "33 8th St, San Francisco, 94103|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 239507
+    },
+    "33 8th St, San Francisco, 94103|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 239737
+    },
+    "33 8th St, San Francisco, 94103|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "38 mins",
+        "value": 2271
+    },
+    "33 8th St, San Francisco, 94103|3308 Grand Ave, Oakland CA 94610": {
+        "text": "43 mins",
+        "value": 2563
+    },
+    "3482 Paxton ave , Oakland , 94601|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "12 mins",
+        "value": 733
+    },
+    "3482 Paxton ave , Oakland , 94601|3762 Piedmont Ave Oakland 94611": {
+        "text": "9 mins",
+        "value": 523
+    },
+    "3482 Paxton ave , Oakland , 94601|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "10 mins",
+        "value": 585
+    },
+    "3482 Paxton ave , Oakland , 94601|100 Grand Avenue Oakland CA 94612": {
+        "text": "11 mins",
+        "value": 655
+    },
+    "3482 Paxton ave , Oakland , 94601|324 24th Street, Oakland, California, 94591": {
+        "text": "11 mins",
+        "value": 665
+    },
+    "3482 Paxton ave , Oakland , 94601|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "19 mins",
+        "value": 1149
+    },
+    "3482 Paxton ave , Oakland , 94601|362 17th St Oakland CA 94612": {
+        "text": "13 mins",
+        "value": 764
+    },
+    "3482 Paxton ave , Oakland , 94601|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "3482 Paxton ave , Oakland , 94601|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "23 mins",
+        "value": 1355
+    },
+    "3482 Paxton ave , Oakland , 94601|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "31 mins",
+        "value": 1850
+    },
+    "3482 Paxton ave , Oakland , 94601|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "22 mins",
+        "value": 1342
+    },
+    "3482 Paxton ave , Oakland , 94601|1 Sansome Street San Francisco, CA 94104": {
+        "text": "24 mins",
+        "value": 1415
+    },
+    "3482 Paxton ave , Oakland , 94601|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "39 mins",
+        "value": 2342
+    },
+    "3482 Paxton ave , Oakland , 94601|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "22 mins",
+        "value": 1338
+    },
+    "3482 Paxton ave , Oakland , 94601|2226 polk st. San Francisco CA 94109": {
+        "text": "30 mins",
+        "value": 1798
+    },
+    "3482 Paxton ave , Oakland , 94601|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "33 mins",
+        "value": 1980
+    },
+    "3482 Paxton ave , Oakland , 94601|2495 third street, san francisco, CA, 94107": {
+        "text": "26 mins",
+        "value": 1567
+    },
+    "3482 Paxton ave , Oakland , 94601|679 Chenery St, San Francisco, CA 94131": {
+        "text": "26 mins",
+        "value": 1540
+    },
+    "3482 Paxton ave , Oakland , 94601|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "27 mins",
+        "value": 1606
+    },
+    "3482 Paxton ave , Oakland , 94601|1602, South El Camino Real": {
+        "text": "35 mins",
+        "value": 2114
+    },
+    "3482 Paxton ave , Oakland , 94601|1625 N Shoreline Blvd": {
+        "text": "47 mins",
+        "value": 2843
+    },
+    "3482 Paxton ave , Oakland , 94601|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 155004
+    },
+    "3482 Paxton ave , Oakland , 94601|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 153470
+    },
+    "3482 Paxton ave , Oakland , 94601|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 154768
+    },
+    "3482 Paxton ave , Oakland , 94601|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 154339
+    },
+    "3482 Paxton ave , Oakland , 94601|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "13 mins",
+        "value": 768
+    },
+    "3482 Paxton ave , Oakland , 94601|3308 Grand Ave, Oakland CA 94610": {
+        "text": "8 mins",
+        "value": 464
+    },
+    "78 Haight st, San Francisco, 94102|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "48 mins",
+        "value": 2863
+    },
+    "78 Haight st, San Francisco, 94102|3762 Piedmont Ave Oakland 94611": {
+        "text": "51 mins",
+        "value": 3043
+    },
+    "78 Haight st, San Francisco, 94102|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "55 mins",
+        "value": 3325
+    },
+    "78 Haight st, San Francisco, 94102|100 Grand Avenue Oakland CA 94612": {
+        "text": "44 mins",
+        "value": 2637
+    },
+    "78 Haight st, San Francisco, 94102|1618 Franklin Street Oakland,CA 94612": {
+        "text": "40 mins",
+        "value": 2395
+    },
+    "78 Haight st, San Francisco, 94102|324 24th Street, Oakland, California, 94591": {
+        "text": "47 mins",
+        "value": 2805
+    },
+    "78 Haight st, San Francisco, 94102|960 Moraga Rd Lafayette CA 94549": {
+        "text": "1 hour 4 mins",
+        "value": 3866
+    },
+    "78 Haight st, San Francisco, 94102|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "49 mins",
+        "value": 2946
+    },
+    "78 Haight st, San Francisco, 94102|362 17th St Oakland CA 94612": {
+        "text": "40 mins",
+        "value": 2427
+    },
+    "78 Haight st, San Francisco, 94102|3936 telegraph Ave. oakland ca": {
+        "text": "43 mins",
+        "value": 2568
+    },
+    "78 Haight st, San Francisco, 94102|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "78 Haight st, San Francisco, 94102|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "20 mins",
+        "value": 1182
+    },
+    "78 Haight st, San Francisco, 94102|509 Laguna St, San Francisco, CA 94102": {
+        "text": "7 mins",
+        "value": 425
+    },
+    "78 Haight st, San Francisco, 94102|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "19 mins",
+        "value": 1121
+    },
+    "78 Haight st, San Francisco, 94102|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "31 mins",
+        "value": 1852
+    },
+    "78 Haight st, San Francisco, 94102|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "20 mins",
+        "value": 1202
+    },
+    "78 Haight st, San Francisco, 94102|1 Sansome Street San Francisco, CA 94104": {
+        "text": "15 mins",
+        "value": 885
+    },
+    "78 Haight st, San Francisco, 94102|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "42 mins",
+        "value": 2499
+    },
+    "78 Haight st, San Francisco, 94102|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "21 mins",
+        "value": 1274
+    },
+    "78 Haight st, San Francisco, 94102|2226 polk st. San Francisco CA 94109": {
+        "text": "21 mins",
+        "value": 1259
+    },
+    "78 Haight st, San Francisco, 94102|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "30 mins",
+        "value": 1815
+    },
+    "78 Haight st, San Francisco, 94102|2534 Mission St, San Francisco, CA": {
+        "text": "17 mins",
+        "value": 1000
+    },
+    "78 Haight st, San Francisco, 94102|2495 third street, san francisco, CA, 94107": {
+        "text": "32 mins",
+        "value": 1941
+    },
+    "78 Haight st, San Francisco, 94102|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "18 mins",
+        "value": 1098
+    },
+    "78 Haight st, San Francisco, 94102|679 Chenery St, San Francisco, CA 94131": {
+        "text": "26 mins",
+        "value": 1551
+    },
+    "78 Haight st, San Francisco, 94102|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "20 mins",
+        "value": 1177
+    },
+    "78 Haight st, San Francisco, 94102|1602, South El Camino Real": {
+        "text": "1 hour 21 mins",
+        "value": 4880
+    },
+    "78 Haight st, San Francisco, 94102|1625 N Shoreline Blvd": {
+        "text": "2 hours 5 mins",
+        "value": 7515
+    },
+    "78 Haight st, San Francisco, 94102|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 239803
+    },
+    "78 Haight st, San Francisco, 94102|125 1st Ave New York New York 10003": {
+        "text": "2 days 18 hours",
+        "value": 236828
+    },
+    "78 Haight st, San Francisco, 94102|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 237221
+    },
+    "78 Haight st, San Francisco, 94102|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 240048
+    },
+    "78 Haight st, San Francisco, 94102|30 W 18th St": {
+        "text": "2 days 0 hours",
+        "value": 171491
+    },
+    "78 Haight st, San Francisco, 94102|403 Grand Street": {
+        "text": "2 days 18 hours",
+        "value": 236327
+    },
+    "78 Haight st, San Francisco, 94102|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 240278
+    },
+    "78 Haight st, San Francisco, 94102|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237976
+    },
+    "78 Haight st, San Francisco, 94102|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237688
+    },
+    "78 Haight st, San Francisco, 94102|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "78 Haight st, San Francisco, 94102|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "51 mins",
+        "value": 3070
+    },
+    "78 Haight st, San Francisco, 94102|4201 Market St, Oakland, CA 94608": {
+        "text": "53 mins",
+        "value": 3193
+    },
+    "78 Haight st, San Francisco, 94102|3308 Grand Ave, Oakland CA 94610": {
+        "text": "53 mins",
+        "value": 3185
+    },
+    "87 gaviota way, San Francisco, 94127|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "59 mins",
+        "value": 3565
+    },
+    "87 gaviota way, San Francisco, 94127|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 3 mins",
+        "value": 3801
+    },
+    "87 gaviota way, San Francisco, 94127|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 7 mins",
+        "value": 4006
+    },
+    "87 gaviota way, San Francisco, 94127|100 Grand Avenue Oakland CA 94612": {
+        "text": "55 mins",
+        "value": 3275
+    },
+    "87 gaviota way, San Francisco, 94127|324 24th Street, Oakland, California, 94591": {
+        "text": "57 mins",
+        "value": 3443
+    },
+    "87 gaviota way, San Francisco, 94127|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "58 mins",
+        "value": 3499
+    },
+    "87 gaviota way, San Francisco, 94127|362 17th St Oakland CA 94612": {
+        "text": "51 mins",
+        "value": 3065
+    },
+    "87 gaviota way, San Francisco, 94127|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "87 gaviota way, San Francisco, 94127|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "32 mins",
+        "value": 1899
+    },
+    "87 gaviota way, San Francisco, 94127|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "55 mins",
+        "value": 3329
+    },
+    "87 gaviota way, San Francisco, 94127|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "33 mins",
+        "value": 1980
+    },
+    "87 gaviota way, San Francisco, 94127|1 Sansome Street San Francisco, CA 94104": {
+        "text": "28 mins",
+        "value": 1651
+    },
+    "87 gaviota way, San Francisco, 94127|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 1 min",
+        "value": 3663
+    },
+    "87 gaviota way, San Francisco, 94127|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "34 mins",
+        "value": 2052
+    },
+    "87 gaviota way, San Francisco, 94127|2226 polk st. San Francisco CA 94109": {
+        "text": "44 mins",
+        "value": 2613
+    },
+    "87 gaviota way, San Francisco, 94127|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "50 mins",
+        "value": 2979
+    },
+    "87 gaviota way, San Francisco, 94127|2495 third street, san francisco, CA, 94107": {
+        "text": "50 mins",
+        "value": 2993
+    },
+    "87 gaviota way, San Francisco, 94127|679 Chenery St, San Francisco, CA 94131": {
+        "text": "12 mins",
+        "value": 742
+    },
+    "87 gaviota way, San Francisco, 94127|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "42 mins",
+        "value": 2531
+    },
+    "87 gaviota way, San Francisco, 94127|1602, South El Camino Real": {
+        "text": "1 hour 32 mins",
+        "value": 5540
+    },
+    "87 gaviota way, San Francisco, 94127|1625 N Shoreline Blvd": {
+        "text": "2 hours 29 mins",
+        "value": 8924
+    },
+    "87 gaviota way, San Francisco, 94127|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 241062
+    },
+    "87 gaviota way, San Francisco, 94127|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 238480
+    },
+    "87 gaviota way, San Francisco, 94127|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 241307
+    },
+    "87 gaviota way, San Francisco, 94127|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 241537
+    },
+    "87 gaviota way, San Francisco, 94127|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "1 hour 3 mins",
+        "value": 3751
+    },
+    "87 gaviota way, San Francisco, 94127|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 6 mins",
+        "value": 3943
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "47 mins",
+        "value": 2823
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|3762 Piedmont Ave Oakland 94611": {
+        "text": "26 mins",
+        "value": 1550
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "48 mins",
+        "value": 2853
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|100 Grand Avenue Oakland CA 94612": {
+        "text": "28 mins",
+        "value": 1652
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|324 24th Street, Oakland, California, 94591": {
+        "text": "28 mins",
+        "value": 1693
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "50 mins",
+        "value": 2976
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|362 17th St Oakland CA 94612": {
+        "text": "35 mins",
+        "value": 2086
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "54 mins",
+        "value": 3268
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "1 hour 15 mins",
+        "value": 4498
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "53 mins",
+        "value": 3196
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|1 Sansome Street San Francisco, CA 94104": {
+        "text": "52 mins",
+        "value": 3092
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 38 mins",
+        "value": 5897
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "54 mins",
+        "value": 3266
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|2226 polk st. San Francisco CA 94109": {
+        "text": "1 hour 15 mins",
+        "value": 4511
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "1 hour 23 mins",
+        "value": 4975
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|2495 third street, san francisco, CA, 94107": {
+        "text": "1 hour 24 mins",
+        "value": 5058
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|679 Chenery St, San Francisco, CA 94131": {
+        "text": "1 hour 8 mins",
+        "value": 4071
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "1 hour 6 mins",
+        "value": 3987
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|1602, South El Camino Real": {
+        "text": "2 hours 14 mins",
+        "value": 8051
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|1625 N Shoreline Blvd": {
+        "text": "2 hours 28 mins",
+        "value": 8866
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 240819
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 238237
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 241064
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 241294
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "43 mins",
+        "value": 2568
+    },
+    "3829 Forest Hill Ave, Oakland, 94602|3308 Grand Ave, Oakland CA 94610": {
+        "text": "21 mins",
+        "value": 1270
+    },
+    "2901 Harper St., Berkeley, 94703|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "26 mins",
+        "value": 1539
+    },
+    "2901 Harper St., Berkeley, 94703|3762 Piedmont Ave Oakland 94611": {
+        "text": "24 mins",
+        "value": 1464
+    },
+    "2901 Harper St., Berkeley, 94703|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "17 mins",
+        "value": 1027
+    },
+    "2901 Harper St., Berkeley, 94703|100 Grand Avenue Oakland CA 94612": {
+        "text": "25 mins",
+        "value": 1505
+    },
+    "2901 Harper St., Berkeley, 94703|324 24th Street, Oakland, California, 94591": {
+        "text": "35 mins",
+        "value": 2101
+    },
+    "2901 Harper St., Berkeley, 94703|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "17 mins",
+        "value": 1036
+    },
+    "2901 Harper St., Berkeley, 94703|362 17th St Oakland CA 94612": {
+        "text": "22 mins",
+        "value": 1295
+    },
+    "2901 Harper St., Berkeley, 94703|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "2901 Harper St., Berkeley, 94703|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "36 mins",
+        "value": 2132
+    },
+    "2901 Harper St., Berkeley, 94703|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "59 mins",
+        "value": 3565
+    },
+    "2901 Harper St., Berkeley, 94703|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "37 mins",
+        "value": 2213
+    },
+    "2901 Harper St., Berkeley, 94703|1 Sansome Street San Francisco, CA 94104": {
+        "text": "34 mins",
+        "value": 2015
+    },
+    "2901 Harper St., Berkeley, 94703|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 27 mins",
+        "value": 5239
+    },
+    "2901 Harper St., Berkeley, 94703|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "38 mins",
+        "value": 2285
+    },
+    "2901 Harper St., Berkeley, 94703|2226 polk st. San Francisco CA 94109": {
+        "text": "1 hour 4 mins",
+        "value": 3826
+    },
+    "2901 Harper St., Berkeley, 94703|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "1 hour 11 mins",
+        "value": 4284
+    },
+    "2901 Harper St., Berkeley, 94703|2495 third street, san francisco, CA, 94107": {
+        "text": "1 hour 3 mins",
+        "value": 3805
+    },
+    "2901 Harper St., Berkeley, 94703|679 Chenery St, San Francisco, CA 94131": {
+        "text": "47 mins",
+        "value": 2818
+    },
+    "2901 Harper St., Berkeley, 94703|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "50 mins",
+        "value": 2974
+    },
+    "2901 Harper St., Berkeley, 94703|1602, South El Camino Real": {
+        "text": "1 hour 57 mins",
+        "value": 7038
+    },
+    "2901 Harper St., Berkeley, 94703|1625 N Shoreline Blvd": {
+        "text": "2 hours 23 mins",
+        "value": 8587
+    },
+    "2901 Harper St., Berkeley, 94703|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 239566
+    },
+    "2901 Harper St., Berkeley, 94703|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 236984
+    },
+    "2901 Harper St., Berkeley, 94703|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 239811
+    },
+    "2901 Harper St., Berkeley, 94703|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 240041
+    },
+    "2901 Harper St., Berkeley, 94703|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "18 mins",
+        "value": 1103
+    },
+    "2901 Harper St., Berkeley, 94703|3308 Grand Ave, Oakland CA 94610": {
+        "text": "27 mins",
+        "value": 1626
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "3 days 1 hour",
+        "value": 261624
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|3762 Piedmont Ave Oakland 94611": {
+        "text": "3 days 0 hours",
+        "value": 260567
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "3 days 1 hour",
+        "value": 261048
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|100 Grand Avenue Oakland CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 260627
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1618 Franklin Street Oakland,CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 260015
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|324 24th Street, Oakland, California, 94591": {
+        "text": "3 days 0 hours",
+        "value": 260759
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|960 Moraga Rd Lafayette CA 94549": {
+        "text": "3 days 2 hours",
+        "value": 266527
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "3 days 1 hour",
+        "value": 261418
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|362 17th St Oakland CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 260573
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|3936 telegraph Ave. oakland ca": {
+        "text": "3 days 0 hours",
+        "value": 260334
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "3 days 1 hour",
+        "value": 263491
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|509 Laguna St, San Francisco, CA 94102": {
+        "text": "3 days 1 hour",
+        "value": 262702
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "3 days 1 hour",
+        "value": 261765
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "3 days 1 hour",
+        "value": 262907
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "3 days 1 hour",
+        "value": 261881
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1 Sansome Street San Francisco, CA 94104": {
+        "text": "3 days 1 hour",
+        "value": 261409
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "3 days 1 hour",
+        "value": 263974
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "3 days 1 hour",
+        "value": 261951
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|2226 polk st. San Francisco CA 94109": {
+        "text": "3 days 1 hour",
+        "value": 263037
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "3 days 1 hour",
+        "value": 262973
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|2534 Mission St, San Francisco, CA": {
+        "text": "3 days 1 hour",
+        "value": 263072
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|2495 third street, san francisco, CA, 94107": {
+        "text": "3 days 1 hour",
+        "value": 263588
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "3 days 1 hour",
+        "value": 262524
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|679 Chenery St, San Francisco, CA 94131": {
+        "text": "3 days 1 hour",
+        "value": 264429
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "3 days 1 hour",
+        "value": 262154
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1602, South El Camino Real": {
+        "text": "3 days 1 hour",
+        "value": 262707
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|1625 N Shoreline Blvd": {
+        "text": "3 days 3 hours",
+        "value": 268705
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|4617 AVENUE D": {
+        "text": "33 mins",
+        "value": 1971
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|125 1st Ave New York New York 10003": {
+        "text": "1 hour 10 mins",
+        "value": 4188
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|116 W Houston Street New York NY 10012": {
+        "text": "1 hour 24 mins",
+        "value": 5041
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 hour 33 mins",
+        "value": 5597
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|30 W 18th St": {
+        "text": "1 day 0 hours",
+        "value": 86583
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|403 Grand Street": {
+        "text": "1 hour 10 mins",
+        "value": 4194
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|3041 Avenue V Brooklyn NY 11229": {
+        "text": "57 mins",
+        "value": 3399
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "1 hour 8 mins",
+        "value": 4070
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "1 hour 17 mins",
+        "value": 4605
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "3 days 0 hours",
+        "value": 260790
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|4201 Market St, Oakland, CA 94608": {
+        "text": "3 days 0 hours",
+        "value": 260105
+    },
+    "45 paerdegat 14th st, Brooklyn, 11236|3308 Grand Ave, Oakland CA 94610": {
+        "text": "3 days 1 hour",
+        "value": 261036
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "3 days 0 hours",
+        "value": 259267
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|3762 Piedmont Ave Oakland 94611": {
+        "text": "3 days 0 hours",
+        "value": 258210
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "3 days 0 hours",
+        "value": 258691
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|100 Grand Avenue Oakland CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 258270
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1618 Franklin Street Oakland,CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 257658
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|324 24th Street, Oakland, California, 94591": {
+        "text": "3 days 0 hours",
+        "value": 258402
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|960 Moraga Rd Lafayette CA 94549": {
+        "text": "3 days 1 hour",
+        "value": 264170
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "3 days 0 hours",
+        "value": 259061
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|362 17th St Oakland CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 258216
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|3936 telegraph Ave. oakland ca": {
+        "text": "3 days 0 hours",
+        "value": 257977
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "3 days 1 hour",
+        "value": 261134
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|509 Laguna St, San Francisco, CA 94102": {
+        "text": "3 days 0 hours",
+        "value": 260345
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "3 days 0 hours",
+        "value": 259408
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "3 days 0 hours",
+        "value": 260550
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "3 days 0 hours",
+        "value": 259524
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1 Sansome Street San Francisco, CA 94104": {
+        "text": "3 days 0 hours",
+        "value": 259052
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "3 days 1 hour",
+        "value": 261617
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "3 days 0 hours",
+        "value": 259594
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|2226 polk st. San Francisco CA 94109": {
+        "text": "3 days 0 hours",
+        "value": 260680
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "3 days 0 hours",
+        "value": 260616
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|2534 Mission St, San Francisco, CA": {
+        "text": "3 days 0 hours",
+        "value": 260715
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|2495 third street, san francisco, CA, 94107": {
+        "text": "3 days 1 hour",
+        "value": 261231
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "3 days 0 hours",
+        "value": 260167
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|679 Chenery St, San Francisco, CA 94131": {
+        "text": "3 days 1 hour",
+        "value": 262072
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "3 days 0 hours",
+        "value": 259797
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1602, South El Camino Real": {
+        "text": "3 days 0 hours",
+        "value": 260350
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|1625 N Shoreline Blvd": {
+        "text": "3 days 2 hours",
+        "value": 266348
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|4617 AVENUE D": {
+        "text": "58 mins",
+        "value": 3485
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|125 1st Ave New York New York 10003": {
+        "text": "31 mins",
+        "value": 1833
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|116 W Houston Street New York NY 10012": {
+        "text": "40 mins",
+        "value": 2370
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 hour 0 mins",
+        "value": 3594
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|30 W 18th St": {
+        "text": "23 hours 36 mins",
+        "value": 84946
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|403 Grand Street": {
+        "text": "32 mins",
+        "value": 1944
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 hour 23 mins",
+        "value": 4987
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "31 mins",
+        "value": 1865
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "32 mins",
+        "value": 1895
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "3 days 0 hours",
+        "value": 258433
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|4201 Market St, Oakland, CA 94608": {
+        "text": "3 days 0 hours",
+        "value": 257748
+    },
+    "1492 Putnam Avenue, Brooklyn, 11237|3308 Grand Ave, Oakland CA 94610": {
+        "text": "3 days 0 hours",
+        "value": 258679
+    },
+    "966montgomery str, brooklyn, 11213|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "3 days 0 hours",
+        "value": 259582
+    },
+    "966montgomery str, brooklyn, 11213|3762 Piedmont Ave Oakland 94611": {
+        "text": "3 days 0 hours",
+        "value": 258525
+    },
+    "966montgomery str, brooklyn, 11213|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "3 days 0 hours",
+        "value": 259006
+    },
+    "966montgomery str, brooklyn, 11213|100 Grand Avenue Oakland CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 258585
+    },
+    "966montgomery str, brooklyn, 11213|1618 Franklin Street Oakland,CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 257973
+    },
+    "966montgomery str, brooklyn, 11213|324 24th Street, Oakland, California, 94591": {
+        "text": "3 days 0 hours",
+        "value": 258717
+    },
+    "966montgomery str, brooklyn, 11213|960 Moraga Rd Lafayette CA 94549": {
+        "text": "3 days 1 hour",
+        "value": 264485
+    },
+    "966montgomery str, brooklyn, 11213|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "3 days 0 hours",
+        "value": 259376
+    },
+    "966montgomery str, brooklyn, 11213|362 17th St Oakland CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 258531
+    },
+    "966montgomery str, brooklyn, 11213|3936 telegraph Ave. oakland ca": {
+        "text": "3 days 0 hours",
+        "value": 258292
+    },
+    "966montgomery str, brooklyn, 11213|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "966montgomery str, brooklyn, 11213|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "3 days 1 hour",
+        "value": 261449
+    },
+    "966montgomery str, brooklyn, 11213|509 Laguna St, San Francisco, CA 94102": {
+        "text": "3 days 0 hours",
+        "value": 260660
+    },
+    "966montgomery str, brooklyn, 11213|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "3 days 0 hours",
+        "value": 259723
+    },
+    "966montgomery str, brooklyn, 11213|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "3 days 0 hours",
+        "value": 260865
+    },
+    "966montgomery str, brooklyn, 11213|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "3 days 0 hours",
+        "value": 259839
+    },
+    "966montgomery str, brooklyn, 11213|1 Sansome Street San Francisco, CA 94104": {
+        "text": "3 days 0 hours",
+        "value": 259367
+    },
+    "966montgomery str, brooklyn, 11213|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "3 days 1 hour",
+        "value": 261932
+    },
+    "966montgomery str, brooklyn, 11213|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "3 days 0 hours",
+        "value": 259909
+    },
+    "966montgomery str, brooklyn, 11213|2226 polk st. San Francisco CA 94109": {
+        "text": "3 days 0 hours",
+        "value": 260995
+    },
+    "966montgomery str, brooklyn, 11213|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "3 days 0 hours",
+        "value": 260931
+    },
+    "966montgomery str, brooklyn, 11213|2534 Mission St, San Francisco, CA": {
+        "text": "3 days 1 hour",
+        "value": 261030
+    },
+    "966montgomery str, brooklyn, 11213|2495 third street, san francisco, CA, 94107": {
+        "text": "3 days 1 hour",
+        "value": 261546
+    },
+    "966montgomery str, brooklyn, 11213|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "3 days 0 hours",
+        "value": 260482
+    },
+    "966montgomery str, brooklyn, 11213|679 Chenery St, San Francisco, CA 94131": {
+        "text": "3 days 1 hour",
+        "value": 262387
+    },
+    "966montgomery str, brooklyn, 11213|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "3 days 0 hours",
+        "value": 260112
+    },
+    "966montgomery str, brooklyn, 11213|1602, South El Camino Real": {
+        "text": "3 days 0 hours",
+        "value": 260665
+    },
+    "966montgomery str, brooklyn, 11213|1625 N Shoreline Blvd": {
+        "text": "3 days 2 hours",
+        "value": 266663
+    },
+    "966montgomery str, brooklyn, 11213|4617 AVENUE D": {
+        "text": "18 mins",
+        "value": 1062
+    },
+    "966montgomery str, brooklyn, 11213|125 1st Ave New York New York 10003": {
+        "text": "50 mins",
+        "value": 3011
+    },
+    "966montgomery str, brooklyn, 11213|116 W Houston Street New York NY 10012": {
+        "text": "46 mins",
+        "value": 2785
+    },
+    "966montgomery str, brooklyn, 11213|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 hour 14 mins",
+        "value": 4451
+    },
+    "966montgomery str, brooklyn, 11213|30 W 18th St": {
+        "text": "23 hours 29 mins",
+        "value": 84511
+    },
+    "966montgomery str, brooklyn, 11213|403 Grand Street": {
+        "text": "45 mins",
+        "value": 2675
+    },
+    "966montgomery str, brooklyn, 11213|3041 Avenue V Brooklyn NY 11229": {
+        "text": "52 mins",
+        "value": 3092
+    },
+    "966montgomery str, brooklyn, 11213|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "59 mins",
+        "value": 3545
+    },
+    "966montgomery str, brooklyn, 11213|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "59 mins",
+        "value": 3551
+    },
+    "966montgomery str, brooklyn, 11213|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "966montgomery str, brooklyn, 11213|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "3 days 0 hours",
+        "value": 258748
+    },
+    "966montgomery str, brooklyn, 11213|4201 Market St, Oakland, CA 94608": {
+        "text": "3 days 0 hours",
+        "value": 258063
+    },
+    "966montgomery str, brooklyn, 11213|3308 Grand Ave, Oakland CA 94610": {
+        "text": "3 days 0 hours",
+        "value": 258994
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "14 mins",
+        "value": 867
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|3762 Piedmont Ave Oakland 94611": {
+        "text": "13 mins",
+        "value": 760
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "14 mins",
+        "value": 822
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|100 Grand Avenue Oakland CA 94612": {
+        "text": "15 mins",
+        "value": 891
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1618 Franklin Street Oakland,CA 94612": {
+        "text": "18 mins",
+        "value": 1070
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|324 24th Street, Oakland, California, 94591": {
+        "text": "15 mins",
+        "value": 902
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|960 Moraga Rd Lafayette CA 94549": {
+        "text": "21 mins",
+        "value": 1258
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "23 mins",
+        "value": 1386
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|362 17th St Oakland CA 94612": {
+        "text": "17 mins",
+        "value": 1000
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|3936 telegraph Ave. oakland ca": {
+        "text": "15 mins",
+        "value": 915
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "25 mins",
+        "value": 1475
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|509 Laguna St, San Francisco, CA 94102": {
+        "text": "28 mins",
+        "value": 1695
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "27 mins",
+        "value": 1592
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "35 mins",
+        "value": 2087
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "26 mins",
+        "value": 1579
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1 Sansome Street San Francisco, CA 94104": {
+        "text": "28 mins",
+        "value": 1652
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "43 mins",
+        "value": 2579
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "26 mins",
+        "value": 1575
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|2226 polk st. San Francisco CA 94109": {
+        "text": "34 mins",
+        "value": 2034
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "37 mins",
+        "value": 2217
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|2534 Mission St, San Francisco, CA": {
+        "text": "32 mins",
+        "value": 1913
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|2495 third street, san francisco, CA, 94107": {
+        "text": "30 mins",
+        "value": 1804
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "29 mins",
+        "value": 1736
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|679 Chenery St, San Francisco, CA 94131": {
+        "text": "30 mins",
+        "value": 1776
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "31 mins",
+        "value": 1843
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1602, South El Camino Real": {
+        "text": "32 mins",
+        "value": 1938
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|1625 N Shoreline Blvd": {
+        "text": "44 mins",
+        "value": 2667
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 155241
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|125 1st Ave New York New York 10003": {
+        "text": "1 day 19 hours",
+        "value": 154118
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 153707
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 155005
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|30 W 18th St": {
+        "text": "1 day 7 hours",
+        "value": 111238
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|403 Grand Street": {
+        "text": "1 day 19 hours",
+        "value": 153990
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 154575
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "1 day 19 hours",
+        "value": 154640
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "1 day 19 hours",
+        "value": 154452
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "17 mins",
+        "value": 1005
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|4201 Market St, Oakland, CA 94608": {
+        "text": "14 mins",
+        "value": 862
+    },
+    "2622 78th Avenue, Oakland, CA, 94605|3308 Grand Ave, Oakland CA 94610": {
+        "text": "12 mins",
+        "value": 701
+    },
+    "Fruitvale ave , Oakland , 94601|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "13 mins",
+        "value": 805
+    },
+    "Fruitvale ave , Oakland , 94601|3762 Piedmont Ave Oakland 94611": {
+        "text": "10 mins",
+        "value": 627
+    },
+    "Fruitvale ave , Oakland , 94601|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "12 mins",
+        "value": 690
+    },
+    "Fruitvale ave , Oakland , 94601|100 Grand Avenue Oakland CA 94612": {
+        "text": "13 mins",
+        "value": 759
+    },
+    "Fruitvale ave , Oakland , 94601|324 24th Street, Oakland, California, 94591": {
+        "text": "13 mins",
+        "value": 769
+    },
+    "Fruitvale ave , Oakland , 94601|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "21 mins",
+        "value": 1253
+    },
+    "Fruitvale ave , Oakland , 94601|362 17th St Oakland CA 94612": {
+        "text": "11 mins",
+        "value": 681
+    },
+    "Fruitvale ave , Oakland , 94601|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "Fruitvale ave , Oakland , 94601|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "23 mins",
+        "value": 1382
+    },
+    "Fruitvale ave , Oakland , 94601|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "31 mins",
+        "value": 1877
+    },
+    "Fruitvale ave , Oakland , 94601|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "23 mins",
+        "value": 1369
+    },
+    "Fruitvale ave , Oakland , 94601|1 Sansome Street San Francisco, CA 94104": {
+        "text": "24 mins",
+        "value": 1442
+    },
+    "Fruitvale ave , Oakland , 94601|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "39 mins",
+        "value": 2369
+    },
+    "Fruitvale ave , Oakland , 94601|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "23 mins",
+        "value": 1365
+    },
+    "Fruitvale ave , Oakland , 94601|2226 polk st. San Francisco CA 94109": {
+        "text": "30 mins",
+        "value": 1825
+    },
+    "Fruitvale ave , Oakland , 94601|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "33 mins",
+        "value": 2007
+    },
+    "Fruitvale ave , Oakland , 94601|2495 third street, san francisco, CA, 94107": {
+        "text": "27 mins",
+        "value": 1594
+    },
+    "Fruitvale ave , Oakland , 94601|679 Chenery St, San Francisco, CA 94131": {
+        "text": "26 mins",
+        "value": 1567
+    },
+    "Fruitvale ave , Oakland , 94601|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "27 mins",
+        "value": 1633
+    },
+    "Fruitvale ave , Oakland , 94601|1602, South El Camino Real": {
+        "text": "33 mins",
+        "value": 1980
+    },
+    "Fruitvale ave , Oakland , 94601|1625 N Shoreline Blvd": {
+        "text": "45 mins",
+        "value": 2709
+    },
+    "Fruitvale ave , Oakland , 94601|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 155071
+    },
+    "Fruitvale ave , Oakland , 94601|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 153537
+    },
+    "Fruitvale ave , Oakland , 94601|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 154835
+    },
+    "Fruitvale ave , Oakland , 94601|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 154405
+    },
+    "Fruitvale ave , Oakland , 94601|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "15 mins",
+        "value": 873
+    },
+    "Fruitvale ave , Oakland , 94601|3308 Grand Ave, Oakland CA 94610": {
+        "text": "9 mins",
+        "value": 568
+    },
+    "2434 Taylor St, San Francisco, 94133|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "27 mins",
+        "value": 1605
+    },
+    "2434 Taylor St, San Francisco, 94133|3762 Piedmont Ave Oakland 94611": {
+        "text": "25 mins",
+        "value": 1470
+    },
+    "2434 Taylor St, San Francisco, 94133|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "24 mins",
+        "value": 1457
+    },
+    "2434 Taylor St, San Francisco, 94133|100 Grand Avenue Oakland CA 94612": {
+        "text": "26 mins",
+        "value": 1552
+    },
+    "2434 Taylor St, San Francisco, 94133|324 24th Street, Oakland, California, 94591": {
+        "text": "27 mins",
+        "value": 1590
+    },
+    "2434 Taylor St, San Francisco, 94133|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "32 mins",
+        "value": 1923
+    },
+    "2434 Taylor St, San Francisco, 94133|362 17th St Oakland CA 94612": {
+        "text": "27 mins",
+        "value": 1626
+    },
+    "2434 Taylor St, San Francisco, 94133|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "2434 Taylor St, San Francisco, 94133|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "9 mins",
+        "value": 565
+    },
+    "2434 Taylor St, San Francisco, 94133|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "2 mins",
+        "value": 102
+    },
+    "2434 Taylor St, San Francisco, 94133|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "10 mins",
+        "value": 597
+    },
+    "2434 Taylor St, San Francisco, 94133|1 Sansome Street San Francisco, CA 94104": {
+        "text": "11 mins",
+        "value": 632
+    },
+    "2434 Taylor St, San Francisco, 94133|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "13 mins",
+        "value": 793
+    },
+    "2434 Taylor St, San Francisco, 94133|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "10 mins",
+        "value": 607
+    },
+    "2434 Taylor St, San Francisco, 94133|2226 polk st. San Francisco CA 94109": {
+        "text": "5 mins",
+        "value": 325
+    },
+    "2434 Taylor St, San Francisco, 94133|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "14 mins",
+        "value": 864
+    },
+    "2434 Taylor St, San Francisco, 94133|2495 third street, san francisco, CA, 94107": {
+        "text": "23 mins",
+        "value": 1387
+    },
+    "2434 Taylor St, San Francisco, 94133|679 Chenery St, San Francisco, CA 94131": {
+        "text": "24 mins",
+        "value": 1462
+    },
+    "2434 Taylor St, San Francisco, 94133|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "10 mins",
+        "value": 616
+    },
+    "2434 Taylor St, San Francisco, 94133|1602, South El Camino Real": {
+        "text": "39 mins",
+        "value": 2332
+    },
+    "2434 Taylor St, San Francisco, 94133|1625 N Shoreline Blvd": {
+        "text": "53 mins",
+        "value": 3207
+    },
+    "2434 Taylor St, San Francisco, 94133|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 155692
+    },
+    "2434 Taylor St, San Francisco, 94133|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 154158
+    },
+    "2434 Taylor St, San Francisco, 94133|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 155456
+    },
+    "2434 Taylor St, San Francisco, 94133|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 155026
+    },
+    "2434 Taylor St, San Francisco, 94133|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "27 mins",
+        "value": 1607
+    },
+    "2434 Taylor St, San Francisco, 94133|3308 Grand Ave, Oakland CA 94610": {
+        "text": "25 mins",
+        "value": 1514
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "17 mins",
+        "value": 1046
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|3762 Piedmont Ave Oakland 94611": {
+        "text": "14 mins",
+        "value": 859
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "15 mins",
+        "value": 921
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|100 Grand Avenue Oakland CA 94612": {
+        "text": "17 mins",
+        "value": 991
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|324 24th Street, Oakland, California, 94591": {
+        "text": "17 mins",
+        "value": 1001
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "25 mins",
+        "value": 1485
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|362 17th St Oakland CA 94612": {
+        "text": "16 mins",
+        "value": 972
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "28 mins",
+        "value": 1673
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "36 mins",
+        "value": 2169
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "28 mins",
+        "value": 1661
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|1 Sansome Street San Francisco, CA 94104": {
+        "text": "29 mins",
+        "value": 1733
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "44 mins",
+        "value": 2660
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "28 mins",
+        "value": 1656
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|2226 polk st. San Francisco CA 94109": {
+        "text": "35 mins",
+        "value": 2116
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "38 mins",
+        "value": 2298
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|2495 third street, san francisco, CA, 94107": {
+        "text": "31 mins",
+        "value": 1885
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|679 Chenery St, San Francisco, CA 94131": {
+        "text": "31 mins",
+        "value": 1858
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "32 mins",
+        "value": 1924
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|1602, South El Camino Real": {
+        "text": "32 mins",
+        "value": 1944
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|1625 N Shoreline Blvd": {
+        "text": "45 mins",
+        "value": 2673
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 155340
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 153806
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 155104
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 154675
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "18 mins",
+        "value": 1104
+    },
+    "6600 International Blvd Apt 105, Oakland, 94621|3308 Grand Ave, Oakland CA 94610": {
+        "text": "13 mins",
+        "value": 800
+    },
+    "420 Somerset St, San Francisco, 94134|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "1 hour 10 mins",
+        "value": 4200
+    },
+    "420 Somerset St, San Francisco, 94134|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 17 mins",
+        "value": 4619
+    },
+    "420 Somerset St, San Francisco, 94134|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 17 mins",
+        "value": 4641
+    },
+    "420 Somerset St, San Francisco, 94134|100 Grand Avenue Oakland CA 94612": {
+        "text": "1 hour 5 mins",
+        "value": 3910
+    },
+    "420 Somerset St, San Francisco, 94134|324 24th Street, Oakland, California, 94591": {
+        "text": "1 hour 8 mins",
+        "value": 4078
+    },
+    "420 Somerset St, San Francisco, 94134|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "1 hour 7 mins",
+        "value": 4023
+    },
+    "420 Somerset St, San Francisco, 94134|362 17th St Oakland CA 94612": {
+        "text": "1 hour 2 mins",
+        "value": 3700
+    },
+    "420 Somerset St, San Francisco, 94134|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "420 Somerset St, San Francisco, 94134|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "51 mins",
+        "value": 3062
+    },
+    "420 Somerset St, San Francisco, 94134|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "51 mins",
+        "value": 3076
+    },
+    "420 Somerset St, San Francisco, 94134|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "52 mins",
+        "value": 3145
+    },
+    "420 Somerset St, San Francisco, 94134|1 Sansome Street San Francisco, CA 94104": {
+        "text": "34 mins",
+        "value": 2028
+    },
+    "420 Somerset St, San Francisco, 94134|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 21 mins",
+        "value": 4842
+    },
+    "420 Somerset St, San Francisco, 94134|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "54 mins",
+        "value": 3217
+    },
+    "420 Somerset St, San Francisco, 94134|2226 polk st. San Francisco CA 94109": {
+        "text": "51 mins",
+        "value": 3036
+    },
+    "420 Somerset St, San Francisco, 94134|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "1 hour 5 mins",
+        "value": 3913
+    },
+    "420 Somerset St, San Francisco, 94134|2495 third street, san francisco, CA, 94107": {
+        "text": "38 mins",
+        "value": 2257
+    },
+    "420 Somerset St, San Francisco, 94134|679 Chenery St, San Francisco, CA 94131": {
+        "text": "23 mins",
+        "value": 1361
+    },
+    "420 Somerset St, San Francisco, 94134|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "44 mins",
+        "value": 2636
+    },
+    "420 Somerset St, San Francisco, 94134|1602, South El Camino Real": {
+        "text": "1 hour 3 mins",
+        "value": 3761
+    },
+    "420 Somerset St, San Francisco, 94134|1625 N Shoreline Blvd": {
+        "text": "1 hour 47 mins",
+        "value": 6396
+    },
+    "420 Somerset St, San Francisco, 94134|4617 AVENUE D": {
+        "text": "3 days 13 hours",
+        "value": 306302
+    },
+    "420 Somerset St, San Francisco, 94134|116 W Houston Street New York NY 10012": {
+        "text": "3 days 12 hours",
+        "value": 303621
+    },
+    "420 Somerset St, San Francisco, 94134|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "3 days 13 hours",
+        "value": 306900
+    },
+    "420 Somerset St, San Francisco, 94134|3041 Avenue V Brooklyn NY 11229": {
+        "text": "3 days 13 hours",
+        "value": 306760
+    },
+    "420 Somerset St, San Francisco, 94134|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "1 hour 13 mins",
+        "value": 4386
+    },
+    "420 Somerset St, San Francisco, 94134|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 21 mins",
+        "value": 4847
+    },
+    "254 Nueva Ave, San Francisco, 94134|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "1 hour 16 mins",
+        "value": 4563
+    },
+    "254 Nueva Ave, San Francisco, 94134|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 23 mins",
+        "value": 4982
+    },
+    "254 Nueva Ave, San Francisco, 94134|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 23 mins",
+        "value": 5004
+    },
+    "254 Nueva Ave, San Francisco, 94134|100 Grand Avenue Oakland CA 94612": {
+        "text": "1 hour 11 mins",
+        "value": 4273
+    },
+    "254 Nueva Ave, San Francisco, 94134|324 24th Street, Oakland, California, 94591": {
+        "text": "1 hour 14 mins",
+        "value": 4441
+    },
+    "254 Nueva Ave, San Francisco, 94134|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "1 hour 16 mins",
+        "value": 4581
+    },
+    "254 Nueva Ave, San Francisco, 94134|362 17th St Oakland CA 94612": {
+        "text": "1 hour 8 mins",
+        "value": 4063
+    },
+    "254 Nueva Ave, San Francisco, 94134|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "254 Nueva Ave, San Francisco, 94134|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "58 mins",
+        "value": 3498
+    },
+    "254 Nueva Ave, San Francisco, 94134|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "59 mins",
+        "value": 3568
+    },
+    "254 Nueva Ave, San Francisco, 94134|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "1 hour 0 mins",
+        "value": 3581
+    },
+    "254 Nueva Ave, San Francisco, 94134|1 Sansome Street San Francisco, CA 94104": {
+        "text": "42 mins",
+        "value": 2519
+    },
+    "254 Nueva Ave, San Francisco, 94134|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 29 mins",
+        "value": 5339
+    },
+    "254 Nueva Ave, San Francisco, 94134|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "1 hour 1 min",
+        "value": 3653
+    },
+    "254 Nueva Ave, San Francisco, 94134|2226 polk st. San Francisco CA 94109": {
+        "text": "56 mins",
+        "value": 3356
+    },
+    "254 Nueva Ave, San Francisco, 94134|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "1 hour 13 mins",
+        "value": 4384
+    },
+    "254 Nueva Ave, San Francisco, 94134|2495 third street, san francisco, CA, 94107": {
+        "text": "33 mins",
+        "value": 2005
+    },
+    "254 Nueva Ave, San Francisco, 94134|679 Chenery St, San Francisco, CA 94131": {
+        "text": "38 mins",
+        "value": 2276
+    },
+    "254 Nueva Ave, San Francisco, 94134|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "51 mins",
+        "value": 3074
+    },
+    "254 Nueva Ave, San Francisco, 94134|1602, South El Camino Real": {
+        "text": "46 mins",
+        "value": 2731
+    },
+    "254 Nueva Ave, San Francisco, 94134|1625 N Shoreline Blvd": {
+        "text": "1 hour 29 mins",
+        "value": 5366
+    },
+    "254 Nueva Ave, San Francisco, 94134|4617 AVENUE D": {
+        "text": "3 days 13 hours",
+        "value": 306769
+    },
+    "254 Nueva Ave, San Francisco, 94134|116 W Houston Street New York NY 10012": {
+        "text": "3 days 12 hours",
+        "value": 304088
+    },
+    "254 Nueva Ave, San Francisco, 94134|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "3 days 13 hours",
+        "value": 307367
+    },
+    "254 Nueva Ave, San Francisco, 94134|3041 Avenue V Brooklyn NY 11229": {
+        "text": "3 days 13 hours",
+        "value": 307227
+    },
+    "254 Nueva Ave, San Francisco, 94134|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "1 hour 19 mins",
+        "value": 4749
+    },
+    "254 Nueva Ave, San Francisco, 94134|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 27 mins",
+        "value": 5210
+    },
+    "230 Urbano Dr, San Francisco, 94127|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "1 hour 6 mins",
+        "value": 3945
+    },
+    "230 Urbano Dr, San Francisco, 94127|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 13 mins",
+        "value": 4391
+    },
+    "230 Urbano Dr, San Francisco, 94127|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 13 mins",
+        "value": 4386
+    },
+    "230 Urbano Dr, San Francisco, 94127|100 Grand Avenue Oakland CA 94612": {
+        "text": "1 hour 1 min",
+        "value": 3655
+    },
+    "230 Urbano Dr, San Francisco, 94127|324 24th Street, Oakland, California, 94591": {
+        "text": "1 hour 4 mins",
+        "value": 3823
+    },
+    "230 Urbano Dr, San Francisco, 94127|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "1 hour 10 mins",
+        "value": 4178
+    },
+    "230 Urbano Dr, San Francisco, 94127|362 17th St Oakland CA 94612": {
+        "text": "57 mins",
+        "value": 3445
+    },
+    "230 Urbano Dr, San Francisco, 94127|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "230 Urbano Dr, San Francisco, 94127|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "37 mins",
+        "value": 2198
+    },
+    "230 Urbano Dr, San Francisco, 94127|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "56 mins",
+        "value": 3351
+    },
+    "230 Urbano Dr, San Francisco, 94127|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "38 mins",
+        "value": 2279
+    },
+    "230 Urbano Dr, San Francisco, 94127|1 Sansome Street San Francisco, CA 94104": {
+        "text": "32 mins",
+        "value": 1949
+    },
+    "230 Urbano Dr, San Francisco, 94127|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 12 mins",
+        "value": 4323
+    },
+    "230 Urbano Dr, San Francisco, 94127|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "39 mins",
+        "value": 2351
+    },
+    "230 Urbano Dr, San Francisco, 94127|2226 polk st. San Francisco CA 94109": {
+        "text": "45 mins",
+        "value": 2713
+    },
+    "230 Urbano Dr, San Francisco, 94127|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "1 hour 1 min",
+        "value": 3639
+    },
+    "230 Urbano Dr, San Francisco, 94127|2495 third street, san francisco, CA, 94107": {
+        "text": "58 mins",
+        "value": 3496
+    },
+    "230 Urbano Dr, San Francisco, 94127|679 Chenery St, San Francisco, CA 94131": {
+        "text": "29 mins",
+        "value": 1714
+    },
+    "230 Urbano Dr, San Francisco, 94127|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "46 mins",
+        "value": 2742
+    },
+    "230 Urbano Dr, San Francisco, 94127|1602, South El Camino Real": {
+        "text": "1 hour 23 mins",
+        "value": 4971
+    },
+    "230 Urbano Dr, San Francisco, 94127|1625 N Shoreline Blvd": {
+        "text": "2 hours 7 mins",
+        "value": 7606
+    },
+    "230 Urbano Dr, San Francisco, 94127|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 240950
+    },
+    "230 Urbano Dr, San Francisco, 94127|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 238368
+    },
+    "230 Urbano Dr, San Francisco, 94127|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 241195
+    },
+    "230 Urbano Dr, San Francisco, 94127|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 241425
+    },
+    "230 Urbano Dr, San Francisco, 94127|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "1 hour 9 mins",
+        "value": 4131
+    },
+    "230 Urbano Dr, San Francisco, 94127|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 22 mins",
+        "value": 4890
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "26 mins",
+        "value": 1539
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|3762 Piedmont Ave Oakland 94611": {
+        "text": "23 mins",
+        "value": 1404
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "23 mins",
+        "value": 1392
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|100 Grand Avenue Oakland CA 94612": {
+        "text": "25 mins",
+        "value": 1487
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1618 Franklin Street Oakland,CA 94612": {
+        "text": "27 mins",
+        "value": 1617
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|324 24th Street, Oakland, California, 94591": {
+        "text": "25 mins",
+        "value": 1525
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|960 Moraga Rd Lafayette CA 94549": {
+        "text": "34 mins",
+        "value": 2031
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "31 mins",
+        "value": 1857
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|362 17th St Oakland CA 94612": {
+        "text": "26 mins",
+        "value": 1561
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|3936 telegraph Ave. oakland ca": {
+        "text": "24 mins",
+        "value": 1464
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "13 mins",
+        "value": 795
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|509 Laguna St, San Francisco, CA 94102": {
+        "text": "17 mins",
+        "value": 1014
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "22 mins",
+        "value": 1344
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "29 mins",
+        "value": 1725
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "20 mins",
+        "value": 1217
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1 Sansome Street San Francisco, CA 94104": {
+        "text": "21 mins",
+        "value": 1260
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "32 mins",
+        "value": 1941
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "20 mins",
+        "value": 1213
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|2226 polk st. San Francisco CA 94109": {
+        "text": "25 mins",
+        "value": 1487
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "26 mins",
+        "value": 1585
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|2534 Mission St, San Francisco, CA": {
+        "text": "15 mins",
+        "value": 921
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|2495 third street, san francisco, CA, 94107": {
+        "text": "13 mins",
+        "value": 776
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "18 mins",
+        "value": 1109
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|679 Chenery St, San Francisco, CA 94131": {
+        "text": "8 mins",
+        "value": 487
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "20 mins",
+        "value": 1196
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1602, South El Camino Real": {
+        "text": "27 mins",
+        "value": 1597
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|1625 N Shoreline Blvd": {
+        "text": "41 mins",
+        "value": 2471
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|4617 AVENUE D": {
+        "text": "1 day 19 hours",
+        "value": 155627
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|125 1st Ave New York New York 10003": {
+        "text": "1 day 19 hours",
+        "value": 154504
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|116 W Houston Street New York NY 10012": {
+        "text": "1 day 19 hours",
+        "value": 154093
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "1 day 19 hours",
+        "value": 155390
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|30 W 18th St": {
+        "text": "1 day 7 hours",
+        "value": 111624
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|403 Grand Street": {
+        "text": "1 day 19 hours",
+        "value": 154375
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 day 19 hours",
+        "value": 154961
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "1 day 19 hours",
+        "value": 155026
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "1 day 19 hours",
+        "value": 154838
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "26 mins",
+        "value": 1542
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|4201 Market St, Oakland, CA 94608": {
+        "text": "22 mins",
+        "value": 1336
+    },
+    "743 LONDON ST, SAN FRANCISCO, 94112|3308 Grand Ave, Oakland CA 94610": {
+        "text": "24 mins",
+        "value": 1449
+    },
+    "100-18 40th road, Queens, 11368|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "3 days 0 hours",
+        "value": 259465
+    },
+    "100-18 40th road, Queens, 11368|3762 Piedmont Ave Oakland 94611": {
+        "text": "3 days 0 hours",
+        "value": 258408
+    },
+    "100-18 40th road, Queens, 11368|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "3 days 0 hours",
+        "value": 258889
+    },
+    "100-18 40th road, Queens, 11368|100 Grand Avenue Oakland CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 258468
+    },
+    "100-18 40th road, Queens, 11368|1618 Franklin Street Oakland,CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 257856
+    },
+    "100-18 40th road, Queens, 11368|324 24th Street, Oakland, California, 94591": {
+        "text": "3 days 0 hours",
+        "value": 258600
+    },
+    "100-18 40th road, Queens, 11368|960 Moraga Rd Lafayette CA 94549": {
+        "text": "3 days 1 hour",
+        "value": 264368
+    },
+    "100-18 40th road, Queens, 11368|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "3 days 0 hours",
+        "value": 259259
+    },
+    "100-18 40th road, Queens, 11368|362 17th St Oakland CA 94612": {
+        "text": "3 days 0 hours",
+        "value": 258414
+    },
+    "100-18 40th road, Queens, 11368|3936 telegraph Ave. oakland ca": {
+        "text": "3 days 0 hours",
+        "value": 258175
+    },
+    "100-18 40th road, Queens, 11368|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "100-18 40th road, Queens, 11368|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "3 days 1 hour",
+        "value": 261332
+    },
+    "100-18 40th road, Queens, 11368|509 Laguna St, San Francisco, CA 94102": {
+        "text": "3 days 0 hours",
+        "value": 260543
+    },
+    "100-18 40th road, Queens, 11368|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "3 days 0 hours",
+        "value": 259606
+    },
+    "100-18 40th road, Queens, 11368|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "3 days 0 hours",
+        "value": 260748
+    },
+    "100-18 40th road, Queens, 11368|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "3 days 0 hours",
+        "value": 259722
+    },
+    "100-18 40th road, Queens, 11368|1 Sansome Street San Francisco, CA 94104": {
+        "text": "3 days 0 hours",
+        "value": 259250
+    },
+    "100-18 40th road, Queens, 11368|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "3 days 1 hour",
+        "value": 261815
+    },
+    "100-18 40th road, Queens, 11368|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "3 days 0 hours",
+        "value": 259792
+    },
+    "100-18 40th road, Queens, 11368|2226 polk st. San Francisco CA 94109": {
+        "text": "3 days 0 hours",
+        "value": 260878
+    },
+    "100-18 40th road, Queens, 11368|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "3 days 0 hours",
+        "value": 260814
+    },
+    "100-18 40th road, Queens, 11368|2534 Mission St, San Francisco, CA": {
+        "text": "3 days 0 hours",
+        "value": 260913
+    },
+    "100-18 40th road, Queens, 11368|2495 third street, san francisco, CA, 94107": {
+        "text": "3 days 1 hour",
+        "value": 261429
+    },
+    "100-18 40th road, Queens, 11368|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "3 days 0 hours",
+        "value": 260365
+    },
+    "100-18 40th road, Queens, 11368|679 Chenery St, San Francisco, CA 94131": {
+        "text": "3 days 1 hour",
+        "value": 262270
+    },
+    "100-18 40th road, Queens, 11368|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "3 days 0 hours",
+        "value": 259995
+    },
+    "100-18 40th road, Queens, 11368|1602, South El Camino Real": {
+        "text": "3 days 0 hours",
+        "value": 260548
+    },
+    "100-18 40th road, Queens, 11368|1625 N Shoreline Blvd": {
+        "text": "3 days 2 hours",
+        "value": 266546
+    },
+    "100-18 40th road, Queens, 11368|4617 AVENUE D": {
+        "text": "1 hour 31 mins",
+        "value": 5489
+    },
+    "100-18 40th road, Queens, 11368|125 1st Ave New York New York 10003": {
+        "text": "58 mins",
+        "value": 3486
+    },
+    "100-18 40th road, Queens, 11368|116 W Houston Street New York NY 10012": {
+        "text": "47 mins",
+        "value": 2793
+    },
+    "100-18 40th road, Queens, 11368|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "52 mins",
+        "value": 3135
+    },
+    "100-18 40th road, Queens, 11368|30 W 18th St": {
+        "text": "23 hours 35 mins",
+        "value": 84904
+    },
+    "100-18 40th road, Queens, 11368|403 Grand Street": {
+        "text": "51 mins",
+        "value": 3085
+    },
+    "100-18 40th road, Queens, 11368|3041 Avenue V Brooklyn NY 11229": {
+        "text": "1 hour 46 mins",
+        "value": 6336
+    },
+    "100-18 40th road, Queens, 11368|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "46 mins",
+        "value": 2757
+    },
+    "100-18 40th road, Queens, 11368|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "58 mins",
+        "value": 3458
+    },
+    "100-18 40th road, Queens, 11368|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "100-18 40th road, Queens, 11368|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "3 days 0 hours",
+        "value": 258631
+    },
+    "100-18 40th road, Queens, 11368|4201 Market St, Oakland, CA 94608": {
+        "text": "3 days 0 hours",
+        "value": 257946
+    },
+    "100-18 40th road, Queens, 11368|3308 Grand Ave, Oakland CA 94610": {
+        "text": "3 days 0 hours",
+        "value": 258877
+    },
+    "3001 judah Street, San Francisco, 94122|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "1 hour 13 mins",
+        "value": 4376
+    },
+    "3001 judah Street, San Francisco, 94122|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 20 mins",
+        "value": 4795
+    },
+    "3001 judah Street, San Francisco, 94122|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 20 mins",
+        "value": 4817
+    },
+    "3001 judah Street, San Francisco, 94122|100 Grand Avenue Oakland CA 94612": {
+        "text": "1 hour 11 mins",
+        "value": 4253
+    },
+    "3001 judah Street, San Francisco, 94122|1618 Franklin Street Oakland,CA 94612": {
+        "text": "1 hour 4 mins",
+        "value": 3844
+    },
+    "3001 judah Street, San Francisco, 94122|324 24th Street, Oakland, California, 94591": {
+        "text": "1 hour 12 mins",
+        "value": 4347
+    },
+    "3001 judah Street, San Francisco, 94122|960 Moraga Rd Lafayette CA 94549": {
+        "text": "1 hour 30 mins",
+        "value": 5392
+    },
+    "3001 judah Street, San Francisco, 94122|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "1 hour 13 mins",
+        "value": 4394
+    },
+    "3001 judah Street, San Francisco, 94122|362 17th St Oakland CA 94612": {
+        "text": "1 hour 5 mins",
+        "value": 3876
+    },
+    "3001 judah Street, San Francisco, 94122|3936 telegraph Ave. oakland ca": {
+        "text": "1 hour 8 mins",
+        "value": 4060
+    },
+    "3001 judah Street, San Francisco, 94122|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "3001 judah Street, San Francisco, 94122|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "56 mins",
+        "value": 3351
+    },
+    "3001 judah Street, San Francisco, 94122|509 Laguna St, San Francisco, CA 94102": {
+        "text": "42 mins",
+        "value": 2506
+    },
+    "3001 judah Street, San Francisco, 94122|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "42 mins",
+        "value": 2522
+    },
+    "3001 judah Street, San Francisco, 94122|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "45 mins",
+        "value": 2708
+    },
+    "3001 judah Street, San Francisco, 94122|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "43 mins",
+        "value": 2603
+    },
+    "3001 judah Street, San Francisco, 94122|1 Sansome Street San Francisco, CA 94104": {
+        "text": "38 mins",
+        "value": 2285
+    },
+    "3001 judah Street, San Francisco, 94122|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "39 mins",
+        "value": 2343
+    },
+    "3001 judah Street, San Francisco, 94122|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "45 mins",
+        "value": 2675
+    },
+    "3001 judah Street, San Francisco, 94122|2226 polk st. San Francisco CA 94109": {
+        "text": "48 mins",
+        "value": 2893
+    },
+    "3001 judah Street, San Francisco, 94122|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "46 mins",
+        "value": 2775
+    },
+    "3001 judah Street, San Francisco, 94122|2534 Mission St, San Francisco, CA": {
+        "text": "49 mins",
+        "value": 2951
+    },
+    "3001 judah Street, San Francisco, 94122|2495 third street, san francisco, CA, 94107": {
+        "text": "1 hour 2 mins",
+        "value": 3724
+    },
+    "3001 judah Street, San Francisco, 94122|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "44 mins",
+        "value": 2640
+    },
+    "3001 judah Street, San Francisco, 94122|679 Chenery St, San Francisco, CA 94131": {
+        "text": "38 mins",
+        "value": 2308
+    },
+    "3001 judah Street, San Francisco, 94122|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "47 mins",
+        "value": 2811
+    },
+    "3001 judah Street, San Francisco, 94122|1602, South El Camino Real": {
+        "text": "1 hour 40 mins",
+        "value": 5988
+    },
+    "3001 judah Street, San Francisco, 94122|1625 N Shoreline Blvd": {
+        "text": "2 hours 28 mins",
+        "value": 8893
+    },
+    "3001 judah Street, San Francisco, 94122|4617 AVENUE D": {
+        "text": "3 days 13 hours",
+        "value": 306806
+    },
+    "3001 judah Street, San Francisco, 94122|125 1st Ave New York New York 10003": {
+        "text": "3 days 13 hours",
+        "value": 304660
+    },
+    "3001 judah Street, San Francisco, 94122|116 W Houston Street New York NY 10012": {
+        "text": "3 days 12 hours",
+        "value": 304125
+    },
+    "3001 judah Street, San Francisco, 94122|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "3 days 13 hours",
+        "value": 307404
+    },
+    "3001 judah Street, San Francisco, 94122|30 W 18th St": {
+        "text": "2 days 15 hours",
+        "value": 226398
+    },
+    "3001 judah Street, San Francisco, 94122|403 Grand Street": {
+        "text": "3 days 13 hours",
+        "value": 304236
+    },
+    "3001 judah Street, San Francisco, 94122|3041 Avenue V Brooklyn NY 11229": {
+        "text": "3 days 13 hours",
+        "value": 307264
+    },
+    "3001 judah Street, San Francisco, 94122|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "3 days 13 hours",
+        "value": 304747
+    },
+    "3001 judah Street, San Francisco, 94122|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "3 days 13 hours",
+        "value": 305198
+    },
+    "3001 judah Street, San Francisco, 94122|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "3001 judah Street, San Francisco, 94122|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "1 hour 16 mins",
+        "value": 4562
+    },
+    "3001 judah Street, San Francisco, 94122|4201 Market St, Oakland, CA 94608": {
+        "text": "1 hour 17 mins",
+        "value": 4601
+    },
+    "3001 judah Street, San Francisco, 94122|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 20 mins",
+        "value": 4797
+    },
+    "700 Hyde st, San Francisco , 94109|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "43 mins",
+        "value": 2590
+    },
+    "700 Hyde st, San Francisco , 94109|3762 Piedmont Ave Oakland 94611": {
+        "text": "50 mins",
+        "value": 2992
+    },
+    "700 Hyde st, San Francisco , 94109|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "51 mins",
+        "value": 3052
+    },
+    "700 Hyde st, San Francisco , 94109|100 Grand Avenue Oakland CA 94612": {
+        "text": "39 mins",
+        "value": 2364
+    },
+    "700 Hyde st, San Francisco , 94109|1618 Franklin Street Oakland,CA 94612": {
+        "text": "35 mins",
+        "value": 2122
+    },
+    "700 Hyde st, San Francisco , 94109|324 24th Street, Oakland, California, 94591": {
+        "text": "42 mins",
+        "value": 2532
+    },
+    "700 Hyde st, San Francisco , 94109|960 Moraga Rd Lafayette CA 94549": {
+        "text": "1 hour 0 mins",
+        "value": 3593
+    },
+    "700 Hyde st, San Francisco , 94109|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "44 mins",
+        "value": 2632
+    },
+    "700 Hyde st, San Francisco , 94109|362 17th St Oakland CA 94612": {
+        "text": "36 mins",
+        "value": 2154
+    },
+    "700 Hyde st, San Francisco , 94109|3936 telegraph Ave. oakland ca": {
+        "text": "38 mins",
+        "value": 2295
+    },
+    "700 Hyde st, San Francisco , 94109|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "700 Hyde st, San Francisco , 94109|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "23 mins",
+        "value": 1351
+    },
+    "700 Hyde st, San Francisco , 94109|509 Laguna St, San Francisco, CA 94102": {
+        "text": "22 mins",
+        "value": 1337
+    },
+    "700 Hyde st, San Francisco , 94109|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "24 mins",
+        "value": 1460
+    },
+    "700 Hyde st, San Francisco , 94109|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "24 mins",
+        "value": 1460
+    },
+    "700 Hyde st, San Francisco , 94109|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "21 mins",
+        "value": 1253
+    },
+    "700 Hyde st, San Francisco , 94109|1 Sansome Street San Francisco, CA 94104": {
+        "text": "17 mins",
+        "value": 1007
+    },
+    "700 Hyde st, San Francisco , 94109|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "40 mins",
+        "value": 2395
+    },
+    "700 Hyde st, San Francisco , 94109|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "22 mins",
+        "value": 1322
+    },
+    "700 Hyde st, San Francisco , 94109|2226 polk st. San Francisco CA 94109": {
+        "text": "14 mins",
+        "value": 815
+    },
+    "700 Hyde st, San Francisco , 94109|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "21 mins",
+        "value": 1288
+    },
+    "700 Hyde st, San Francisco , 94109|2534 Mission St, San Francisco, CA": {
+        "text": "34 mins",
+        "value": 2045
+    },
+    "700 Hyde st, San Francisco , 94109|2495 third street, san francisco, CA, 94107": {
+        "text": "34 mins",
+        "value": 2030
+    },
+    "700 Hyde st, San Francisco , 94109|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "7 mins",
+        "value": 416
+    },
+    "700 Hyde st, San Francisco , 94109|679 Chenery St, San Francisco, CA 94131": {
+        "text": "26 mins",
+        "value": 1583
+    },
+    "700 Hyde st, San Francisco , 94109|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "3 mins",
+        "value": 176
+    },
+    "700 Hyde st, San Francisco , 94109|1602, South El Camino Real": {
+        "text": "1 hour 15 mins",
+        "value": 4507
+    },
+    "700 Hyde st, San Francisco , 94109|1625 N Shoreline Blvd": {
+        "text": "1 hour 59 mins",
+        "value": 7142
+    },
+    "700 Hyde st, San Francisco , 94109|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 239898
+    },
+    "700 Hyde st, San Francisco , 94109|125 1st Ave New York New York 10003": {
+        "text": "2 days 18 hours",
+        "value": 236923
+    },
+    "700 Hyde st, San Francisco , 94109|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 237316
+    },
+    "700 Hyde st, San Francisco , 94109|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 240143
+    },
+    "700 Hyde st, San Francisco , 94109|30 W 18th St": {
+        "text": "2 days 0 hours",
+        "value": 171586
+    },
+    "700 Hyde st, San Francisco , 94109|403 Grand Street": {
+        "text": "2 days 18 hours",
+        "value": 236422
+    },
+    "700 Hyde st, San Francisco , 94109|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 240373
+    },
+    "700 Hyde st, San Francisco , 94109|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 238071
+    },
+    "700 Hyde st, San Francisco , 94109|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237783
+    },
+    "700 Hyde st, San Francisco , 94109|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "700 Hyde st, San Francisco , 94109|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "47 mins",
+        "value": 2797
+    },
+    "700 Hyde st, San Francisco , 94109|4201 Market St, Oakland, CA 94608": {
+        "text": "59 mins",
+        "value": 3559
+    },
+    "700 Hyde st, San Francisco , 94109|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 1 min",
+        "value": 3655
+    },
+    "700 Hyde st., San Francisco , 94109|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "43 mins",
+        "value": 2590
+    },
+    "700 Hyde st., San Francisco , 94109|3762 Piedmont Ave Oakland 94611": {
+        "text": "50 mins",
+        "value": 2992
+    },
+    "700 Hyde st., San Francisco , 94109|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "51 mins",
+        "value": 3052
+    },
+    "700 Hyde st., San Francisco , 94109|100 Grand Avenue Oakland CA 94612": {
+        "text": "39 mins",
+        "value": 2364
+    },
+    "700 Hyde st., San Francisco , 94109|1618 Franklin Street Oakland,CA 94612": {
+        "text": "35 mins",
+        "value": 2122
+    },
+    "700 Hyde st., San Francisco , 94109|324 24th Street, Oakland, California, 94591": {
+        "text": "42 mins",
+        "value": 2532
+    },
+    "700 Hyde st., San Francisco , 94109|960 Moraga Rd Lafayette CA 94549": {
+        "text": "1 hour 0 mins",
+        "value": 3593
+    },
+    "700 Hyde st., San Francisco , 94109|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "44 mins",
+        "value": 2633
+    },
+    "700 Hyde st., San Francisco , 94109|362 17th St Oakland CA 94612": {
+        "text": "36 mins",
+        "value": 2154
+    },
+    "700 Hyde st., San Francisco , 94109|3936 telegraph Ave. oakland ca": {
+        "text": "38 mins",
+        "value": 2295
+    },
+    "700 Hyde st., San Francisco , 94109|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "700 Hyde st., San Francisco , 94109|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "23 mins",
+        "value": 1351
+    },
+    "700 Hyde st., San Francisco , 94109|509 Laguna St, San Francisco, CA 94102": {
+        "text": "22 mins",
+        "value": 1337
+    },
+    "700 Hyde st., San Francisco , 94109|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "24 mins",
+        "value": 1460
+    },
+    "700 Hyde st., San Francisco , 94109|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "24 mins",
+        "value": 1460
+    },
+    "700 Hyde st., San Francisco , 94109|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "21 mins",
+        "value": 1253
+    },
+    "700 Hyde st., San Francisco , 94109|1 Sansome Street San Francisco, CA 94104": {
+        "text": "17 mins",
+        "value": 1007
+    },
+    "700 Hyde st., San Francisco , 94109|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "40 mins",
+        "value": 2395
+    },
+    "700 Hyde st., San Francisco , 94109|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "22 mins",
+        "value": 1322
+    },
+    "700 Hyde st., San Francisco , 94109|2226 polk st. San Francisco CA 94109": {
+        "text": "14 mins",
+        "value": 815
+    },
+    "700 Hyde st., San Francisco , 94109|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "21 mins",
+        "value": 1288
+    },
+    "700 Hyde st., San Francisco , 94109|2534 Mission St, San Francisco, CA": {
+        "text": "34 mins",
+        "value": 2045
+    },
+    "700 Hyde st., San Francisco , 94109|2495 third street, san francisco, CA, 94107": {
+        "text": "34 mins",
+        "value": 2030
+    },
+    "700 Hyde st., San Francisco , 94109|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "7 mins",
+        "value": 416
+    },
+    "700 Hyde st., San Francisco , 94109|679 Chenery St, San Francisco, CA 94131": {
+        "text": "26 mins",
+        "value": 1583
+    },
+    "700 Hyde st., San Francisco , 94109|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "3 mins",
+        "value": 176
+    },
+    "700 Hyde st., San Francisco , 94109|1602, South El Camino Real": {
+        "text": "1 hour 15 mins",
+        "value": 4507
+    },
+    "700 Hyde st., San Francisco , 94109|1625 N Shoreline Blvd": {
+        "text": "1 hour 59 mins",
+        "value": 7142
+    },
+    "700 Hyde st., San Francisco , 94109|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 239898
+    },
+    "700 Hyde st., San Francisco , 94109|125 1st Ave New York New York 10003": {
+        "text": "2 days 18 hours",
+        "value": 236923
+    },
+    "700 Hyde st., San Francisco , 94109|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 237316
+    },
+    "700 Hyde st., San Francisco , 94109|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 240143
+    },
+    "700 Hyde st., San Francisco , 94109|30 W 18th St": {
+        "text": "2 days 0 hours",
+        "value": 171586
+    },
+    "700 Hyde st., San Francisco , 94109|403 Grand Street": {
+        "text": "2 days 18 hours",
+        "value": 236422
+    },
+    "700 Hyde st., San Francisco , 94109|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 240373
+    },
+    "700 Hyde st., San Francisco , 94109|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 238071
+    },
+    "700 Hyde st., San Francisco , 94109|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237783
+    },
+    "700 Hyde st., San Francisco , 94109|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "700 Hyde st., San Francisco , 94109|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "47 mins",
+        "value": 2797
+    },
+    "700 Hyde st., San Francisco , 94109|4201 Market St, Oakland, CA 94608": {
+        "text": "59 mins",
+        "value": 3559
+    },
+    "700 Hyde st., San Francisco , 94109|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 1 min",
+        "value": 3655
+    },
+    "6324 Geary Blvd , San Francisco , 94102|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "1 hour 10 mins",
+        "value": 4198
+    },
+    "6324 Geary Blvd , San Francisco , 94102|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 23 mins",
+        "value": 5000
+    },
+    "6324 Geary Blvd , San Francisco , 94102|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "1 hour 18 mins",
+        "value": 4654
+    },
+    "6324 Geary Blvd , San Francisco , 94102|100 Grand Avenue Oakland CA 94612": {
+        "text": "1 hour 7 mins",
+        "value": 4000
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1618 Franklin Street Oakland,CA 94612": {
+        "text": "1 hour 1 min",
+        "value": 3681
+    },
+    "6324 Geary Blvd , San Francisco , 94102|324 24th Street, Oakland, California, 94591": {
+        "text": "1 hour 8 mins",
+        "value": 4094
+    },
+    "6324 Geary Blvd , San Francisco , 94102|960 Moraga Rd Lafayette CA 94549": {
+        "text": "1 hour 27 mins",
+        "value": 5214
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "1 hour 11 mins",
+        "value": 4231
+    },
+    "6324 Geary Blvd , San Francisco , 94102|362 17th St Oakland CA 94612": {
+        "text": "1 hour 2 mins",
+        "value": 3713
+    },
+    "6324 Geary Blvd , San Francisco , 94102|3936 telegraph Ave. oakland ca": {
+        "text": "1 hour 5 mins",
+        "value": 3897
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "6324 Geary Blvd , San Francisco , 94102|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "53 mins",
+        "value": 3173
+    },
+    "6324 Geary Blvd , San Francisco , 94102|509 Laguna St, San Francisco, CA 94102": {
+        "text": "39 mins",
+        "value": 2358
+    },
+    "6324 Geary Blvd , San Francisco , 94102|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "45 mins",
+        "value": 2671
+    },
+    "6324 Geary Blvd , San Francisco , 94102|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "38 mins",
+        "value": 2294
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "46 mins",
+        "value": 2772
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1 Sansome Street San Francisco, CA 94104": {
+        "text": "37 mins",
+        "value": 2229
+    },
+    "6324 Geary Blvd , San Francisco , 94102|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "29 mins",
+        "value": 1747
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "47 mins",
+        "value": 2844
+    },
+    "6324 Geary Blvd , San Francisco , 94102|2226 polk st. San Francisco CA 94109": {
+        "text": "41 mins",
+        "value": 2455
+    },
+    "6324 Geary Blvd , San Francisco , 94102|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "28 mins",
+        "value": 1671
+    },
+    "6324 Geary Blvd , San Francisco , 94102|2534 Mission St, San Francisco, CA": {
+        "text": "52 mins",
+        "value": 3097
+    },
+    "6324 Geary Blvd , San Francisco , 94102|2495 third street, san francisco, CA, 94107": {
+        "text": "59 mins",
+        "value": 3549
+    },
+    "6324 Geary Blvd , San Francisco , 94102|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "33 mins",
+        "value": 1958
+    },
+    "6324 Geary Blvd , San Francisco , 94102|679 Chenery St, San Francisco, CA 94131": {
+        "text": "46 mins",
+        "value": 2730
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "34 mins",
+        "value": 2033
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1602, South El Camino Real": {
+        "text": "1 hour 34 mins",
+        "value": 5632
+    },
+    "6324 Geary Blvd , San Francisco , 94102|1625 N Shoreline Blvd": {
+        "text": "2 hours 22 mins",
+        "value": 8537
+    },
+    "6324 Geary Blvd , San Francisco , 94102|4617 AVENUE D": {
+        "text": "3 days 13 hours",
+        "value": 306613
+    },
+    "6324 Geary Blvd , San Francisco , 94102|125 1st Ave New York New York 10003": {
+        "text": "3 days 13 hours",
+        "value": 304467
+    },
+    "6324 Geary Blvd , San Francisco , 94102|116 W Houston Street New York NY 10012": {
+        "text": "3 days 12 hours",
+        "value": 303932
+    },
+    "6324 Geary Blvd , San Francisco , 94102|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "3 days 13 hours",
+        "value": 307211
+    },
+    "6324 Geary Blvd , San Francisco , 94102|30 W 18th St": {
+        "text": "2 days 15 hours",
+        "value": 226205
+    },
+    "6324 Geary Blvd , San Francisco , 94102|403 Grand Street": {
+        "text": "3 days 12 hours",
+        "value": 304043
+    },
+    "6324 Geary Blvd , San Francisco , 94102|3041 Avenue V Brooklyn NY 11229": {
+        "text": "3 days 13 hours",
+        "value": 307071
+    },
+    "6324 Geary Blvd , San Francisco , 94102|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "3 days 13 hours",
+        "value": 304554
+    },
+    "6324 Geary Blvd , San Francisco , 94102|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "3 days 13 hours",
+        "value": 305005
+    },
+    "6324 Geary Blvd , San Francisco , 94102|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "6324 Geary Blvd , San Francisco , 94102|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "1 hour 13 mins",
+        "value": 4399
+    },
+    "6324 Geary Blvd , San Francisco , 94102|4201 Market St, Oakland, CA 94608": {
+        "text": "1 hour 12 mins",
+        "value": 4327
+    },
+    "6324 Geary Blvd , San Francisco , 94102|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 16 mins",
+        "value": 4544
+    },
+    "646 16th st , oakland, 94612|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "23 mins",
+        "value": 1394
+    },
+    "646 16th st , oakland, 94612|3762 Piedmont Ave Oakland 94611": {
+        "text": "24 mins",
+        "value": 1446
+    },
+    "646 16th st , oakland, 94612|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "24 mins",
+        "value": 1458
+    },
+    "646 16th st , oakland, 94612|100 Grand Avenue Oakland CA 94612": {
+        "text": "15 mins",
+        "value": 882
+    },
+    "646 16th st , oakland, 94612|1618 Franklin Street Oakland,CA 94612": {
+        "text": "10 mins",
+        "value": 586
+    },
+    "646 16th st , oakland, 94612|324 24th Street, Oakland, California, 94591": {
+        "text": "16 mins",
+        "value": 976
+    },
+    "646 16th st , oakland, 94612|960 Moraga Rd Lafayette CA 94549": {
+        "text": "40 mins",
+        "value": 2379
+    },
+    "646 16th st , oakland, 94612|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "30 mins",
+        "value": 1787
+    },
+    "646 16th st , oakland, 94612|362 17th St Oakland CA 94612": {
+        "text": "10 mins",
+        "value": 622
+    },
+    "646 16th st , oakland, 94612|3936 telegraph Ave. oakland ca": {
+        "text": "18 mins",
+        "value": 1097
+    },
+    "646 16th st , oakland, 94612|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "646 16th st , oakland, 94612|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "40 mins",
+        "value": 2422
+    },
+    "646 16th st , oakland, 94612|509 Laguna St, San Francisco, CA 94102": {
+        "text": "43 mins",
+        "value": 2607
+    },
+    "646 16th st , oakland, 94612|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "26 mins",
+        "value": 1541
+    },
+    "646 16th st , oakland, 94612|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "47 mins",
+        "value": 2802
+    },
+    "646 16th st , oakland, 94612|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "27 mins",
+        "value": 1622
+    },
+    "646 16th st , oakland, 94612|1 Sansome Street San Francisco, CA 94104": {
+        "text": "24 mins",
+        "value": 1414
+    },
+    "646 16th st , oakland, 94612|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "1 hour 9 mins",
+        "value": 4126
+    },
+    "646 16th st , oakland, 94612|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "28 mins",
+        "value": 1694
+    },
+    "646 16th st , oakland, 94612|2226 polk st. San Francisco CA 94109": {
+        "text": "47 mins",
+        "value": 2797
+    },
+    "646 16th st , oakland, 94612|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "57 mins",
+        "value": 3448
+    },
+    "646 16th st , oakland, 94612|2534 Mission St, San Francisco, CA": {
+        "text": "37 mins",
+        "value": 2194
+    },
+    "646 16th st , oakland, 94612|2495 third street, san francisco, CA, 94107": {
+        "text": "53 mins",
+        "value": 3156
+    },
+    "646 16th st , oakland, 94612|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "34 mins",
+        "value": 2046
+    },
+    "646 16th st , oakland, 94612|679 Chenery St, San Francisco, CA 94131": {
+        "text": "36 mins",
+        "value": 2182
+    },
+    "646 16th st , oakland, 94612|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "45 mins",
+        "value": 2691
+    },
+    "646 16th st , oakland, 94612|1602, South El Camino Real": {
+        "text": "1 hour 43 mins",
+        "value": 6203
+    },
+    "646 16th st , oakland, 94612|1625 N Shoreline Blvd": {
+        "text": "2 hours 18 mins",
+        "value": 8272
+    },
+    "646 16th st , oakland, 94612|4617 AVENUE D": {
+        "text": "2 days 18 hours",
+        "value": 239337
+    },
+    "646 16th st , oakland, 94612|125 1st Ave New York New York 10003": {
+        "text": "2 days 18 hours",
+        "value": 236362
+    },
+    "646 16th st , oakland, 94612|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 236755
+    },
+    "646 16th st , oakland, 94612|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 239582
+    },
+    "646 16th st , oakland, 94612|30 W 18th St": {
+        "text": "2 days 0 hours",
+        "value": 171025
+    },
+    "646 16th st , oakland, 94612|403 Grand Street": {
+        "text": "2 days 18 hours",
+        "value": 235861
+    },
+    "646 16th st , oakland, 94612|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 239812
+    },
+    "646 16th st , oakland, 94612|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237506
+    },
+    "646 16th st , oakland, 94612|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237218
+    },
+    "646 16th st , oakland, 94612|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "646 16th st , oakland, 94612|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "20 mins",
+        "value": 1173
+    },
+    "646 16th st , oakland, 94612|4201 Market St, Oakland, CA 94608": {
+        "text": "20 mins",
+        "value": 1228
+    },
+    "646 16th st , oakland, 94612|3308 Grand Ave, Oakland CA 94610": {
+        "text": "20 mins",
+        "value": 1192
+    },
+    "906 Capp Street, San Francisco, 94110|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "36 mins",
+        "value": 2173
+    },
+    "906 Capp Street, San Francisco, 94110|3762 Piedmont Ave Oakland 94611": {
+        "text": "43 mins",
+        "value": 2575
+    },
+    "906 Capp Street, San Francisco, 94110|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "44 mins",
+        "value": 2635
+    },
+    "906 Capp Street, San Francisco, 94110|100 Grand Avenue Oakland CA 94612": {
+        "text": "32 mins",
+        "value": 1947
+    },
+    "906 Capp Street, San Francisco, 94110|1618 Franklin Street Oakland,CA 94612": {
+        "text": "28 mins",
+        "value": 1705
+    },
+    "906 Capp Street, San Francisco, 94110|324 24th Street, Oakland, California, 94591": {
+        "text": "35 mins",
+        "value": 2115
+    },
+    "906 Capp Street, San Francisco, 94110|960 Moraga Rd Lafayette CA 94549": {
+        "text": "53 mins",
+        "value": 3176
+    },
+    "906 Capp Street, San Francisco, 94110|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "37 mins",
+        "value": 2216
+    },
+    "906 Capp Street, San Francisco, 94110|362 17th St Oakland CA 94612": {
+        "text": "29 mins",
+        "value": 1737
+    },
+    "906 Capp Street, San Francisco, 94110|3936 telegraph Ave. oakland ca": {
+        "text": "31 mins",
+        "value": 1878
+    },
+    "906 Capp Street, San Francisco, 94110|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "906 Capp Street, San Francisco, 94110|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "27 mins",
+        "value": 1600
+    },
+    "906 Capp Street, San Francisco, 94110|509 Laguna St, San Francisco, CA 94102": {
+        "text": "25 mins",
+        "value": 1504
+    },
+    "906 Capp Street, San Francisco, 94110|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "18 mins",
+        "value": 1060
+    },
+    "906 Capp Street, San Francisco, 94110|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "37 mins",
+        "value": 2225
+    },
+    "906 Capp Street, San Francisco, 94110|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "19 mins",
+        "value": 1141
+    },
+    "906 Capp Street, San Francisco, 94110|1 Sansome Street San Francisco, CA 94104": {
+        "text": "12 mins",
+        "value": 745
+    },
+    "906 Capp Street, San Francisco, 94110|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "59 mins",
+        "value": 3534
+    },
+    "906 Capp Street, San Francisco, 94110|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "20 mins",
+        "value": 1213
+    },
+    "906 Capp Street, San Francisco, 94110|2226 polk st. San Francisco CA 94109": {
+        "text": "29 mins",
+        "value": 1755
+    },
+    "906 Capp Street, San Francisco, 94110|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "49 mins",
+        "value": 2945
+    },
+    "906 Capp Street, San Francisco, 94110|2534 Mission St, San Francisco, CA": {
+        "text": "6 mins",
+        "value": 385
+    },
+    "906 Capp Street, San Francisco, 94110|2495 third street, san francisco, CA, 94107": {
+        "text": "21 mins",
+        "value": 1261
+    },
+    "906 Capp Street, San Francisco, 94110|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "18 mins",
+        "value": 1059
+    },
+    "906 Capp Street, San Francisco, 94110|679 Chenery St, San Francisco, CA 94131": {
+        "text": "11 mins",
+        "value": 656
+    },
+    "906 Capp Street, San Francisco, 94110|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "28 mins",
+        "value": 1673
+    },
+    "906 Capp Street, San Francisco, 94110|1602, South El Camino Real": {
+        "text": "1 hour 18 mins",
+        "value": 4708
+    },
+    "906 Capp Street, San Francisco, 94110|1625 N Shoreline Blvd": {
+        "text": "1 hour 48 mins",
+        "value": 6460
+    },
+    "906 Capp Street, San Francisco, 94110|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 239402
+    },
+    "906 Capp Street, San Francisco, 94110|125 1st Ave New York New York 10003": {
+        "text": "2 days 18 hours",
+        "value": 236427
+    },
+    "906 Capp Street, San Francisco, 94110|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 236820
+    },
+    "906 Capp Street, San Francisco, 94110|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 239647
+    },
+    "906 Capp Street, San Francisco, 94110|30 W 18th St": {
+        "text": "2 days 0 hours",
+        "value": 171090
+    },
+    "906 Capp Street, San Francisco, 94110|403 Grand Street": {
+        "text": "2 days 18 hours",
+        "value": 235926
+    },
+    "906 Capp Street, San Francisco, 94110|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 239877
+    },
+    "906 Capp Street, San Francisco, 94110|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237575
+    },
+    "906 Capp Street, San Francisco, 94110|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 237287
+    },
+    "906 Capp Street, San Francisco, 94110|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "906 Capp Street, San Francisco, 94110|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "40 mins",
+        "value": 2380
+    },
+    "906 Capp Street, San Francisco, 94110|4201 Market St, Oakland, CA 94608": {
+        "text": "42 mins",
+        "value": 2503
+    },
+    "906 Capp Street, San Francisco, 94110|3308 Grand Ave, Oakland CA 94610": {
+        "text": "51 mins",
+        "value": 3044
+    },
+    "Geary, San Francisco , 94102|5912 College Ave, Oakland, CA 94618, United States": {
+        "text": "48 mins",
+        "value": 2860
+    },
+    "Geary, San Francisco , 94102|3762 Piedmont Ave Oakland 94611": {
+        "text": "1 hour 0 mins",
+        "value": 3601
+    },
+    "Geary, San Francisco , 94102|4935 Shattuck Ave., Oakland, CA 94609, United States": {
+        "text": "55 mins",
+        "value": 3322
+    },
+    "Geary, San Francisco , 94102|100 Grand Avenue Oakland CA 94612": {
+        "text": "44 mins",
+        "value": 2634
+    },
+    "Geary, San Francisco , 94102|1618 Franklin Street Oakland,CA 94612": {
+        "text": "40 mins",
+        "value": 2392
+    },
+    "Geary, San Francisco , 94102|324 24th Street, Oakland, California, 94591": {
+        "text": "47 mins",
+        "value": 2802
+    },
+    "Geary, San Francisco , 94102|960 Moraga Rd Lafayette CA 94549": {
+        "text": "1 hour 4 mins",
+        "value": 3863
+    },
+    "Geary, San Francisco , 94102|1974 Shuttack Ave, Berkeley CA 94607": {
+        "text": "54 mins",
+        "value": 3235
+    },
+    "Geary, San Francisco , 94102|362 17th St Oakland CA 94612": {
+        "text": "40 mins",
+        "value": 2424
+    },
+    "Geary, San Francisco , 94102|3936 telegraph Ave. oakland ca": {
+        "text": "43 mins",
+        "value": 2565
+    },
+    "Geary, San Francisco , 94102|1223 Park Street": {
+        "text": "Error",
+        "value": 100000
+    },
+    "Geary, San Francisco , 94102|57 Division St, San Francisco, CA 94103, United States": {
+        "text": "24 mins",
+        "value": 1446
+    },
+    "Geary, San Francisco , 94102|509 Laguna St, San Francisco, CA 94102": {
+        "text": "17 mins",
+        "value": 996
+    },
+    "Geary, San Francisco , 94102|4 Embarcadero Ctr, San Francisco, CA 94111, United States": {
+        "text": "26 mins",
+        "value": 1537
+    },
+    "Geary, San Francisco , 94102|2700 Jones St, San Francisco, CA 94133, United States": {
+        "text": "31 mins",
+        "value": 1865
+    },
+    "Geary, San Francisco , 94102|1 Ferry Building, San Francisco, CA 94105": {
+        "text": "27 mins",
+        "value": 1638
+    },
+    "Geary, San Francisco , 94102|1 Sansome Street San Francisco, CA 94104": {
+        "text": "18 mins",
+        "value": 1084
+    },
+    "Geary, San Francisco , 94102|101 Montgomery St., Suite 100, Presidio CA 94129": {
+        "text": "34 mins",
+        "value": 2029
+    },
+    "Geary, San Francisco , 94102|1 Ferry Building Suite 5, San Francisco CA": {
+        "text": "29 mins",
+        "value": 1710
+    },
+    "Geary, San Francisco , 94102|2226 polk st. San Francisco CA 94109": {
+        "text": "14 mins",
+        "value": 841
+    },
+    "Geary, San Francisco , 94102|3228 Sacremento Street, San Francisco, CA, 94115": {
+        "text": "19 mins",
+        "value": 1158
+    },
+    "Geary, San Francisco , 94102|2534 Mission St, San Francisco, CA": {
+        "text": "24 mins",
+        "value": 1463
+    },
+    "Geary, San Francisco , 94102|2495 third street, san francisco, CA, 94107": {
+        "text": "38 mins",
+        "value": 2305
+    },
+    "Geary, San Francisco , 94102|499 Ellis Street, San Francisco, CA 94102": {
+        "text": "9 mins",
+        "value": 562
+    },
+    "Geary, San Francisco , 94102|679 Chenery St, San Francisco, CA 94131": {
+        "text": "37 mins",
+        "value": 2207
+    },
+    "Geary, San Francisco , 94102|1000 Larkin Street San Francisco, CA 94109": {
+        "text": "10 mins",
+        "value": 596
+    },
+    "Geary, San Francisco , 94102|1602, South El Camino Real": {
+        "text": "1 hour 21 mins",
+        "value": 4877
+    },
+    "Geary, San Francisco , 94102|1625 N Shoreline Blvd": {
+        "text": "2 hours 5 mins",
+        "value": 7512
+    },
+    "Geary, San Francisco , 94102|4617 AVENUE D": {
+        "text": "2 days 19 hours",
+        "value": 240126
+    },
+    "Geary, San Francisco , 94102|125 1st Ave New York New York 10003": {
+        "text": "2 days 18 hours",
+        "value": 237151
+    },
+    "Geary, San Francisco , 94102|116 W Houston Street New York NY 10012": {
+        "text": "2 days 18 hours",
+        "value": 237544
+    },
+    "Geary, San Francisco , 94102|10705 Guy R Brewer Blvd Jamaica, NY 11433": {
+        "text": "2 days 19 hours",
+        "value": 240371
+    },
+    "Geary, San Francisco , 94102|30 W 18th St": {
+        "text": "2 days 0 hours",
+        "value": 171814
+    },
+    "Geary, San Francisco , 94102|403 Grand Street": {
+        "text": "2 days 18 hours",
+        "value": 236650
+    },
+    "Geary, San Francisco , 94102|3041 Avenue V Brooklyn NY 11229": {
+        "text": "2 days 19 hours",
+        "value": 240601
+    },
+    "Geary, San Francisco , 94102|65 Kent Ave, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 238299
+    },
+    "Geary, San Francisco , 94102|47 South 5th st, Brooklyn, NY 11249": {
+        "text": "2 days 18 hours",
+        "value": 238011
+    },
+    "Geary, San Francisco , 94102|265 Elizabeth St.": {
+        "text": "Error",
+        "value": 100000
+    },
+    "Geary, San Francisco , 94102|4640 Telegraph Ave, Oakland, CA 94609, United States": {
+        "text": "51 mins",
+        "value": 3067
+    },
+    "Geary, San Francisco , 94102|4201 Market St, Oakland, CA 94608": {
+        "text": "1 hour 1 min",
+        "value": 3636
+    },
+    "Geary, San Francisco , 94102|3308 Grand Ave, Oakland CA 94610": {
+        "text": "1 hour 2 mins",
+        "value": 3732
+    }
+}

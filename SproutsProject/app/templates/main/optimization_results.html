@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimization Results - Sprouts Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .table-responsive {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('main.matching_dashboard') }}">
+                <i class="fas fa-leaf me-2"></i>Sprouts Project
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{ url_for('main.matching_dashboard') }}">Dashboard</a>
+                <a class="nav-link" href="{{ url_for('auth.logout') }}">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12">
+                <h2><i class="fas fa-chart-line me-2"></i>Optimization Results</h2>
+                <p class="text-muted">Matching results for {{ optimization_results.interns|length }} interns and {{ optimization_results.restaurants|length }} restaurants</p>
+            </div>
+        </div>
+
+        <!-- Algorithm Performance -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">{{ optimization_results.matches|length }}</h5>
+                        <p class="card-text">Total Matches</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">{{ "%.1f"|format(optimization_results.average_score) }}%</h5>
+                        <p class="card-text">Avg Match Score</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">{{ "%.1f"|format(optimization_results.average_commute) }} min</h5>
+                        <p class="card-text">Avg Commute</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">{{ "%.2f"|format(optimization_results.execution_time) }}s</h5>
+                        <p class="card-text">Execution Time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Matches List -->
+        <div class="row">
+            <div class="col-12">
+                <h3><i class="fas fa-users me-2"></i>Match Results</h3>
+                
+                {% if optimization_results.matches %}
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Intern</th>
+                                <th>Restaurant</th>
+                                <th>Match Score</th>
+                                <th>Commute</th>
+                                <th>Hours/Week</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for match in optimization_results.matches %}
+                            <tr>
+                                <td>
+                                    <div>
+                                        <strong>{{ match.intern_name }}</strong>
+                                        {% if match.intern_description %}
+                                            <br><small class="text-muted">{{ match.intern_description }}</small>
+                                        {% endif %}
+                                        {% if match.intern_age %}
+                                            <br><small class="text-muted">Age: {{ match.intern_age }}</small>
+                                        {% endif %}
+                                        {% if match.intern_transportation %}
+                                            <br><small class="text-muted">Transport: {{ match.intern_transportation }}</small>
+                                        {% endif %}
+                                        <br><small class="text-muted">{{ match.intern_city }}</small>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <strong>{{ match.restaurant_name }}</strong>
+                                        {% if match.restaurant_location %}
+                                            <br><small class="text-muted">{{ match.restaurant_location }}</small>
+                                        {% endif %}
+                                        {% if match.restaurant_mentor %}
+                                            <br><small class="text-muted">Mentor: {{ match.restaurant_mentor }}</small>
+                                        {% endif %}
+                                        {% if match.restaurant_age_requirement %}
+                                            <br><small class="text-muted">{{ '18+ Required' if match.restaurant_age_requirement == 'Yes' else 'All Ages' }}</small>
+                                        {% endif %}
+                                        <br><small class="text-muted">{{ match.restaurant_city }}</small>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="badge bg-success">{{ "%.1f"|format(match.match_percentage) }}%</span>
+                                </td>
+                                <td>
+                                    <span class="badge bg-info">{{ match.commute_minutes }} min</span>
+                                </td>
+                                <td>
+                                    {{ match.total_overlap_hours or 0 }}h
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-success" onclick="showMatchDetails(this)" 
+                                            data-intern-id="{{ match.intern_id }}"
+                                            data-restaurant-id="{{ match.restaurant_id }}"
+                                            data-intern-name="{{ match.intern_name }}"
+                                            data-restaurant-name="{{ match.restaurant_name }}"
+                                            data-commute-minutes="{{ match.commute_minutes }}"
+                                            data-total-hours="{{ match.total_overlap_hours }}"
+                                            data-days-matched="{{ match.days_matched }}">
+                                        <i class="fas fa-eye me-1"></i>Details
+                                    </button>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                    <div class="alert alert-info">
+                        <i class="fas fa-info-circle me-2"></i>No matches found. Try adjusting your matching criteria.
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Match Details Modal -->
+    <div class="modal fade" id="matchDetailsModal" tabindex="-1" aria-labelledby="matchDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="matchDetailsModalLabel">Match Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <h6>Intern</h6>
+                            <p class="mb-1" id="modalInternName"></p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Restaurant</h6>
+                            <p class="mb-1" id="modalRestaurantName"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <h6>Commute Time</h6>
+                            <p class="mb-1" id="modalCommute"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <h6>Match Score</h6>
+                            <p class="mb-1" id="modalScore"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <h6>Hours/Week</h6>
+                            <p class="mb-1">12 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div id="scheduleDetails">
+                        <!-- Schedule details will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Match Details Modal
+        function showMatchDetails(button) {
+            console.log('Eye icon clicked!');
+            
+            try {
+                // Read data from individual attributes instead of parsing JSON
+                const matchData = {
+                    intern_id: button.getAttribute('data-intern-id'),
+                    restaurant_id: button.getAttribute('data-restaurant-id'),
+                    intern_name: button.getAttribute('data-intern-name'),
+                    restaurant_name: button.getAttribute('data-restaurant-name'),
+                    commute_minutes: button.getAttribute('data-commute-minutes'),
+                    total_overlap_hours: button.getAttribute('data-total-hours'),
+                    days_matched: button.getAttribute('data-days-matched')
+                };
+                
+                console.log('Match data from attributes:', matchData);
+                
+                // Convert string numbers to actual numbers
+                matchData.intern_id = parseInt(matchData.intern_id);
+                matchData.restaurant_id = parseInt(matchData.restaurant_id);
+                matchData.commute_minutes = parseInt(matchData.commute_minutes);
+                matchData.total_overlap_hours = parseFloat(matchData.total_overlap_hours);
+                matchData.days_matched = parseInt(matchData.days_matched);
+                
+                console.log('Converted match data:', matchData);
+                console.log('Intern ID:', matchData.intern_id);
+                console.log('Restaurant ID:', matchData.restaurant_id);
+                
+                // For sample data, show a simple alert
+                if (!matchData.intern_id || !matchData.restaurant_id) {
+                    console.log('Missing IDs - showing sample data alert');
+                    alert('Sample match data - no detailed information available');
+                    return;
+                }
+                
+                console.log('Fetching API data...');
+                // Fetch detailed match information from API
+                fetch(`/api/matching/match-details/${matchData.intern_id}/${matchData.restaurant_id}`)
+                    .then(response => {
+                        console.log('API response status:', response.status);
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log('API response data:', data);
+                        if (data.error) {
+                            alert('Error: ' + data.error);
+                            return;
+                        }
+                    
+                    // Populate modal with match details
+                    const modal = new bootstrap.Modal(document.getElementById('matchDetailsModal'));
+                    
+                    // Set basic info
+                    document.getElementById('modalInternName').textContent = data.intern_name || 'Unknown';
+                    document.getElementById('modalRestaurantName').textContent = data.restaurant_name || 'Unknown';
+                    document.getElementById('modalCommute').textContent = data.commute_minutes + ' minutes' || 'Unknown';
+                    document.getElementById('modalScore').textContent = (data.match_score ? data.match_score.toFixed(1) + '%' : 'Unknown');
+                    
+                    // Show schedule details if available
+                    const scheduleDetails = document.getElementById('scheduleDetails');
+                    if (data.all_overlaps && Object.keys(data.all_overlaps).length > 0) {
+                        let scheduleHTML = '<h6>Available Time Slots:</h6>';
+                        for (const [day, slots] of Object.entries(data.all_overlaps)) {
+                            scheduleHTML += `<p><strong>${day}:</strong> ${slots.length} slots available</p>`;
+                        }
+                        scheduleDetails.innerHTML = scheduleHTML;
+                    } else {
+                        scheduleDetails.innerHTML = '<p class="text-muted">No schedule details available</p>';
+                    }
+                    
+                    // Show modal
+                    modal.show();
+                    
+                })
+                .catch(error => {
+                    console.error('Error fetching match details:', error);
+                    alert('Error loading match details: ' + error.message);
+                });
+                
+            } catch (error) {
+                console.error('Error in showMatchDetails:', error);
+                alert('Error showing match details: ' + error.message);
+            }
+        }
+    </script>
+</body>
+</html>

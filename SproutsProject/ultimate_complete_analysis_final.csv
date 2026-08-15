@@ -1,0 +1,61 @@
+ULTIMATE COMPLETE ANALYSIS - ALL RESTAURANTS FINAL,,,,,,,
+,,,,,,,
+FINAL STATISTICS,,,,,,,
+Total Interns in Database,41,,,,,,
+Total Restaurants in Database,41,,,,,,
+Actual Assigned Interns,23,,,,,,
+Actual Unassigned Interns,1,,,,,,
+Algorithm Assignments Generated,20,,,,,,
+,,,,,,,
+DATA COVERAGE IMPROVEMENT,,,,,,,
+Complete Delta Data,13,,,,,,
+Partial Data,8,,,,,,
+Data Coverage Rate,56.5%,,,,,,
+,,,,,,,
+DELTA COMMUTE METRICS,,,,,,,
+Average Actual Commute,46.4 minutes,,,,,,
+Average Algorithm Commute,41.5 minutes,,,,,,
+Average Delta (Actual - Algorithm),4.8 minutes,,,,,,
+Algorithm Better (Saves Time),7,,,,,,
+Actual Better (Current Faster),6,,,,,,
+Perfect Matches,0,,,,,,
+,,,,,,,
+TOP COMMUTE IMPROVEMENTS,,,,,,,
+Intern Name,Actual Restaurant,Algorithm Restaurant,Actual Commute,Algorithm Commute,Delta (min),Delta %,Status
+Noel,Stanford,alaMar Dominican Kitchen,108.0,40.0,68.0,63.0%,Algorithm Better
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,38.0,12.0,26.0,68.4%,Algorithm Better
+Ivory Willows,Foreign Cinema,The Holbrook House,53.0,40.0,13.0,24.5%,Algorithm Better
+Gio,Nopa Fish,The Holbrook House,42.0,31.0,11.0,26.2%,Algorithm Better
+Angel,alaMar Dominican Kitchen,Mago,54.0,48.0,6.0,11.1%,Algorithm Better
+Enrique,Mago,Sirene,40.0,38.0,2.0,5.0%,Algorithm Better
+Melanie Sanchez,Snail Bar,Millennium Restaurant,52.0,50.0,2.0,3.8%,Algorithm Better
+Bosco Liu,The Butcher Shop,Teranga ,44.0,45.0,-1.0,-2.3%,Actual Better
+Gylli,Sorrel Restaurant,Snail Bar,40.0,46.0,-6.0,-15.0%,Actual Better
+Giselle,Sirene,Tarts de Feybesse,41.0,48.0,-7.0,-17.1%,Actual Better
+,,,,,,,
+COMPLETE DELTA COMMUTE ANALYSIS (All Interns),,,,,,,
+Intern Name,Actual Restaurant,Algorithm Restaurant,Actual Commute,Algorithm Commute,Delta (min),Delta %,Status
+Noel,Stanford,alaMar Dominican Kitchen,108.0,40.0,68.0,63.0%,Algorithm Better
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,38.0,12.0,26.0,68.4%,Algorithm Better
+Ivory Willows,Foreign Cinema,The Holbrook House,53.0,40.0,13.0,24.5%,Algorithm Better
+Gio,Nopa Fish,The Holbrook House,42.0,31.0,11.0,26.2%,Algorithm Better
+Angel,alaMar Dominican Kitchen,Mago,54.0,48.0,6.0,11.1%,Algorithm Better
+Enrique,Mago,Sirene,40.0,38.0,2.0,5.0%,Algorithm Better
+Melanie Sanchez,Snail Bar,Millennium Restaurant,52.0,50.0,2.0,3.8%,Algorithm Better
+Bosco Liu,The Butcher Shop,Teranga ,44.0,45.0,-1.0,-2.3%,Actual Better
+Gylli,Sorrel Restaurant,Snail Bar,40.0,46.0,-6.0,-15.0%,Actual Better
+Giselle,Sirene,Tarts de Feybesse,41.0,48.0,-7.0,-17.1%,Actual Better
+Imani,Tarts de Feybesse,Burdell,43.0,50.0,-7.0,-16.3%,Actual Better
+JP,Ofena,alaMar Dominican Kitchen,28.0,45.0,-17.0,-60.7%,Actual Better
+Nae,The Holbrook House,Millennium Restaurant,20.0,47.0,-27.0,-135.0%,Actual Better
+,,,,,,,
+REMAINING PARTIAL DATA,,,,,,,
+Intern Name,Actual Restaurant,Algorithm Restaurant,Actual Commute,Algorithm Commute,Status,,
+Dana,Ssal,Unassigned,142.0,N/A,Different Assignment,,
+Jesus,UC Berkeley,Unassigned,125.0,N/A,Different Assignment,,
+Alex,Stanford,Unassigned,106.0,N/A,Different Assignment,,
+Andrea,Stanford,Unassigned,48.0,N/A,Different Assignment,,
+Jesus,Stanford,Unassigned,110.0,N/A,Different Assignment,,
+maye,Hahdough bakery,Unassigned,136.0,N/A,Different Assignment,,
+Shelsea,Burdell,Unassigned,43.0,N/A,Different Assignment,,
+Roni,Teranga,Unassigned,33.0,N/A,Different Assignment,,

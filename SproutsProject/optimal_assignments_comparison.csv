@@ -1,0 +1,24 @@
+Intern Name,Age,Assigned Restaurant,Optimal Commute (min),Total Hours,Days Matched,Transportation Options,Parsed Options,Best Transport,Min Transport Commute,Max Transport Commute,Transport Range,Transport Optimization
+Zhijian Liu,18,Burdell,25,12,4,"Car (I drive), Public transportation (e.g. bus, BART)","transit, driving",transit,50,50,0,No
+Samuel  Gonzalez ,17,Ofena,27,12,5,"Public transportation (e.g. bus, BART)",transit,transit,50,50,0,No
+Angel Ruiz,19,alaMar Dominican Kitchen,17,12,5,"Car (My parent/guardian/family/friend drives), Public transportation (e.g. bus, BART), Ridesharing or rental (e.g. Uber, Lyft, Lime)","transit, driving, rideshare",transit,50,50,0,No
+Enrique Marroquin,17,Abaca ,34,12,2,"Car (My parent/guardian/family/friend drives), Public transportation (e.g. bus, BART)","transit, driving",transit,50,50,0,No
+Imani Jarvis,17,The Holbrook House,47,12,4,"Public transportation (e.g. bus, BART), Ridesharing or rental (e.g. Uber, Lyft, Lime)","transit, driving, rideshare",transit,50,50,0,No
+Giselle Contreras ,17,Tarts de Feybesse,45,12,2,"Public transportation (e.g. bus, BART)",transit,transit,50,50,0,No
+Ollie  O’Malley,17,Abaca ,25,12,2,"Car (My parent/guardian/family/friend drives), Public transportation (e.g. bus, BART)","transit, driving",transit,50,50,0,No
+Gyllibhet  Palacio,17,Ssal,20,12,2,"Public transportation (e.g. bus, BART)",transit,transit,50,50,0,No
+Asslin Espinal,17,Arquet,43,12,4,"Public transportation (e.g. bus, BART)",transit,transit,50,50,0,No
+Jayden Piansay,16,Snail Bar,27,12,3,"Car (I drive), Car (My parent/guardian/family/friend drives)",driving,driving,50,50,0,No
+Giovanni Giacomazzi,17,Ssal,38,12,3,"Public transportation (e.g. bus, BART), Skateboard","transit, skateboard",transit,50,50,0,No
+Eljanae Robinson,24,Teranga ,24,12,3,"Public transportation (e.g. bus, BART), Ridesharing or rental (e.g. Uber, Lyft, Lime)","transit, driving, rideshare",transit,50,50,0,No
+Aliyatt  Rodgers,24,alaMar Dominican Kitchen,39,12,4,"Public transportation (e.g. bus, BART)",transit,transit,50,50,0,No
+Kaylin Lewis,19,2 Chix,9,12,2,"Public transportation (e.g. bus, BART)",transit,transit,50,50,0,No
+Catherine Oropeza Huerta,16,Arquet,47,12,2,"Car (My parent/guardian/family/friend drives), Public transportation (e.g. bus, BART)","transit, driving",transit,50,50,0,No
+Jesus Chavez,17,Millennium Restaurant,45,12,5,Car (I drive),driving,driving,50,50,0,No
+Jesus Aguilera,20,Burdell,49,12,4,"Public transportation (e.g. bus, BART)",transit,transit,50,50,0,No
+Aaliyah Engram,17,Broma Restaurant,47,12,3,"Car (My parent/guardian/family/friend drives), Public transportation (e.g. bus, BART)","transit, driving",transit,50,50,0,No
+Cristofer  Martin Diaz ,16,Tarts de Feybesse,47,12,4,"Public transportation (e.g. bus, BART), I’ll try to talk my parents into fitting me into their schedule ","transit, driving",transit,50,50,0,No
+Melanie Sanchez Ortega,17,Snail Bar,10,12,4,"Car (My parent/guardian/family/friend drives), Public transportation (e.g. bus, BART), Ridesharing or rental (e.g. Uber, Lyft, Lime)","transit, driving, rideshare",transit,50,50,0,No
+Yeimi Diaz ,17,The Holbrook House,50,12,3,"Car (I drive), Car (My parent/guardian/family/friend drives), Public transportation (e.g. bus, BART)","transit, driving",transit,50,50,0,No
+Zailea Daniels,21,Millennium Restaurant,22,12,5,"Car (My parent/guardian/family/friend drives), Public transportation (e.g. bus, BART), Ridesharing or rental (e.g. Uber, Lyft, Lime), I would like some clipper cards if possible ","transit, driving, rideshare",transit,50,50,0,No
+Malerie Rogers,17,Ofena,24,12,2,"Public transportation (e.g. bus, BART), Ridesharing or rental (e.g. Uber, Lyft, Lime)","transit, driving, rideshare",transit,50,50,0,No

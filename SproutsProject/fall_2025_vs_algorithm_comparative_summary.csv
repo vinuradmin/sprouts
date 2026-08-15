@@ -1,0 +1,46 @@
+Fall 2025 vs Algorithm Comparative Analysis,,,
+,,,
+KEY METRICS,,,
+Total Interns Analyzed,12,,
+Perfect Matches,2,,
+Different Matches,10,,
+Actual Commutes Available,N/A,,
+Optimal Commutes Available,12,,
+,,,
+COMMUTE COMPARISON,,,
+Average Actual Commute (minutes),N/A,,
+Average Optimal Commute (minutes),29.9,,
+Note,Using algorithm-calculated commute times,,
+,,,
+PERFECT MATCHES (Current placements are optimal),,,
+Intern Name,Restaurant,Commute (minutes),
+Angel,alaMar Dominican Kitchen,17.0,
+Melanie Sanchez,Snail Bar,10.0,
+,,,
+TOP 10 OPTIMAL COMMUTES,,,
+Intern Name,Actual Restaurant,Optimal Restaurant,Optimal Commute (minutes)
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,9.0
+Melanie Sanchez,Snail Bar,Snail Bar,10.0
+Angel,alaMar Dominican Kitchen,alaMar Dominican Kitchen,17.0
+Gylli,Sorrel Restaurant,Ssal,20.0
+Nae,The Holbrook House,Teranga ,24.0
+Ollie,Dalida,Abaca ,25.0
+Enrique,Mago,Abaca ,34.0
+Gio,Nopa Fish,Ssal,38.0
+Giselle,Sirene,Tarts de Feybesse,45.0
+Jesus,UC Berkeley,Millennium Restaurant,45.0
+,,,
+COMPLETE COMPARISON,,,
+Intern Name,Actual Restaurant,Optimal Restaurant,Status
+Enrique,Mago,Abaca ,Improvement Opportunity
+Giselle,Sirene,Tarts de Feybesse,Improvement Opportunity
+Ollie,Dalida,Abaca ,Improvement Opportunity
+Angel,alaMar Dominican Kitchen,alaMar Dominican Kitchen,Perfect Match
+Gylli,Sorrel Restaurant,Ssal,Improvement Opportunity
+Jesus,UC Berkeley,Millennium Restaurant,Improvement Opportunity
+Jesus,Stanford,Millennium Restaurant,Improvement Opportunity
+Nae,The Holbrook House,Teranga ,Improvement Opportunity
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,Improvement Opportunity
+Melanie Sanchez,Snail Bar,Snail Bar,Perfect Match
+Gio,Nopa Fish,Ssal,Improvement Opportunity
+Imani,Tarts de Feybesse,The Holbrook House,Improvement Opportunity

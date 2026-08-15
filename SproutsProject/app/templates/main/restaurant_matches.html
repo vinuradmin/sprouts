@@ -1,0 +1,351 @@
+{% extends "base.html" %}
+{% set title = "Restaurant Matches" %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ url_for('main.matching_dashboard') }}">Matching</a></li>
+                    <li class="breadcrumb-item active">Restaurant Matches</li>
+                </ol>
+            </nav>
+            
+            <h1 class="fw-bold mb-3">
+                <i class="fas fa-store text-success me-2"></i>
+                Intern Matches for {{ restaurant.name }}
+            </h1>
+            <p class="lead text-muted">Found {{ matches|length }} potential intern matches</p>
+        </div>
+    </div>
+
+    <!-- Restaurant Info Card -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="fw-bold">Restaurant Information</h6>
+                            <p class="mb-1"><strong>Location:</strong> {{ restaurant.address }}</p>
+                            <p class="mb-1"><strong>Cuisine:</strong> {{ restaurant.cuisine_type or 'Not specified' }}</p>
+                            <p class="mb-1"><strong>Type:</strong> {{ restaurant.restaurant_type or 'Not specified' }}</p>
+                            <p class="mb-0"><strong>Age Requirement:</strong> {{ '18+ Only' if restaurant.requires_over_18 else 'All Ages' }}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold">Contact</h6>
+                            <p class="mb-1"><strong>Owner:</strong> {{ restaurant.owner.user.full_name }}</p>
+                            <p class="mb-1"><strong>Email:</strong> {{ restaurant.owner.user.email }}</p>
+                            <p class="mb-1"><strong>Phone:</strong> {{ restaurant.phone or 'Not provided' }}</p>
+                            <p class="mb-0"><strong>Website:</strong> 
+                                {% if restaurant.website %}
+                                    <a href="{{ restaurant.website }}" target="_blank">{{ restaurant.website }}</a>
+                                {% else %}
+                                    Not provided
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filter and Sort Controls -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row align-items-end">
+                        <div class="col-md-3">
+                            <label class="form-label">Sort by</label>
+                            <select class="form-select" id="sortBy" onchange="sortMatches()">
+                                <option value="score">Match Score</option>
+                                <option value="commute">Commute Time</option>
+                                <option value="hours">Available Hours</option>
+                                <option value="name">Intern Name</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Max Commute</label>
+                            <select class="form-select" id="maxCommute" onchange="filterMatches()">
+                                <option value="">Any</option>
+                                <option value="15">15 minutes</option>
+                                <option value="30">30 minutes</option>
+                                <option value="45">45 minutes</option>
+                                <option value="60">1 hour</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label class="form-label">Min Hours/Week</label>
+                            <select class="form-select" id="minHours" onchange="filterMatches()">
+                                <option value="">Any</option>
+                                <option value="10">10+ hours</option>
+                                <option value="20">20+ hours</option>
+                                <option value="30">30+ hours</option>
+                                <option value="40">40+ hours</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <button class="btn btn-outline-secondary w-100" onclick="resetFilters()">
+                                <i class="fas fa-undo me-1"></i>Reset Filters
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Matches -->
+    {% if matches %}
+    <div class="row" id="matchesContainer">
+        {% for match in matches %}
+        <div class="col-lg-6 mb-4 match-card" 
+             data-score="{{ match.match_score }}" 
+             data-commute="{{ match.commute_minutes }}" 
+             data-hours="{{ match.total_overlap_hours }}"
+             data-name="{{ match.intern_name }}">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h6 class="mb-0 fw-bold">{{ match.intern_name }}</h6>
+                    <span class="badge bg-success">Score: {{ "%.1f"|format(match.match_score) }}</span>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <small class="text-muted">Commute Time</small>
+                            <div class="fw-bold text-primary">
+                                <i class="fas fa-clock me-1"></i>{{ match.commute_minutes }} min
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <small class="text-muted">Total Hours</small>
+                            <div class="fw-bold text-success">
+                                <i class="fas fa-calendar me-1"></i>{{ match.total_overlap_hours }}h/week
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <small class="text-muted">Transportation</small>
+                            <div class="fw-bold">{{ match.transportation or 'Not specified' }}</div>
+                        </div>
+                        <div class="col-6">
+                            <small class="text-muted">Age</small>
+                            <div class="fw-bold">{{ match.age or 'Not provided' }}</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education Info -->
+                    <div class="mb-3">
+                        <small class="text-muted">Education</small>
+                        <div class="fw-bold">{{ match.education_level }} - {{ match.field_of_study or 'General' }}</div>
+                        <small class="text-muted">{{ match.institution }}</small>
+                    </div>
+                    
+                    <!-- Schedule Overlap -->
+                    <div class="mb-3">
+                        <small class="text-muted d-block mb-2">Weekly Availability</small>
+                        <div class="row g-1">
+                            {% for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'] %}
+                            <div class="col">
+                                <div class="text-center p-1 rounded {{ 'bg-success text-white' if day in match.overlaps else 'bg-light text-muted' }}" 
+                                     style="font-size: 0.75rem;">
+                                    {{ day[:3] }}
+                                    {% if day in match.overlaps %}
+                                        <br><small>{{ match.overlaps[day]|length }}h</small>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                    <!-- Detailed Schedule -->
+                    {% if match.overlaps %}
+                    <div class="mb-3">
+                        <button class="btn btn-sm btn-outline-secondary" type="button" 
+                                data-bs-toggle="collapse" data-bs-target="#schedule-{{ loop.index }}">
+                            <i class="fas fa-clock me-1"></i>View Schedule Details
+                        </button>
+                        <div class="collapse mt-2" id="schedule-{{ loop.index }}">
+                            <div class="small">
+                                {% for day, slots in match.overlaps.items() %}
+                                <div class="mb-1">
+                                    <strong>{{ day }}:</strong>
+                                    {% for slot in slots %}
+                                        {{ slot.start }}:00-{{ slot.end }}:00
+                                        {% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        <a href="{{ url_for('intern.profile', id=match.intern_id) }}" 
+                           class="btn btn-outline-primary btn-sm">
+                            <i class="fas fa-user me-1"></i>View Profile
+                        </a>
+                        {% if current_user.restaurant_owner and current_user.restaurant_owner.restaurant_id == restaurant.id %}
+                        <button class="btn btn-success btn-sm" onclick="inviteIntern({{ match.intern_id }})">
+                            <i class="fas fa-envelope me-1"></i>Send Invitation
+                        </button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    {% else %}
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body text-center py-5">
+                    <i class="fas fa-search text-muted mb-3" style="font-size: 3rem;"></i>
+                    <h4>No Matches Found</h4>
+                    <p class="text-muted mb-4">
+                        We couldn't find any suitable intern matches based on your restaurant's requirements and schedule.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="{{ url_for('restaurant.profile') }}" class="btn btn-primary">
+                            <i class="fas fa-edit me-1"></i>Update Restaurant Profile
+                        </a>
+                        <a href="{{ url_for('main.search') }}" class="btn btn-outline-primary">
+                            <i class="fas fa-search me-1"></i>Browse All Interns
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    <!-- Actions -->
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="d-flex justify-content-between">
+                <a href="{{ url_for('main.matching_dashboard') }}" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left me-1"></i>Back to Dashboard
+                </a>
+                {% if matches %}
+                <div>
+                    <button class="btn btn-outline-success me-2" onclick="saveMatches()">
+                        <i class="fas fa-save me-1"></i>Save Results
+                    </button>
+                    <button class="btn btn-success" onclick="exportMatches()">
+                        <i class="fas fa-download me-1"></i>Export to CSV
+                    </button>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function inviteIntern(internId) {
+    if (confirm('Would you like to send an invitation to this intern? They will be notified via email.')) {
+        fetch(`/api/invite-intern/${internId}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                SproutsProject.showAlert('success', 'Invitation sent successfully!');
+            } else {
+                SproutsProject.showAlert('danger', data.error || 'Failed to send invitation');
+            }
+        })
+        .catch(error => {
+            SproutsProject.showAlert('danger', 'An error occurred');
+        });
+    }
+}
+
+function sortMatches() {
+    const sortBy = document.getElementById('sortBy').value;
+    const container = document.getElementById('matchesContainer');
+    const cards = Array.from(container.children);
+    
+    cards.sort((a, b) => {
+        let aVal, bVal;
+        switch(sortBy) {
+            case 'score':
+                aVal = parseFloat(a.dataset.score);
+                bVal = parseFloat(b.dataset.score);
+                return bVal - aVal; // Descending
+            case 'commute':
+                aVal = parseInt(a.dataset.commute);
+                bVal = parseInt(b.dataset.commute);
+                return aVal - bVal; // Ascending
+            case 'hours':
+                aVal = parseFloat(a.dataset.hours);
+                bVal = parseFloat(b.dataset.hours);
+                return bVal - aVal; // Descending
+            case 'name':
+                aVal = a.dataset.name.toLowerCase();
+                bVal = b.dataset.name.toLowerCase();
+                return aVal.localeCompare(bVal); // Ascending
+            default:
+                return 0;
+        }
+    });
+    
+    cards.forEach(card => container.appendChild(card));
+}
+
+function filterMatches() {
+    const maxCommute = document.getElementById('maxCommute').value;
+    const minHours = document.getElementById('minHours').value;
+    const cards = document.querySelectorAll('.match-card');
+    
+    cards.forEach(card => {
+        let show = true;
+        
+        if (maxCommute && parseInt(card.dataset.commute) > parseInt(maxCommute)) {
+            show = false;
+        }
+        
+        if (minHours && parseFloat(card.dataset.hours) < parseFloat(minHours)) {
+            show = false;
+        }
+        
+        card.style.display = show ? 'block' : 'none';
+    });
+}
+
+function resetFilters() {
+    document.getElementById('sortBy').value = 'score';
+    document.getElementById('maxCommute').value = '';
+    document.getElementById('minHours').value = '';
+    
+    const cards = document.querySelectorAll('.match-card');
+    cards.forEach(card => card.style.display = 'block');
+    
+    sortMatches();
+}
+
+function saveMatches() {
+    SproutsProject.showAlert('info', 'Save functionality coming soon!');
+}
+
+function exportMatches() {
+    const restaurantId = {{ restaurant.id }};
+    window.location.href = `/api/matching/restaurant/${restaurantId}/export`;
+}
+</script>
+{% endblock %}

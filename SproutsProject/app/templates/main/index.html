@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+{% set title = "Home" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="bg-success text-white py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold mb-4">Launch Your Culinary Career</h1>
+                <p class="lead mb-4">Connect with top restaurants and gain hands-on experience through our internship matching platform.</p>
+                <div class="d-flex gap-3">
+                    {% if not current_user.is_authenticated %}
+                        <a href="{{ url_for('auth.register_intern') }}" class="btn btn-light btn-lg">Find Internships</a>
+                        <a href="{{ url_for('auth.register_restaurant') }}" class="btn btn-outline-light btn-lg">Post Opportunities</a>
+                    {% else %}
+                        <a href="{{ url_for('main.search') }}" class="btn btn-light btn-lg">Browse Internships</a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <i class="fas fa-utensils" style="font-size: 8rem; opacity: 0.3;"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <i class="fas fa-briefcase text-success mb-3" style="font-size: 3rem;"></i>
+                        <h3 class="fw-bold">{{ total_internships }}</h3>
+                        <p class="text-muted">Active Internships</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <i class="fas fa-store text-success mb-3" style="font-size: 3rem;"></i>
+                        <h3 class="fw-bold">{{ total_restaurants }}</h3>
+                        <p class="text-muted">Partner Restaurants</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <i class="fas fa-users text-success mb-3" style="font-size: 3rem;"></i>
+                        <h3 class="fw-bold">{{ total_interns }}</h3>
+                        <p class="text-muted">Registered Interns</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="card border-0 bg-transparent">
+                    <div class="card-body">
+                        <i class="fas fa-handshake text-success mb-3" style="font-size: 3rem;"></i>
+                        <h3 class="fw-bold">95%</h3>
+                        <p class="text-muted">Success Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Internships -->
+{% if featured_internships %}
+<section class="py-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="fw-bold mb-3">Featured Internships</h2>
+                <p class="lead text-muted">Discover exciting opportunities at top restaurants</p>
+            </div>
+        </div>
+        <div class="row">
+            {% for internship in featured_internships %}
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <h5 class="card-title">{{ internship.title }}</h5>
+                            {% if internship.is_paid %}
+                                <span class="badge bg-success">Paid</span>
+                            {% endif %}
+                        </div>
+                        <h6 class="text-muted mb-2">
+                            <i class="fas fa-store me-1"></i>{{ internship.restaurant.name }}
+                        </h6>
+                        <p class="text-muted mb-2">
+                            <i class="fas fa-map-marker-alt me-1"></i>{{ internship.restaurant.city }}, {{ internship.restaurant.state }}
+                        </p>
+                        <p class="card-text">{{ internship.description[:100] }}{% if internship.description|length > 100 %}...{% endif %}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small class="text-muted">
+                                <i class="fas fa-clock me-1"></i>{{ internship.hours_per_week }} hrs/week
+                            </small>
+                            <a href="{{ url_for('main.internship_detail', id=internship.id) }}" class="btn btn-outline-success btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center mt-4">
+            <a href="{{ url_for('main.search') }}" class="btn btn-success btn-lg">View All Internships</a>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- How It Works -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="fw-bold mb-3">How It Works</h2>
+                <p class="lead text-muted">Get started in just a few simple steps</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 text-center mb-4">
+                <div class="mb-4">
+                    <div class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                        <span class="fs-3 fw-bold">1</span>
+                    </div>
+                </div>
+                <h4>Create Your Profile</h4>
+                <p class="text-muted">Sign up and build your profile with your skills, experience, and preferences.</p>
+            </div>
+            <div class="col-lg-4 text-center mb-4">
+                <div class="mb-4">
+                    <div class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                        <span class="fs-3 fw-bold">2</span>
+                    </div>
+                </div>
+                <h4>Browse & Apply</h4>
+                <p class="text-muted">Explore internship opportunities and apply to positions that match your interests.</p>
+            </div>
+            <div class="col-lg-4 text-center mb-4">
+                <div class="mb-4">
+                    <div class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                        <span class="fs-3 fw-bold">3</span>
+                    </div>
+                </div>
+                <h4>Start Your Journey</h4>
+                <p class="text-muted">Get matched with restaurants and begin your culinary career journey.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 bg-success text-white">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-3">Ready to Get Started?</h2>
+        <p class="lead mb-4">Join thousands of interns and restaurants already using SproutsProject</p>
+        {% if not current_user.is_authenticated %}
+            <a href="{{ url_for('auth.register') }}" class="btn btn-light btn-lg me-3">Sign Up Today</a>
+            <a href="{{ url_for('main.about') }}" class="btn btn-outline-light btn-lg">Learn More</a>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

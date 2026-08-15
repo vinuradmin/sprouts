@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+{% set title = "Intern Matches" %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ url_for('main.matching_dashboard') }}">Matching</a></li>
+                    <li class="breadcrumb-item active">Intern Matches</li>
+                </ol>
+            </nav>
+            
+            <h1 class="fw-bold mb-3">
+                <i class="fas fa-user-graduate text-success me-2"></i>
+                Matches for {{ intern.user.full_name }}
+            </h1>
+            <p class="lead text-muted">Found {{ matches|length }} potential internship matches</p>
+        </div>
+    </div>
+
+    <!-- Intern Info Card -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="fw-bold">Intern Information</h6>
+                            <p class="mb-1"><strong>Email:</strong> {{ intern.user.email }}</p>
+                            <p class="mb-1"><strong>Location:</strong> {{ intern.city }}, {{ intern.country }}</p>
+                            <p class="mb-1"><strong>Transportation:</strong> {{ intern.transportation_method or 'Not specified' }}</p>
+                            <p class="mb-0"><strong>Max Commute:</strong> {{ intern.max_commute_minutes or 50 }} minutes</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="fw-bold">Preferences</h6>
+                            <p class="mb-1"><strong>Education:</strong> {{ intern.education_level }} at {{ intern.institution }}</p>
+                            <p class="mb-1"><strong>Field:</strong> {{ intern.field_of_study or 'Not specified' }}</p>
+                            <p class="mb-0"><strong>Seeking:</strong> {{ 'Yes' if intern.is_seeking_internship else 'No' }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Matches -->
+    {% if matches %}
+    <div class="row">
+        {% for match in matches %}
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h6 class="mb-0 fw-bold">{{ match.restaurant_name }}</h6>
+                    <span class="badge bg-success">Score: {{ "%.1f"|format(match.match_score) }}</span>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-6">
+                            <small class="text-muted">Commute Time</small>
+                            <div class="fw-bold text-primary">
+                                <i class="fas fa-clock me-1"></i>{{ match.commute_minutes }} min
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <small class="text-muted">Total Hours</small>
+                            <div class="fw-bold text-success">
+                                <i class="fas fa-calendar me-1"></i>{{ match.total_overlap_hours }}h/week
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <small class="text-muted">Days Available</small>
+                        <div class="fw-bold">{{ match.days_matched }} days matched</div>
+                    </div>
+                    
+                    <!-- Schedule Overlap -->
+                    <div class="mb-3">
+                        <small class="text-muted d-block mb-2">Weekly Schedule</small>
+                        <div class="row g-1">
+                            {% for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'] %}
+                            <div class="col">
+                                <div class="text-center p-1 rounded {{ 'bg-success text-white' if day in match.overlaps else 'bg-light text-muted' }}" 
+                                     style="font-size: 0.75rem;">
+                                    {{ day[:3] }}
+                                    {% if day in match.overlaps %}
+                                        <br><small>{{ match.overlaps[day]|length }}h</small>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                    <!-- Detailed Schedule -->
+                    {% if match.overlaps %}
+                    <div class="mb-3">
+                        <button class="btn btn-sm btn-outline-secondary" type="button" 
+                                data-bs-toggle="collapse" data-bs-target="#schedule-{{ loop.index }}">
+                            <i class="fas fa-clock me-1"></i>View Schedule Details
+                        </button>
+                        <div class="collapse mt-2" id="schedule-{{ loop.index }}">
+                            <div class="small">
+                                {% for day, slots in match.overlaps.items() %}
+                                <div class="mb-1">
+                                    <strong>{{ day }}:</strong>
+                                    {% for slot in slots %}
+                                        {{ slot.start }}:00-{{ slot.end }}:00
+                                        {% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        <a href="{{ url_for('main.restaurant_profile', id=match.restaurant_id) }}" 
+                           class="btn btn-outline-primary btn-sm">
+                            <i class="fas fa-info-circle me-1"></i>View Restaurant
+                        </a>
+                        {% if current_user.intern and current_user.intern.id == intern.id %}
+                        <button class="btn btn-success btn-sm" onclick="expressInterest({{ match.restaurant_id }})">
+                            <i class="fas fa-heart me-1"></i>Express Interest
+                        </button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <!-- Pagination would go here if needed -->
+    
+    {% else %}
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body text-center py-5">
+                    <i class="fas fa-search text-muted mb-3" style="font-size: 3rem;"></i>
+                    <h4>No Matches Found</h4>
+                    <p class="text-muted mb-4">
+                        We couldn't find any suitable internship matches based on your current profile and preferences.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="{{ url_for('intern.profile') }}" class="btn btn-primary">
+                            <i class="fas fa-edit me-1"></i>Update Profile
+                        </a>
+                        <a href="{{ url_for('main.search') }}" class="btn btn-outline-primary">
+                            <i class="fas fa-search me-1"></i>Browse All Internships
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    
+    <!-- Actions -->
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="d-flex justify-content-between">
+                <a href="{{ url_for('main.matching_dashboard') }}" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left me-1"></i>Back to Dashboard
+                </a>
+                {% if matches %}
+                <div>
+                    <button class="btn btn-outline-success me-2" onclick="saveMatches()">
+                        <i class="fas fa-save me-1"></i>Save Results
+                    </button>
+                    <button class="btn btn-success" onclick="exportMatches()">
+                        <i class="fas fa-download me-1"></i>Export to CSV
+                    </button>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function expressInterest(restaurantId) {
+    // This would integrate with the application system
+    if (confirm('Would you like to express interest in this restaurant? This will notify the restaurant owner.')) {
+        // Make API call to express interest
+        fetch(`/api/express-interest/${restaurantId}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                SproutsProject.showAlert('success', 'Interest expressed successfully!');
+            } else {
+                SproutsProject.showAlert('danger', data.error || 'Failed to express interest');
+            }
+        })
+        .catch(error => {
+            SproutsProject.showAlert('danger', 'An error occurred');
+        });
+    }
+}
+
+function saveMatches() {
+    // Save matches to user's saved list
+    SproutsProject.showAlert('info', 'Save functionality coming soon!');
+}
+
+function exportMatches() {
+    // Export current matches to CSV
+    const internId = {{ intern.id }};
+    window.location.href = `/api/matching/intern/${internId}/export`;
+}
+</script>
+{% endblock %}

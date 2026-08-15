@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% set title = "Sign Up" %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="text-center mb-5">
+                <i class="fas fa-seedling text-success mb-3" style="font-size: 3rem;"></i>
+                <h2 class="fw-bold">Join SproutsProject</h2>
+                <p class="lead text-muted">Choose your account type to get started</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-user-graduate text-success mb-3" style="font-size: 3rem;"></i>
+                            <h4 class="fw-bold mb-3">I'm an Intern</h4>
+                            <p class="text-muted mb-4">Looking for internship opportunities in restaurants</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fas fa-check text-success me-2"></i>Browse internships</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Apply to positions</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Track applications</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Build your profile</li>
+                            </ul>
+                            <a href="{{ url_for('auth.register_intern') }}" class="btn btn-success btn-lg w-100">Sign Up as Intern</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-store text-success mb-3" style="font-size: 3rem;"></i>
+                            <h4 class="fw-bold mb-3">I'm a Restaurant Owner</h4>
+                            <p class="text-muted mb-4">Looking to hire talented interns</p>
+                            <ul class="list-unstyled text-start mb-4">
+                                <li><i class="fas fa-check text-success me-2"></i>Post internships</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Review applications</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Manage restaurant profile</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Connect with talent</li>
+                            </ul>
+                            <a href="{{ url_for('auth.register_restaurant') }}" class="btn btn-outline-success btn-lg w-100">Sign Up as Restaurant</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p class="text-muted">Already have an account? <a href="{{ url_for('auth.login') }}" class="text-success">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

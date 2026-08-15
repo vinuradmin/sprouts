@@ -1,0 +1,3074 @@
+{
+    "141 Loehr St, San Francisco, 94134, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "26 mins",
+        "value": 1540,
+        "distance_text": "16.3 mi",
+        "distance_value": 26270
+    },
+    "141 Loehr St, San Francisco, 94134, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "23 mins",
+        "value": 1396,
+        "distance_text": "15.4 mi",
+        "distance_value": 24733
+    },
+    "141 Loehr St, San Francisco, 94134, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1489,
+        "distance_text": "15.4 mi",
+        "distance_value": 24816
+    },
+    "141 Loehr St, San Francisco, 94134, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "26 mins",
+        "value": 1548,
+        "distance_text": "15.1 mi",
+        "distance_value": 24224
+    },
+    "141 Loehr St, San Francisco, 94134, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1519,
+        "distance_text": "15.4 mi",
+        "distance_value": 24750
+    },
+    "141 Loehr St, San Francisco, 94134, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "19 mins",
+        "value": 1130,
+        "distance_text": "6.6 mi",
+        "distance_value": 10576
+    },
+    "141 Loehr St, San Francisco, 94134, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "22 mins",
+        "value": 1345,
+        "distance_text": "7.5 mi",
+        "distance_value": 12064
+    },
+    "141 Loehr St, San Francisco, 94134, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "29 mins",
+        "value": 1749,
+        "distance_text": "9.1 mi",
+        "distance_value": 14708
+    },
+    "141 Loehr St, San Francisco, 94134, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "21 mins",
+        "value": 1273,
+        "distance_text": "7.2 mi",
+        "distance_value": 11551
+    },
+    "141 Loehr St, San Francisco, 94134, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "21 mins",
+        "value": 1231,
+        "distance_text": "7.4 mi",
+        "distance_value": 11894
+    },
+    "141 Loehr St, San Francisco, 94134, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1498,
+        "distance_text": "8.0 mi",
+        "distance_value": 12861
+    },
+    "141 Loehr St, San Francisco, 94134, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "39 mins",
+        "value": 2310,
+        "distance_text": "32.1 mi",
+        "distance_value": 51679
+    },
+    "141 Loehr St, San Francisco, 94134, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155536,
+        "distance_text": "2,913 mi",
+        "distance_value": 4688747
+    },
+    "141 Loehr St, San Francisco, 94134, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154323,
+        "distance_text": "2,910 mi",
+        "distance_value": 4682397
+    },
+    "141 Loehr St, San Francisco, 94134, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155611,
+        "distance_text": "2,929 mi",
+        "distance_value": 4713858
+    },
+    "141 Loehr St, San Francisco, 94134, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155162,
+        "distance_text": "2,930 mi",
+        "distance_value": 4716090
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "49 mins",
+        "value": 2948,
+        "distance_text": "13.4 mi",
+        "distance_value": 21573
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "56 mins",
+        "value": 3389,
+        "distance_text": "12.3 mi",
+        "distance_value": 19746
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "44 mins",
+        "value": 2657,
+        "distance_text": "10.4 mi",
+        "distance_value": 16800
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "52 mins",
+        "value": 3134,
+        "distance_text": "12.1 mi",
+        "distance_value": 19447
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "47 mins",
+        "value": 2826,
+        "distance_text": "10.6 mi",
+        "distance_value": 17010
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "28 mins",
+        "value": 1667,
+        "distance_text": "4.8 mi",
+        "distance_value": 7681
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "22 mins",
+        "value": 1310,
+        "distance_text": "2.4 mi",
+        "distance_value": 3803
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2028,
+        "distance_text": "3.0 mi",
+        "distance_value": 4772
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "17 mins",
+        "value": 1047,
+        "distance_text": "1.9 mi",
+        "distance_value": 3086
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "24 mins",
+        "value": 1462,
+        "distance_text": "2.5 mi",
+        "distance_value": 3979
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "23 mins",
+        "value": 1393,
+        "distance_text": "2.0 mi",
+        "distance_value": 3298
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 14 mins",
+        "value": 8053,
+        "distance_text": "42.1 mi",
+        "distance_value": 67763
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 287771,
+        "distance_text": "3,504 mi",
+        "distance_value": 5639212
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 286908,
+        "distance_text": "3,500 mi",
+        "distance_value": 5633198
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 290218,
+        "distance_text": "3,516 mi",
+        "distance_value": 5657983
+    },
+    "455 Fell St , 520, San Francisco, 94102, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 289614,
+        "distance_text": "3,509 mi",
+        "distance_value": 5647857
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "18 mins",
+        "value": 1081,
+        "distance_text": "11.3 mi",
+        "distance_value": 18111
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "16 mins",
+        "value": 936,
+        "distance_text": "10.3 mi",
+        "distance_value": 16574
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "17 mins",
+        "value": 1029,
+        "distance_text": "10.4 mi",
+        "distance_value": 16657
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "18 mins",
+        "value": 1088,
+        "distance_text": "10.0 mi",
+        "distance_value": 16064
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "18 mins",
+        "value": 1059,
+        "distance_text": "10.3 mi",
+        "distance_value": 16591
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "35 mins",
+        "value": 2117,
+        "distance_text": "22.2 mi",
+        "distance_value": 35654
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1518,
+        "distance_text": "15.3 mi",
+        "distance_value": 24655
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2022,
+        "distance_text": "17.1 mi",
+        "distance_value": 27515
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "26 mins",
+        "value": 1578,
+        "distance_text": "15.4 mi",
+        "distance_value": 24844
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1504,
+        "distance_text": "15.3 mi",
+        "distance_value": 24701
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "33 mins",
+        "value": 1959,
+        "distance_text": "16.8 mi",
+        "distance_value": 26979
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "58 mins",
+        "value": 3464,
+        "distance_text": "50.8 mi",
+        "distance_value": 81782
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154231,
+        "distance_text": "2,895 mi",
+        "distance_value": 4659109
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153018,
+        "distance_text": "2,891 mi",
+        "distance_value": 4652759
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154305,
+        "distance_text": "2,911 mi",
+        "distance_value": 4684220
+    },
+    "2801 Pullman Ave , Richmond, 94804, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153856,
+        "distance_text": "2,912 mi",
+        "distance_value": 4686452
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "13 mins",
+        "value": 799,
+        "distance_text": "8.7 mi",
+        "distance_value": 13924
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "12 mins",
+        "value": 740,
+        "distance_text": "7.8 mi",
+        "distance_value": 12616
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "14 mins",
+        "value": 810,
+        "distance_text": "6.9 mi",
+        "distance_value": 11167
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "15 mins",
+        "value": 921,
+        "distance_text": "8.1 mi",
+        "distance_value": 13100
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "14 mins",
+        "value": 818,
+        "distance_text": "7.0 mi",
+        "distance_value": 11231
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "35 mins",
+        "value": 2116,
+        "distance_text": "22.7 mi",
+        "distance_value": 36571
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1517,
+        "distance_text": "15.9 mi",
+        "distance_value": 25573
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2020,
+        "distance_text": "17.7 mi",
+        "distance_value": 28432
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "26 mins",
+        "value": 1577,
+        "distance_text": "16.0 mi",
+        "distance_value": 25761
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1502,
+        "distance_text": "15.9 mi",
+        "distance_value": 25618
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "33 mins",
+        "value": 1958,
+        "distance_text": "17.3 mi",
+        "distance_value": 27897
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "46 mins",
+        "value": 2732,
+        "distance_text": "34.2 mi",
+        "distance_value": 55028
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155066,
+        "distance_text": "2,909 mi",
+        "distance_value": 4681309
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153853,
+        "distance_text": "2,905 mi",
+        "distance_value": 4674959
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155141,
+        "distance_text": "2,924 mi",
+        "distance_value": 4706420
+    },
+    "7005 MacArthur Blvd, Oakland, 94605, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154691,
+        "distance_text": "2,926 mi",
+        "distance_value": 4708652
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1893,
+        "distance_text": "3.2 mi",
+        "distance_value": 5175
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "41 mins",
+        "value": 2446,
+        "distance_text": "6.3 mi",
+        "distance_value": 10067
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1948,
+        "distance_text": "4.6 mi",
+        "distance_value": 7408
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2506,
+        "distance_text": "6.6 mi",
+        "distance_value": 10660
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "1 hour 4 mins",
+        "value": 3852,
+        "distance_text": "19.7 mi",
+        "distance_value": 31778
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "40 mins",
+        "value": 2391,
+        "distance_text": "13.9 mi",
+        "distance_value": 22372
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "1 hour 4 mins",
+        "value": 3811,
+        "distance_text": "15.8 mi",
+        "distance_value": 25485
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "38 mins",
+        "value": 2274,
+        "distance_text": "14.1 mi",
+        "distance_value": 22649
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2543,
+        "distance_text": "14.0 mi",
+        "distance_value": 22548
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "1 hour 0 mins",
+        "value": 3599,
+        "distance_text": "15.6 mi",
+        "distance_value": 25083
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 30 mins",
+        "value": 8996,
+        "distance_text": "55.7 mi",
+        "distance_value": 89613
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 287386,
+        "distance_text": "3,500 mi",
+        "distance_value": 5632834
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 286523,
+        "distance_text": "3,496 mi",
+        "distance_value": 5626820
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 289833,
+        "distance_text": "3,512 mi",
+        "distance_value": 5651605
+    },
+    "1393 Berkeley Way, Apt 1, Berkeley, 94702, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 289229,
+        "distance_text": "3,505 mi",
+        "distance_value": 5641479
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "59 mins",
+        "value": 3522,
+        "distance_text": "8.0 mi",
+        "distance_value": 12903
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "48 mins",
+        "value": 2909,
+        "distance_text": "5.2 mi",
+        "distance_value": 8426
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "35 mins",
+        "value": 2096,
+        "distance_text": "4.0 mi",
+        "distance_value": 6391
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "44 mins",
+        "value": 2639,
+        "distance_text": "5.0 mi",
+        "distance_value": 8119
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "36 mins",
+        "value": 2136,
+        "distance_text": "4.0 mi",
+        "distance_value": 6449
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "1 hour 16 mins",
+        "value": 4582,
+        "distance_text": "18.4 mi",
+        "distance_value": 29546
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "48 mins",
+        "value": 2853,
+        "distance_text": "12.5 mi",
+        "distance_value": 20140
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "1 hour 16 mins",
+        "value": 4541,
+        "distance_text": "14.4 mi",
+        "distance_value": 23253
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "46 mins",
+        "value": 2736,
+        "distance_text": "12.7 mi",
+        "distance_value": 20416
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "50 mins",
+        "value": 3005,
+        "distance_text": "12.6 mi",
+        "distance_value": 20316
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "1 hour 12 mins",
+        "value": 4319,
+        "distance_text": "14.2 mi",
+        "distance_value": 22851
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 40 mins",
+        "value": 9574,
+        "distance_text": "54.3 mi",
+        "distance_value": 87456
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "3016 Brookdale Ave, Oakland, 94602, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "19 mins",
+        "value": 1153,
+        "distance_text": "13.0 mi",
+        "distance_value": 20927
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "17 mins",
+        "value": 1008,
+        "distance_text": "12.0 mi",
+        "distance_value": 19390
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "18 mins",
+        "value": 1102,
+        "distance_text": "12.1 mi",
+        "distance_value": 19473
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "19 mins",
+        "value": 1160,
+        "distance_text": "11.7 mi",
+        "distance_value": 18880
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "19 mins",
+        "value": 1131,
+        "distance_text": "12.1 mi",
+        "distance_value": 19407
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "36 mins",
+        "value": 2189,
+        "distance_text": "23.9 mi",
+        "distance_value": 38470
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "27 mins",
+        "value": 1591,
+        "distance_text": "17.1 mi",
+        "distance_value": 27471
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "35 mins",
+        "value": 2094,
+        "distance_text": "18.8 mi",
+        "distance_value": 30331
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "28 mins",
+        "value": 1651,
+        "distance_text": "17.2 mi",
+        "distance_value": 27660
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "26 mins",
+        "value": 1576,
+        "distance_text": "17.1 mi",
+        "distance_value": 27516
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2031,
+        "distance_text": "18.5 mi",
+        "distance_value": 29795
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "59 mins",
+        "value": 3537,
+        "distance_text": "52.6 mi",
+        "distance_value": 84597
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154406,
+        "distance_text": "2,895 mi",
+        "distance_value": 4658737
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153193,
+        "distance_text": "2,891 mi",
+        "distance_value": 4652387
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154481,
+        "distance_text": "2,910 mi",
+        "distance_value": 4683848
+    },
+    "1523 Chanslor Ave , Richmond, 94801, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154031,
+        "distance_text": "2,912 mi",
+        "distance_value": 4686080
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "1 hour 2 mins",
+        "value": 3702,
+        "distance_text": "10.1 mi",
+        "distance_value": 16177
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "56 mins",
+        "value": 3346,
+        "distance_text": "8.6 mi",
+        "distance_value": 13789
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "46 mins",
+        "value": 2782,
+        "distance_text": "7.3 mi",
+        "distance_value": 11770
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "51 mins",
+        "value": 3076,
+        "distance_text": "8.4 mi",
+        "distance_value": 13482
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "47 mins",
+        "value": 2822,
+        "distance_text": "7.3 mi",
+        "distance_value": 11828
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "1 hour 20 mins",
+        "value": 4781,
+        "distance_text": "20.6 mi",
+        "distance_value": 33227
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "51 mins",
+        "value": 3052,
+        "distance_text": "14.8 mi",
+        "distance_value": 23821
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "1 hour 19 mins",
+        "value": 4740,
+        "distance_text": "16.7 mi",
+        "distance_value": 26934
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "49 mins",
+        "value": 2935,
+        "distance_text": "15.0 mi",
+        "distance_value": 24097
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "53 mins",
+        "value": 3204,
+        "distance_text": "14.9 mi",
+        "distance_value": 23997
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "1 hour 15 mins",
+        "value": 4518,
+        "distance_text": "16.5 mi",
+        "distance_value": 26532
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 45 mins",
+        "value": 9887,
+        "distance_text": "56.6 mi",
+        "distance_value": 91075
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "7609 Halliday Ave , Oakland , 94605, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "40 mins",
+        "value": 2419,
+        "distance_text": "18.1 mi",
+        "distance_value": 29123
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "39 mins",
+        "value": 2359,
+        "distance_text": "17.2 mi",
+        "distance_value": 27619
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "41 mins",
+        "value": 2452,
+        "distance_text": "17.2 mi",
+        "distance_value": 27702
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2511,
+        "distance_text": "16.8 mi",
+        "distance_value": 27109
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "41 mins",
+        "value": 2482,
+        "distance_text": "17.2 mi",
+        "distance_value": 27635
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "19 mins",
+        "value": 1161,
+        "distance_text": "5.3 mi",
+        "distance_value": 8558
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1892,
+        "distance_text": "8.1 mi",
+        "distance_value": 13104
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1503,
+        "distance_text": "6.7 mi",
+        "distance_value": 10858
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "30 mins",
+        "value": 1787,
+        "distance_text": "6.3 mi",
+        "distance_value": 10169
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "33 mins",
+        "value": 1985,
+        "distance_text": "8.3 mi",
+        "distance_value": 13383
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "23 mins",
+        "value": 1368,
+        "distance_text": "6.4 mi",
+        "distance_value": 10313
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "55 mins",
+        "value": 3327,
+        "distance_text": "39.8 mi",
+        "distance_value": 64120
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 156306,
+        "distance_text": "2,922 mi",
+        "distance_value": 4701935
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155093,
+        "distance_text": "2,918 mi",
+        "distance_value": 4695585
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 156380,
+        "distance_text": "2,937 mi",
+        "distance_value": 4727046
+    },
+    "186 Seal Rock Drive, San Francisco, 94121, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155931,
+        "distance_text": "2,939 mi",
+        "distance_value": 4729278
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "40 mins",
+        "value": 2405,
+        "distance_text": "13.8 mi",
+        "distance_value": 22181
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "46 mins",
+        "value": 2786,
+        "distance_text": "12.6 mi",
+        "distance_value": 20354
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2054,
+        "distance_text": "10.8 mi",
+        "distance_value": 17400
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2531,
+        "distance_text": "12.5 mi",
+        "distance_value": 20055
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "37 mins",
+        "value": 2223,
+        "distance_text": "10.9 mi",
+        "distance_value": 17610
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1935,
+        "distance_text": "4.5 mi",
+        "distance_value": 7308
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "17 mins",
+        "value": 1038,
+        "distance_text": "2.9 mi",
+        "distance_value": 4678
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1937,
+        "distance_text": "3.5 mi",
+        "distance_value": 5695
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "12 mins",
+        "value": 735,
+        "distance_text": "2.4 mi",
+        "distance_value": 3841
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "20 mins",
+        "value": 1190,
+        "distance_text": "3.0 mi",
+        "distance_value": 4854
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "22 mins",
+        "value": 1325,
+        "distance_text": "2.6 mi",
+        "distance_value": 4222
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "1 hour 58 mins",
+        "value": 7053,
+        "distance_text": "38.9 mi",
+        "distance_value": 62530
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 287202,
+        "distance_text": "3,504 mi",
+        "distance_value": 5639327
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 286339,
+        "distance_text": "3,500 mi",
+        "distance_value": 5633313
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 289649,
+        "distance_text": "3,516 mi",
+        "distance_value": 5658098
+    },
+    "2135 Mission st, apt 111, San Francisco, 94110, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 289045,
+        "distance_text": "3,509 mi",
+        "distance_value": 5647972
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "1 hour 10 mins",
+        "value": 4183,
+        "distance_text": "17.4 mi",
+        "distance_value": 28057
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "1 hour 11 mins",
+        "value": 4240,
+        "distance_text": "16.3 mi",
+        "distance_value": 26230
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "58 mins",
+        "value": 3508,
+        "distance_text": "14.5 mi",
+        "distance_value": 23276
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "1 hour 6 mins",
+        "value": 3985,
+        "distance_text": "16.1 mi",
+        "distance_value": 25931
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "1 hour 1 min",
+        "value": 3677,
+        "distance_text": "14.6 mi",
+        "distance_value": 23486
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "31 mins",
+        "value": 1850,
+        "distance_text": "4.8 mi",
+        "distance_value": 7768
+    },
+    "701 Silver Ave, San Francisco, 94134, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2016,
+        "distance_text": "6.6 mi",
+        "distance_value": 10568
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "57 mins",
+        "value": 3449,
+        "distance_text": "7.3 mi",
+        "distance_value": 11813
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "28 mins",
+        "value": 1701,
+        "distance_text": "6.0 mi",
+        "distance_value": 9731
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "36 mins",
+        "value": 2168,
+        "distance_text": "6.7 mi",
+        "distance_value": 10744
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "49 mins",
+        "value": 2913,
+        "distance_text": "5.4 mi",
+        "distance_value": 8769
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 12 mins",
+        "value": 7922,
+        "distance_text": "38.6 mi",
+        "distance_value": 62171
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288066,
+        "distance_text": "3,508 mi",
+        "distance_value": 5645203
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 287203,
+        "distance_text": "3,504 mi",
+        "distance_value": 5639189
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 290513,
+        "distance_text": "3,519 mi",
+        "distance_value": 5663974
+    },
+    "701 Silver Ave, San Francisco, 94134, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 289909,
+        "distance_text": "3,513 mi",
+        "distance_value": 5653848
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "30 mins",
+        "value": 1813,
+        "distance_text": "18.5 mi",
+        "distance_value": 29811
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "28 mins",
+        "value": 1668,
+        "distance_text": "17.6 mi",
+        "distance_value": 28273
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "29 mins",
+        "value": 1761,
+        "distance_text": "17.6 mi",
+        "distance_value": 28356
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "30 mins",
+        "value": 1820,
+        "distance_text": "17.3 mi",
+        "distance_value": 27764
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "30 mins",
+        "value": 1791,
+        "distance_text": "17.6 mi",
+        "distance_value": 28290
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "15 mins",
+        "value": 908,
+        "distance_text": "4.1 mi",
+        "distance_value": 6521
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "27 mins",
+        "value": 1618,
+        "distance_text": "9.7 mi",
+        "distance_value": 15605
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "33 mins",
+        "value": 1963,
+        "distance_text": "12.2 mi",
+        "distance_value": 19631
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "26 mins",
+        "value": 1546,
+        "distance_text": "9.4 mi",
+        "distance_value": 15091
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "24 mins",
+        "value": 1445,
+        "distance_text": "10.4 mi",
+        "distance_value": 16817
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "30 mins",
+        "value": 1770,
+        "distance_text": "10.2 mi",
+        "distance_value": 16401
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2506,
+        "distance_text": "33.0 mi",
+        "distance_value": 53134
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155809,
+        "distance_text": "2,916 mi",
+        "distance_value": 4692287
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154596,
+        "distance_text": "2,912 mi",
+        "distance_value": 4685937
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155884,
+        "distance_text": "2,931 mi",
+        "distance_value": 4717398
+    },
+    "123 Oakridge Dr, Daly City, 94014, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155434,
+        "distance_text": "2,933 mi",
+        "distance_value": 4719630
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "54 mins",
+        "value": 3253,
+        "distance_text": "15.2 mi",
+        "distance_value": 24430
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "1 hour 2 mins",
+        "value": 3694,
+        "distance_text": "14.0 mi",
+        "distance_value": 22603
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "49 mins",
+        "value": 2962,
+        "distance_text": "12.2 mi",
+        "distance_value": 19657
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "57 mins",
+        "value": 3439,
+        "distance_text": "13.9 mi",
+        "distance_value": 22304
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "52 mins",
+        "value": 3131,
+        "distance_text": "12.3 mi",
+        "distance_value": 19867
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "45 mins",
+        "value": 2673,
+        "distance_text": "5.9 mi",
+        "distance_value": 9553
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2034,
+        "distance_text": "4.2 mi",
+        "distance_value": 6770
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "54 mins",
+        "value": 3231,
+        "distance_text": "4.8 mi",
+        "distance_value": 7728
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "29 mins",
+        "value": 1737,
+        "distance_text": "3.6 mi",
+        "distance_value": 5716
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "36 mins",
+        "value": 2188,
+        "distance_text": "4.3 mi",
+        "distance_value": 6947
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2492,
+        "distance_text": "4.2 mi",
+        "distance_value": 6768
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 2 mins",
+        "value": 7301,
+        "distance_text": "38.2 mi",
+        "distance_value": 61514
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 286281,
+        "distance_text": "3,499 mi",
+        "distance_value": 5630448
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 7 hours",
+        "value": 285418,
+        "distance_text": "3,495 mi",
+        "distance_value": 5624434
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288728,
+        "distance_text": "3,510 mi",
+        "distance_value": 5649219
+    },
+    "1227 Hampshire st. Apt 40, San Francisco, 94110, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288124,
+        "distance_text": "3,504 mi",
+        "distance_value": 5639093
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "47 mins",
+        "value": 2826,
+        "distance_text": "17.5 mi",
+        "distance_value": 28113
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "53 mins",
+        "value": 3207,
+        "distance_text": "16.3 mi",
+        "distance_value": 26287
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "41 mins",
+        "value": 2475,
+        "distance_text": "14.5 mi",
+        "distance_value": 23333
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "49 mins",
+        "value": 2952,
+        "distance_text": "16.1 mi",
+        "distance_value": 25988
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "44 mins",
+        "value": 2644,
+        "distance_text": "14.6 mi",
+        "distance_value": 23543
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "23 mins",
+        "value": 1373,
+        "distance_text": "3.0 mi",
+        "distance_value": 4877
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1521,
+        "distance_text": "6.6 mi",
+        "distance_value": 10610
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "46 mins",
+        "value": 2735,
+        "distance_text": "8.5 mi",
+        "distance_value": 13721
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "20 mins",
+        "value": 1206,
+        "distance_text": "6.1 mi",
+        "distance_value": 9774
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "28 mins",
+        "value": 1673,
+        "distance_text": "6.7 mi",
+        "distance_value": 10786
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "41 mins",
+        "value": 2447,
+        "distance_text": "6.3 mi",
+        "distance_value": 10138
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "1 hour 58 mins",
+        "value": 7063,
+        "distance_text": "36.4 mi",
+        "distance_value": 58563
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 287617,
+        "distance_text": "3,508 mi",
+        "distance_value": 5645260
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 286754,
+        "distance_text": "3,504 mi",
+        "distance_value": 5639246
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 290064,
+        "distance_text": "3,519 mi",
+        "distance_value": 5664031
+    },
+    "360 Niagara Avenue, SAN FRANCISCO, 94112, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 289460,
+        "distance_text": "3,513 mi",
+        "distance_value": 5653905
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "44 mins",
+        "value": 2662,
+        "distance_text": "12.9 mi",
+        "distance_value": 20829
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "51 mins",
+        "value": 3044,
+        "distance_text": "11.8 mi",
+        "distance_value": 19001
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "39 mins",
+        "value": 2312,
+        "distance_text": "10.0 mi",
+        "distance_value": 16047
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "46 mins",
+        "value": 2789,
+        "distance_text": "11.6 mi",
+        "distance_value": 18702
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "41 mins",
+        "value": 2481,
+        "distance_text": "10.1 mi",
+        "distance_value": 16257
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "30 mins",
+        "value": 1823,
+        "distance_text": "5.2 mi",
+        "distance_value": 8305
+    },
+    "663 Clementina Street, San Francisco, 94103, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "22 mins",
+        "value": 1329,
+        "distance_text": "2.2 mi",
+        "distance_value": 3619
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "38 mins",
+        "value": 2269,
+        "distance_text": "3.3 mi",
+        "distance_value": 5315
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "16 mins",
+        "value": 962,
+        "distance_text": "1.5 mi",
+        "distance_value": 2413
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "27 mins",
+        "value": 1610,
+        "distance_text": "2.5 mi",
+        "distance_value": 3967
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "27 mins",
+        "value": 1590,
+        "distance_text": "2.6 mi",
+        "distance_value": 4133
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 13 mins",
+        "value": 7955,
+        "distance_text": "41.7 mi",
+        "distance_value": 67088
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 287483,
+        "distance_text": "3,503 mi",
+        "distance_value": 5637975
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 286620,
+        "distance_text": "3,500 mi",
+        "distance_value": 5631961
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 289930,
+        "distance_text": "3,515 mi",
+        "distance_value": 5656746
+    },
+    "663 Clementina Street, San Francisco, 94103, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 289326,
+        "distance_text": "3,509 mi",
+        "distance_value": 5646620
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "3 days 1 hour",
+        "value": 263444,
+        "distance_text": "3,332 mi",
+        "distance_value": 5363097
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 292042,
+        "distance_text": "3,447 mi",
+        "distance_value": 5547656
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 291911,
+        "distance_text": "3,450 mi",
+        "distance_value": 5552069
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 292013,
+        "distance_text": "3,447 mi",
+        "distance_value": 5547975
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 292101,
+        "distance_text": "3,450 mi",
+        "distance_value": 5552616
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "3 days 1 hour",
+        "value": 264328,
+        "distance_text": "3,339 mi",
+        "distance_value": 5373757
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "3 days 1 hour",
+        "value": 262584,
+        "distance_text": "3,333 mi",
+        "distance_value": 5364398
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "3 days 1 hour",
+        "value": 264251,
+        "distance_text": "3,335 mi",
+        "distance_value": 5367511
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "3 days 1 hour",
+        "value": 262485,
+        "distance_text": "3,333 mi",
+        "distance_value": 5364675
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "3 days 1 hour",
+        "value": 262736,
+        "distance_text": "3,333 mi",
+        "distance_value": 5364574
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "3 days 1 hour",
+        "value": 263889,
+        "distance_text": "3,335 mi",
+        "distance_value": 5367109
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "3 days 1 hour",
+        "value": 261309,
+        "distance_text": "3,296 mi",
+        "distance_value": 5305003
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "9 mins",
+        "value": 533,
+        "distance_text": "0.7 mi",
+        "distance_value": 1070
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2498,
+        "distance_text": "5.3 mi",
+        "distance_value": 8464
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "58 mins",
+        "value": 3496,
+        "distance_text": "9.1 mi",
+        "distance_value": 14615
+    },
+    "701 Lexington Ave, Brooklyn, 11221, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 hour 0 mins",
+        "value": 3623,
+        "distance_text": "7.3 mi",
+        "distance_value": 11718
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "3 hours 55 mins",
+        "value": 14109,
+        "distance_text": "44.9 mi",
+        "distance_value": 72326
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "4 hours 4 mins",
+        "value": 14653,
+        "distance_text": "43.7 mi",
+        "distance_value": 70374
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "3 hours 50 mins",
+        "value": 13811,
+        "distance_text": "42.0 mi",
+        "distance_value": 67553
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "3 hours 59 mins",
+        "value": 14368,
+        "distance_text": "43.5 mi",
+        "distance_value": 70053
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "3 hours 53 mins",
+        "value": 13980,
+        "distance_text": "42.1 mi",
+        "distance_value": 67763
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "3 hours 30 mins",
+        "value": 12570,
+        "distance_text": "28.1 mi",
+        "distance_value": 45242
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "3 hours 34 mins",
+        "value": 12841,
+        "distance_text": "32.0 mi",
+        "distance_value": 51513
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "3 hours 51 mins",
+        "value": 13863,
+        "distance_text": "32.8 mi",
+        "distance_value": 52757
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "3 hours 28 mins",
+        "value": 12490,
+        "distance_text": "33.5 mi",
+        "distance_value": 53987
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "3 hours 36 mins",
+        "value": 12981,
+        "distance_text": "34.2 mi",
+        "distance_value": 55000
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "3 hours 48 mins",
+        "value": 13652,
+        "distance_text": "33.0 mi",
+        "distance_value": 53062
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "13 hours 21 mins",
+        "value": 48034,
+        "distance_text": "29.4 mi",
+        "distance_value": 47333
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 13 hours",
+        "value": 307319,
+        "distance_text": "3,489 mi",
+        "distance_value": 5614692
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 13 hours",
+        "value": 306456,
+        "distance_text": "3,485 mi",
+        "distance_value": 5608678
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 14 hours",
+        "value": 309766,
+        "distance_text": "3,500 mi",
+        "distance_value": 5633463
+    },
+    "950 Redwood Shores Pkwy, Redwood City, 94065, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 14 hours",
+        "value": 309162,
+        "distance_text": "3,494 mi",
+        "distance_value": 5623337
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "40 mins",
+        "value": 2423,
+        "distance_text": "34.9 mi",
+        "distance_value": 56141
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "38 mins",
+        "value": 2283,
+        "distance_text": "33.9 mi",
+        "distance_value": 54609
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "40 mins",
+        "value": 2390,
+        "distance_text": "32.5 mi",
+        "distance_value": 52324
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "40 mins",
+        "value": 2416,
+        "distance_text": "34.5 mi",
+        "distance_value": 55454
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "41 mins",
+        "value": 2447,
+        "distance_text": "32.6 mi",
+        "distance_value": 52534
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "33 mins",
+        "value": 1972,
+        "distance_text": "28.6 mi",
+        "distance_value": 46103
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2510,
+        "distance_text": "31.6 mi",
+        "distance_value": 50843
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "49 mins",
+        "value": 2914,
+        "distance_text": "33.2 mi",
+        "distance_value": 53487
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "41 mins",
+        "value": 2438,
+        "distance_text": "31.3 mi",
+        "distance_value": 50330
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "40 mins",
+        "value": 2396,
+        "distance_text": "31.5 mi",
+        "distance_value": 50673
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "44 mins",
+        "value": 2662,
+        "distance_text": "32.1 mi",
+        "distance_value": 51640
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "11 mins",
+        "value": 665,
+        "distance_text": "7.1 mi",
+        "distance_value": 11383
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 156599,
+        "distance_text": "2,935 mi",
+        "distance_value": 4723360
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155386,
+        "distance_text": "2,931 mi",
+        "distance_value": 4717010
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 20 hours",
+        "value": 156674,
+        "distance_text": "2,951 mi",
+        "distance_value": 4748471
+    },
+    "1226 Jervis avenue , East Palo Alto , 94303, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 156224,
+        "distance_text": "2,952 mi",
+        "distance_value": 4750703
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "50 mins",
+        "value": 3012,
+        "distance_text": "47.3 mi",
+        "distance_value": 76095
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "48 mins",
+        "value": 2872,
+        "distance_text": "46.3 mi",
+        "distance_value": 74563
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "50 mins",
+        "value": 2979,
+        "distance_text": "44.9 mi",
+        "distance_value": 72278
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "50 mins",
+        "value": 3005,
+        "distance_text": "46.9 mi",
+        "distance_value": 75408
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "51 mins",
+        "value": 3036,
+        "distance_text": "45.0 mi",
+        "distance_value": 72488
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "41 mins",
+        "value": 2432,
+        "distance_text": "37.1 mi",
+        "distance_value": 59760
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "50 mins",
+        "value": 2970,
+        "distance_text": "40.1 mi",
+        "distance_value": 64500
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "56 mins",
+        "value": 3374,
+        "distance_text": "41.7 mi",
+        "distance_value": 67143
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "48 mins",
+        "value": 2898,
+        "distance_text": "39.8 mi",
+        "distance_value": 63986
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "48 mins",
+        "value": 2856,
+        "distance_text": "40.0 mi",
+        "distance_value": 64329
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "52 mins",
+        "value": 3123,
+        "distance_text": "40.6 mi",
+        "distance_value": 65296
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "6 mins",
+        "value": 371,
+        "distance_text": "3.5 mi",
+        "distance_value": 5594
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 20 hours",
+        "value": 156806,
+        "distance_text": "2,942 mi",
+        "distance_value": 4734549
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155593,
+        "distance_text": "2,938 mi",
+        "distance_value": 4728200
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 20 hours",
+        "value": 156881,
+        "distance_text": "2,958 mi",
+        "distance_value": 4759661
+    },
+    "191 E El Camino Real Spc 107, Mountain View, 94040, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 156431,
+        "distance_text": "2,959 mi",
+        "distance_value": 4761892
+    },
+    "4271 N First St, San Jose, 95134, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "45 mins",
+        "value": 2699,
+        "distance_text": "40.3 mi",
+        "distance_value": 64884
+    },
+    "4271 N First St, San Jose, 95134, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "43 mins",
+        "value": 2560,
+        "distance_text": "39.4 mi",
+        "distance_value": 63352
+    },
+    "4271 N First St, San Jose, 95134, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "44 mins",
+        "value": 2666,
+        "distance_text": "37.9 mi",
+        "distance_value": 61067
+    },
+    "4271 N First St, San Jose, 95134, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "45 mins",
+        "value": 2692,
+        "distance_text": "39.9 mi",
+        "distance_value": 64197
+    },
+    "4271 N First St, San Jose, 95134, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "45 mins",
+        "value": 2723,
+        "distance_text": "38.1 mi",
+        "distance_value": 61277
+    },
+    "4271 N First St, San Jose, 95134, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "48 mins",
+        "value": 2858,
+        "distance_text": "41.6 mi",
+        "distance_value": 66880
+    },
+    "4271 N First St, San Jose, 95134, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "55 mins",
+        "value": 3286,
+        "distance_text": "46.7 mi",
+        "distance_value": 75120
+    },
+    "4271 N First St, San Jose, 95134, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "1 hour 3 mins",
+        "value": 3800,
+        "distance_text": "46.1 mi",
+        "distance_value": 74264
+    },
+    "4271 N First St, San Jose, 95134, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "55 mins",
+        "value": 3325,
+        "distance_text": "44.2 mi",
+        "distance_value": 71107
+    },
+    "4271 N First St, San Jose, 95134, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "55 mins",
+        "value": 3282,
+        "distance_text": "44.4 mi",
+        "distance_value": 71450
+    },
+    "4271 N First St, San Jose, 95134, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "59 mins",
+        "value": 3549,
+        "distance_text": "45.0 mi",
+        "distance_value": 72417
+    },
+    "4271 N First St, San Jose, 95134, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "13 mins",
+        "value": 797,
+        "distance_text": "7.9 mi",
+        "distance_value": 12681
+    },
+    "4271 N First St, San Jose, 95134, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 156494,
+        "distance_text": "2,935 mi",
+        "distance_value": 4723338
+    },
+    "4271 N First St, San Jose, 95134, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155281,
+        "distance_text": "2,931 mi",
+        "distance_value": 4716988
+    },
+    "4271 N First St, San Jose, 95134, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 156568,
+        "distance_text": "2,951 mi",
+        "distance_value": 4748449
+    },
+    "4271 N First St, San Jose, 95134, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 156119,
+        "distance_text": "2,952 mi",
+        "distance_value": 4750681
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "55 mins",
+        "value": 3275,
+        "distance_text": "9.4 mi",
+        "distance_value": 15063
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "1 hour 0 mins",
+        "value": 3620,
+        "distance_text": "12.0 mi",
+        "distance_value": 19317
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "58 mins",
+        "value": 3492,
+        "distance_text": "13.3 mi",
+        "distance_value": 21391
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "56 mins",
+        "value": 3365,
+        "distance_text": "11.8 mi",
+        "distance_value": 19018
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "1 hour 1 min",
+        "value": 3661,
+        "distance_text": "13.4 mi",
+        "distance_value": 21601
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "1 hour 29 mins",
+        "value": 5366,
+        "distance_text": "25.2 mi",
+        "distance_value": 40595
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "1 hour 1 min",
+        "value": 3665,
+        "distance_text": "19.4 mi",
+        "distance_value": 31189
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "1 hour 23 mins",
+        "value": 4975,
+        "distance_text": "21.4 mi",
+        "distance_value": 34370
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "59 mins",
+        "value": 3548,
+        "distance_text": "19.6 mi",
+        "distance_value": 31466
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "1 hour 4 mins",
+        "value": 3817,
+        "distance_text": "19.5 mi",
+        "distance_value": 31365
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "1 hour 20 mins",
+        "value": 4806,
+        "distance_text": "21.1 mi",
+        "distance_value": 33900
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 51 mins",
+        "value": 10270,
+        "distance_text": "61.2 mi",
+        "distance_value": 98430
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288874,
+        "distance_text": "3,507 mi",
+        "distance_value": 5644064
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288011,
+        "distance_text": "3,503 mi",
+        "distance_value": 5638050
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 291321,
+        "distance_text": "3,519 mi",
+        "distance_value": 5662835
+    },
+    "2801 Pullman Ave Apt 111, Richmond CA, 94804, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 290717,
+        "distance_text": "3,512 mi",
+        "distance_value": 5652709
+    },
+    "1810 east 20th st, Oakland , 94606, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "13 mins",
+        "value": 788,
+        "distance_text": "5.9 mi",
+        "distance_value": 9543
+    },
+    "1810 east 20th st, Oakland , 94606, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "11 mins",
+        "value": 644,
+        "distance_text": "5.0 mi",
+        "distance_value": 8005
+    },
+    "1810 east 20th st, Oakland , 94606, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "12 mins",
+        "value": 732,
+        "distance_text": "2.9 mi",
+        "distance_value": 4640
+    },
+    "1810 east 20th st, Oakland , 94606, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "14 mins",
+        "value": 825,
+        "distance_text": "5.3 mi",
+        "distance_value": 8490
+    },
+    "1810 east 20th st, Oakland , 94606, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "12 mins",
+        "value": 722,
+        "distance_text": "4.1 mi",
+        "distance_value": 6621
+    },
+    "1810 east 20th st, Oakland , 94606, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2020,
+        "distance_text": "19.9 mi",
+        "distance_value": 31961
+    },
+    "1810 east 20th st, Oakland , 94606, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "24 mins",
+        "value": 1421,
+        "distance_text": "13.0 mi",
+        "distance_value": 20962
+    },
+    "1810 east 20th st, Oakland , 94606, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1924,
+        "distance_text": "14.8 mi",
+        "distance_value": 23822
+    },
+    "1810 east 20th st, Oakland , 94606, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "25 mins",
+        "value": 1481,
+        "distance_text": "13.1 mi",
+        "distance_value": 21151
+    },
+    "1810 east 20th st, Oakland , 94606, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "23 mins",
+        "value": 1406,
+        "distance_text": "13.1 mi",
+        "distance_value": 21008
+    },
+    "1810 east 20th st, Oakland , 94606, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "31 mins",
+        "value": 1862,
+        "distance_text": "14.5 mi",
+        "distance_value": 23287
+    },
+    "1810 east 20th st, Oakland , 94606, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "47 mins",
+        "value": 2815,
+        "distance_text": "36.1 mi",
+        "distance_value": 58044
+    },
+    "1810 east 20th st, Oakland , 94606, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154970,
+        "distance_text": "2,906 mi",
+        "distance_value": 4676699
+    },
+    "1810 east 20th st, Oakland , 94606, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153757,
+        "distance_text": "2,902 mi",
+        "distance_value": 4670349
+    },
+    "1810 east 20th st, Oakland , 94606, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155045,
+        "distance_text": "2,922 mi",
+        "distance_value": 4701810
+    },
+    "1810 east 20th st, Oakland , 94606, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154595,
+        "distance_text": "2,923 mi",
+        "distance_value": 4704042
+    },
+    "46th Ave, Oakland, 94601, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "14 mins",
+        "value": 854,
+        "distance_text": "8.5 mi",
+        "distance_value": 13637
+    },
+    "46th Ave, Oakland, 94601, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "12 mins",
+        "value": 714,
+        "distance_text": "7.5 mi",
+        "distance_value": 12105
+    },
+    "46th Ave, Oakland, 94601, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "14 mins",
+        "value": 821,
+        "distance_text": "6.1 mi",
+        "distance_value": 9820
+    },
+    "46th Ave, Oakland, 94601, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "14 mins",
+        "value": 846,
+        "distance_text": "8.0 mi",
+        "distance_value": 12951
+    },
+    "46th Ave, Oakland, 94601, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "15 mins",
+        "value": 877,
+        "distance_text": "6.2 mi",
+        "distance_value": 10031
+    },
+    "46th Ave, Oakland, 94601, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "34 mins",
+        "value": 2040,
+        "distance_text": "21.7 mi",
+        "distance_value": 34873
+    },
+    "46th Ave, Oakland, 94601, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "24 mins",
+        "value": 1441,
+        "distance_text": "14.8 mi",
+        "distance_value": 23874
+    },
+    "46th Ave, Oakland, 94601, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1944,
+        "distance_text": "16.6 mi",
+        "distance_value": 26734
+    },
+    "46th Ave, Oakland, 94601, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "25 mins",
+        "value": 1501,
+        "distance_text": "15.0 mi",
+        "distance_value": 24063
+    },
+    "46th Ave, Oakland, 94601, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "24 mins",
+        "value": 1426,
+        "distance_text": "14.9 mi",
+        "distance_value": 23920
+    },
+    "46th Ave, Oakland, 94601, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "31 mins",
+        "value": 1882,
+        "distance_text": "16.3 mi",
+        "distance_value": 26198
+    },
+    "46th Ave, Oakland, 94601, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "45 mins",
+        "value": 2690,
+        "distance_text": "34.3 mi",
+        "distance_value": 55256
+    },
+    "46th Ave, Oakland, 94601, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155029,
+        "distance_text": "2,909 mi",
+        "distance_value": 4680857
+    },
+    "46th Ave, Oakland, 94601, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153816,
+        "distance_text": "2,905 mi",
+        "distance_value": 4674507
+    },
+    "46th Ave, Oakland, 94601, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155104,
+        "distance_text": "2,924 mi",
+        "distance_value": 4705968
+    },
+    "46th Ave, Oakland, 94601, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154654,
+        "distance_text": "2,926 mi",
+        "distance_value": 4708200
+    },
+    "3010 e 29th street, Oakland, 94601, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "55 mins",
+        "value": 3323,
+        "distance_text": "7.8 mi",
+        "distance_value": 12553
+    },
+    "3010 e 29th street, Oakland, 94601, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "47 mins",
+        "value": 2803,
+        "distance_text": "5.5 mi",
+        "distance_value": 8917
+    },
+    "3010 e 29th street, Oakland, 94601, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "31 mins",
+        "value": 1881,
+        "distance_text": "4.0 mi",
+        "distance_value": 6481
+    },
+    "3010 e 29th street, Oakland, 94601, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "42 mins",
+        "value": 2533,
+        "distance_text": "5.4 mi",
+        "distance_value": 8610
+    },
+    "3010 e 29th street, Oakland, 94601, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1921,
+        "distance_text": "4.1 mi",
+        "distance_value": 6539
+    },
+    "3010 e 29th street, Oakland, 94601, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "1 hour 13 mins",
+        "value": 4373,
+        "distance_text": "17.6 mi",
+        "distance_value": 28346
+    },
+    "3010 e 29th street, Oakland, 94601, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "52 mins",
+        "value": 3114,
+        "distance_text": "12.3 mi",
+        "distance_value": 19844
+    },
+    "3010 e 29th street, Oakland, 94601, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "1 hour 0 mins",
+        "value": 3627,
+        "distance_text": "14.3 mi",
+        "distance_value": 22965
+    },
+    "3010 e 29th street, Oakland, 94601, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "50 mins",
+        "value": 2997,
+        "distance_text": "12.5 mi",
+        "distance_value": 20124
+    },
+    "3010 e 29th street, Oakland, 94601, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "54 mins",
+        "value": 3266,
+        "distance_text": "12.4 mi",
+        "distance_value": 20020
+    },
+    "3010 e 29th street, Oakland, 94601, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "1 hour 19 mins",
+        "value": 4737,
+        "distance_text": "14.5 mi",
+        "distance_value": 23331
+    },
+    "3010 e 29th street, Oakland, 94601, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 36 mins",
+        "value": 9386,
+        "distance_text": "54.1 mi",
+        "distance_value": 87106
+    },
+    "3010 e 29th street, Oakland, 94601, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "3010 e 29th street, Oakland, 94601, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "3010 e 29th street, Oakland, 94601, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "3010 e 29th street, Oakland, 94601, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "5511 Hilton street , Oakland , 94605, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "52 mins",
+        "value": 3141,
+        "distance_text": "9.0 mi",
+        "distance_value": 14413
+    },
+    "5511 Hilton street , Oakland , 94605, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "52 mins",
+        "value": 3125,
+        "distance_text": "7.7 mi",
+        "distance_value": 12389
+    },
+    "5511 Hilton street , Oakland , 94605, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "43 mins",
+        "value": 2565,
+        "distance_text": "6.0 mi",
+        "distance_value": 9646
+    },
+    "5511 Hilton street , Oakland , 94605, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "47 mins",
+        "value": 2840,
+        "distance_text": "7.5 mi",
+        "distance_value": 12068
+    },
+    "5511 Hilton street , Oakland , 94605, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "44 mins",
+        "value": 2625,
+        "distance_text": "6.4 mi",
+        "distance_value": 10239
+    },
+    "5511 Hilton street , Oakland , 94605, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "1 hour 18 mins",
+        "value": 4671,
+        "distance_text": "18.8 mi",
+        "distance_value": 30203
+    },
+    "5511 Hilton street , Oakland , 94605, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "54 mins",
+        "value": 3210,
+        "distance_text": "12.9 mi",
+        "distance_value": 20797
+    },
+    "5511 Hilton street , Oakland , 94605, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "1 hour 17 mins",
+        "value": 4630,
+        "distance_text": "14.9 mi",
+        "distance_value": 23910
+    },
+    "5511 Hilton street , Oakland , 94605, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "52 mins",
+        "value": 3093,
+        "distance_text": "13.1 mi",
+        "distance_value": 21074
+    },
+    "5511 Hilton street , Oakland , 94605, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "56 mins",
+        "value": 3362,
+        "distance_text": "13.0 mi",
+        "distance_value": 20973
+    },
+    "5511 Hilton street , Oakland , 94605, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "1 hour 14 mins",
+        "value": 4418,
+        "distance_text": "14.6 mi",
+        "distance_value": 23508
+    },
+    "5511 Hilton street , Oakland , 94605, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 48 mins",
+        "value": 10109,
+        "distance_text": "54.7 mi",
+        "distance_value": 88038
+    },
+    "5511 Hilton street , Oakland , 94605, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "5511 Hilton street , Oakland , 94605, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "5511 Hilton street , Oakland , 94605, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "5511 Hilton street , Oakland , 94605, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "24 hours (unreachable)",
+        "value": 86400,
+        "distance_text": "",
+        "distance_value": 0
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "13 mins",
+        "value": 770,
+        "distance_text": "7.4 mi",
+        "distance_value": 11932
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "10 mins",
+        "value": 625,
+        "distance_text": "6.5 mi",
+        "distance_value": 10395
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "12 mins",
+        "value": 696,
+        "distance_text": "5.6 mi",
+        "distance_value": 8947
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "13 mins",
+        "value": 807,
+        "distance_text": "6.8 mi",
+        "distance_value": 10879
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "12 mins",
+        "value": 703,
+        "distance_text": "5.6 mi",
+        "distance_value": 9010
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "33 mins",
+        "value": 2001,
+        "distance_text": "21.3 mi",
+        "distance_value": 34351
+    },
+    "2095 Harrington ave , Oakland , 94601, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "23 mins",
+        "value": 1402,
+        "distance_text": "14.5 mi",
+        "distance_value": 23352
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1906,
+        "distance_text": "16.3 mi",
+        "distance_value": 26211
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "24 mins",
+        "value": 1462,
+        "distance_text": "14.6 mi",
+        "distance_value": 23540
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "23 mins",
+        "value": 1388,
+        "distance_text": "14.5 mi",
+        "distance_value": 23397
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "31 mins",
+        "value": 1843,
+        "distance_text": "16.0 mi",
+        "distance_value": 25676
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "47 mins",
+        "value": 2813,
+        "distance_text": "34.9 mi",
+        "distance_value": 56191
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154952,
+        "distance_text": "2,907 mi",
+        "distance_value": 4679088
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153739,
+        "distance_text": "2,904 mi",
+        "distance_value": 4672739
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 155026,
+        "distance_text": "2,923 mi",
+        "distance_value": 4704200
+    },
+    "2095 Harrington ave , Oakland , 94601, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154577,
+        "distance_text": "2,924 mi",
+        "distance_value": 4706431
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "33 mins",
+        "value": 2007,
+        "distance_text": "31.4 mi",
+        "distance_value": 50607
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "35 mins",
+        "value": 2119,
+        "distance_text": "32.4 mi",
+        "distance_value": 52113
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "37 mins",
+        "value": 2248,
+        "distance_text": "34.3 mi",
+        "distance_value": 55252
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "38 mins",
+        "value": 2268,
+        "distance_text": "32.8 mi",
+        "distance_value": 52863
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "38 mins",
+        "value": 2277,
+        "distance_text": "34.3 mi",
+        "distance_value": 55186
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "59 mins",
+        "value": 3532,
+        "distance_text": "48.9 mi",
+        "distance_value": 78698
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "49 mins",
+        "value": 2933,
+        "distance_text": "42.1 mi",
+        "distance_value": 67699
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "57 mins",
+        "value": 3436,
+        "distance_text": "43.8 mi",
+        "distance_value": 70558
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "50 mins",
+        "value": 2993,
+        "distance_text": "42.2 mi",
+        "distance_value": 67887
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "49 mins",
+        "value": 2918,
+        "distance_text": "42.1 mi",
+        "distance_value": 67744
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "56 mins",
+        "value": 3374,
+        "distance_text": "43.5 mi",
+        "distance_value": 70023
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "1 hour 10 mins",
+        "value": 4191,
+        "distance_text": "68.0 mi",
+        "distance_value": 109508
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154355,
+        "distance_text": "2,886 mi",
+        "distance_value": 4643879
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153142,
+        "distance_text": "2,882 mi",
+        "distance_value": 4637529
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154430,
+        "distance_text": "2,901 mi",
+        "distance_value": 4668990
+    },
+    "2201 sycamore dr apt 275, Antioch , 94509, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153980,
+        "distance_text": "2,903 mi",
+        "distance_value": 4671222
+    },
+    "1216 104th ave, Oakland, 94603, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "1 hour 19 mins",
+        "value": 4735,
+        "distance_text": "11.1 mi",
+        "distance_value": 17824
+    },
+    "1216 104th ave, Oakland, 94603, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "1 hour 0 mins",
+        "value": 3589,
+        "distance_text": "13.1 mi",
+        "distance_value": 21097
+    },
+    "1216 104th ave, Oakland, 94603, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "48 mins",
+        "value": 2855,
+        "distance_text": "11.3 mi",
+        "distance_value": 18144
+    },
+    "1216 104th ave, Oakland, 94603, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "55 mins",
+        "value": 3313,
+        "distance_text": "12.9 mi",
+        "distance_value": 20798
+    },
+    "1216 104th ave, Oakland, 94603, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "58 mins",
+        "value": 3464,
+        "distance_text": "8.8 mi",
+        "distance_value": 14241
+    },
+    "1216 104th ave, Oakland, 94603, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "1 hour 19 mins",
+        "value": 4715,
+        "distance_text": "23.6 mi",
+        "distance_value": 38006
+    },
+    "1216 104th ave, Oakland, 94603, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "51 mins",
+        "value": 3046,
+        "distance_text": "17.8 mi",
+        "distance_value": 28600
+    },
+    "1216 104th ave, Oakland, 94603, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "1 hour 16 mins",
+        "value": 4532,
+        "distance_text": "18.6 mi",
+        "distance_value": 29999
+    },
+    "1216 104th ave, Oakland, 94603, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "49 mins",
+        "value": 2929,
+        "distance_text": "17.9 mi",
+        "distance_value": 28880
+    },
+    "1216 104th ave, Oakland, 94603, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "53 mins",
+        "value": 3198,
+        "distance_text": "17.9 mi",
+        "distance_value": 28776
+    },
+    "1216 104th ave, Oakland, 94603, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "1 hour 18 mins",
+        "value": 4669,
+        "distance_text": "19.9 mi",
+        "distance_value": 32087
+    },
+    "1216 104th ave, Oakland, 94603, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 50 mins",
+        "value": 10197,
+        "distance_text": "58.5 mi",
+        "distance_value": 94140
+    },
+    "1216 104th ave, Oakland, 94603, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 286718,
+        "distance_text": "3,487 mi",
+        "distance_value": 5612467
+    },
+    "1216 104th ave, Oakland, 94603, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 7 hours",
+        "value": 285855,
+        "distance_text": "3,484 mi",
+        "distance_value": 5606453
+    },
+    "1216 104th ave, Oakland, 94603, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 289165,
+        "distance_text": "3,499 mi",
+        "distance_value": 5631238
+    },
+    "1216 104th ave, Oakland, 94603, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288561,
+        "distance_text": "3,493 mi",
+        "distance_value": 5621112
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "22 mins",
+        "value": 1311,
+        "distance_text": "15.7 mi",
+        "distance_value": 25307
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "19 mins",
+        "value": 1166,
+        "distance_text": "14.8 mi",
+        "distance_value": 23770
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "21 mins",
+        "value": 1259,
+        "distance_text": "14.8 mi",
+        "distance_value": 23853
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "22 mins",
+        "value": 1318,
+        "distance_text": "14.5 mi",
+        "distance_value": 23260
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "21 mins",
+        "value": 1289,
+        "distance_text": "14.8 mi",
+        "distance_value": 23787
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "39 mins",
+        "value": 2347,
+        "distance_text": "26.6 mi",
+        "distance_value": 42850
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "29 mins",
+        "value": 1748,
+        "distance_text": "19.8 mi",
+        "distance_value": 31851
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "38 mins",
+        "value": 2252,
+        "distance_text": "21.6 mi",
+        "distance_value": 34711
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "30 mins",
+        "value": 1808,
+        "distance_text": "19.9 mi",
+        "distance_value": 32040
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "29 mins",
+        "value": 1734,
+        "distance_text": "19.8 mi",
+        "distance_value": 31897
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "36 mins",
+        "value": 2189,
+        "distance_text": "21.2 mi",
+        "distance_value": 34175
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "1 hour 2 mins",
+        "value": 3694,
+        "distance_text": "55.3 mi",
+        "distance_value": 88978
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154010,
+        "distance_text": "2,891 mi",
+        "distance_value": 4653125
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "1 day 18 hours",
+        "value": 152797,
+        "distance_text": "2,887 mi",
+        "distance_value": 4646776
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 154085,
+        "distance_text": "2,907 mi",
+        "distance_value": 4678236
+    },
+    "2370 Lancaster dr , Richmond, 94806, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "1 day 19 hours",
+        "value": 153636,
+        "distance_text": "2,908 mi",
+        "distance_value": 4680468
+    },
+    "2090 10th ave , San Francisco , 94116, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "1 hour 10 mins",
+        "value": 4200,
+        "distance_text": "16.9 mi",
+        "distance_value": 27126
+    },
+    "2090 10th ave , San Francisco , 94116, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "1 hour 7 mins",
+        "value": 3996,
+        "distance_text": "15.4 mi",
+        "distance_value": 24794
+    },
+    "2090 10th ave , San Francisco , 94116, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "54 mins",
+        "value": 3264,
+        "distance_text": "13.6 mi",
+        "distance_value": 21840
+    },
+    "2090 10th ave , San Francisco , 94116, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "1 hour 2 mins",
+        "value": 3741,
+        "distance_text": "15.2 mi",
+        "distance_value": 24495
+    },
+    "2090 10th ave , San Francisco , 94116, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "57 mins",
+        "value": 3433,
+        "distance_text": "13.7 mi",
+        "distance_value": 22050
+    },
+    "2090 10th ave , San Francisco , 94116, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1477,
+        "distance_text": "2.1 mi",
+        "distance_value": 3380
+    },
+    "2090 10th ave , San Francisco , 94116, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "32 mins",
+        "value": 1918,
+        "distance_text": "5.5 mi",
+        "distance_value": 8851
+    },
+    "2090 10th ave , San Francisco , 94116, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "51 mins",
+        "value": 3050,
+        "distance_text": "9.2 mi",
+        "distance_value": 14745
+    },
+    "2090 10th ave , San Francisco , 94116, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "28 mins",
+        "value": 1654,
+        "distance_text": "5.1 mi",
+        "distance_value": 8134
+    },
+    "2090 10th ave , San Francisco , 94116, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "35 mins",
+        "value": 2070,
+        "distance_text": "5.6 mi",
+        "distance_value": 9027
+    },
+    "2090 10th ave , San Francisco , 94116, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "45 mins",
+        "value": 2713,
+        "distance_text": "5.7 mi",
+        "distance_value": 9239
+    },
+    "2090 10th ave , San Francisco , 94116, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 21 mins",
+        "value": 8474,
+        "distance_text": "45.3 mi",
+        "distance_value": 72939
+    },
+    "2090 10th ave , San Francisco , 94116, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288909,
+        "distance_text": "3,508 mi",
+        "distance_value": 5645211
+    },
+    "2090 10th ave , San Francisco , 94116, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288046,
+        "distance_text": "3,504 mi",
+        "distance_value": 5639197
+    },
+    "2090 10th ave , San Francisco , 94116, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 291356,
+        "distance_text": "3,519 mi",
+        "distance_value": 5663982
+    },
+    "2090 10th ave , San Francisco , 94116, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 290752,
+        "distance_text": "3,513 mi",
+        "distance_value": 5653856
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "43 mins",
+        "value": 2582,
+        "distance_text": "13.9 mi",
+        "distance_value": 22388
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "49 mins",
+        "value": 2963,
+        "distance_text": "12.8 mi",
+        "distance_value": 20561
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "37 mins",
+        "value": 2231,
+        "distance_text": "10.9 mi",
+        "distance_value": 17607
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "45 mins",
+        "value": 2708,
+        "distance_text": "12.6 mi",
+        "distance_value": 20262
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "40 mins",
+        "value": 2400,
+        "distance_text": "11.1 mi",
+        "distance_value": 17817
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "28 mins",
+        "value": 1651,
+        "distance_text": "4.9 mi",
+        "distance_value": 7928
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "25 mins",
+        "value": 1521,
+        "distance_text": "2.6 mi",
+        "distance_value": 4187
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "30 mins",
+        "value": 1821,
+        "distance_text": "3.1 mi",
+        "distance_value": 4993
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "16 mins",
+        "value": 958,
+        "distance_text": "2.5 mi",
+        "distance_value": 4062
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "28 mins",
+        "value": 1705,
+        "distance_text": "2.8 mi",
+        "distance_value": 4525
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "19 mins",
+        "value": 1134,
+        "distance_text": "2.2 mi",
+        "distance_value": 3519
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "2 hours 1 min",
+        "value": 7248,
+        "distance_text": "39.0 mi",
+        "distance_value": 62737
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 287379,
+        "distance_text": "3,504 mi",
+        "distance_value": 5639534
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 286516,
+        "distance_text": "3,501 mi",
+        "distance_value": 5633520
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 9 hours",
+        "value": 289826,
+        "distance_text": "3,516 mi",
+        "distance_value": 5658305
+    },
+    "1750 Mission St apt 44, San Francisco , 94103, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 289222,
+        "distance_text": "3,510 mi",
+        "distance_value": 5648179
+    },
+    "600 7th Street, San Francisco, 94103, USA|5912 College Ave, Oakland, CA 94618, United States, Oakland, USA": {
+        "text": "1 hour 1 min",
+        "value": 3676,
+        "distance_text": "13.5 mi",
+        "distance_value": 21744
+    },
+    "600 7th Street, San Francisco, 94103, USA|4935 Shattuck Ave., Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "1 hour 2 mins",
+        "value": 3733,
+        "distance_text": "12.4 mi",
+        "distance_value": 19916
+    },
+    "600 7th Street, San Francisco, 94103, USA|100 Grand Avenue Oakland CA 94612, Oakland, USA": {
+        "text": "50 mins",
+        "value": 3001,
+        "distance_text": "10.5 mi",
+        "distance_value": 16962
+    },
+    "600 7th Street, San Francisco, 94103, USA|4640 Telegraph Ave, Oakland, CA 94609, United States, Oakland, USA": {
+        "text": "58 mins",
+        "value": 3478,
+        "distance_text": "12.2 mi",
+        "distance_value": 19617
+    },
+    "600 7th Street, San Francisco, 94103, USA|324 24th Street, Oakland, California, 94591, Oakland, USA": {
+        "text": "53 mins",
+        "value": 3170,
+        "distance_text": "10.7 mi",
+        "distance_value": 17172
+    },
+    "600 7th Street, San Francisco, 94103, USA|2529 Ocean Ave, San Francisco, CA 94132, United States, Oakland, USA": {
+        "text": "35 mins",
+        "value": 2106,
+        "distance_text": "5.7 mi",
+        "distance_value": 9173
+    },
+    "600 7th Street, San Francisco, 94103, USA| 4 Embarcadero Ctr, San Francisco, CA 94111, United States, Oakland, USA": {
+        "text": "22 mins",
+        "value": 1305,
+        "distance_text": "2.3 mi",
+        "distance_value": 3676
+    },
+    "600 7th Street, San Francisco, 94103, USA|2700 Jones St, San Francisco, CA 94133, United States, Oakland, USA": {
+        "text": "37 mins",
+        "value": 2206,
+        "distance_text": "3.8 mi",
+        "distance_value": 6054
+    },
+    "600 7th Street, San Francisco, 94103, USA|1 Sansome Street San Francisco, CA 94104 , Oakland, USA": {
+        "text": "21 mins",
+        "value": 1257,
+        "distance_text": "1.8 mi",
+        "distance_value": 2913
+    },
+    "600 7th Street, San Francisco, 94103, USA|1 Ferry Building Suite 5, San Francisco CA, Oakland, USA": {
+        "text": "24 mins",
+        "value": 1457,
+        "distance_text": "2.4 mi",
+        "distance_value": 3852
+    },
+    "600 7th Street, San Francisco, 94103, USA|2226 polk st. San Francisco CA 94109, Oakland, USA": {
+        "text": "26 mins",
+        "value": 1551,
+        "distance_text": "2.8 mi",
+        "distance_value": 4570
+    },
+    "600 7th Street, San Francisco, 94103, USA|1625 N Shoreline Blvd, Oakland, USA": {
+        "text": "1 hour 54 mins",
+        "value": 6833,
+        "distance_text": "38.7 mi",
+        "distance_value": 62334
+    },
+    "600 7th Street, San Francisco, 94103, USA|1022 Broadway Brooklyn NY 11221, Oakland, USA": {
+        "text": "3 days 7 hours",
+        "value": 285978,
+        "distance_text": "3,499 mi",
+        "distance_value": 5631267
+    },
+    "600 7th Street, San Francisco, 94103, USA|116 W Houston Street New York NY 10012, Oakland, USA": {
+        "text": "3 days 7 hours",
+        "value": 285115,
+        "distance_text": "3,495 mi",
+        "distance_value": 5625253
+    },
+    "600 7th Street, San Francisco, 94103, USA|10705 Guy R Brewer Blvd Jamaica, NY 11433, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 288425,
+        "distance_text": "3,511 mi",
+        "distance_value": 5650038
+    },
+    "600 7th Street, San Francisco, 94103, USA|3041 Avenue V Brooklyn NY 11229, Oakland, USA": {
+        "text": "3 days 8 hours",
+        "value": 287821,
+        "distance_text": "3,504 mi",
+        "distance_value": 5639912
+    }
+}

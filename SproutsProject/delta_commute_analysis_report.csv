@@ -1,0 +1,33 @@
+Delta Commute Analysis: Actual vs Algorithm-Suggested,,,,,,,
+,,,,,,,
+KEY METRICS,,,,,,,
+Interns with Complete Data,7,,,,,,
+Average Actual Commute,27.7 minutes,,,,,,
+Average Algorithm Commute,25.9 minutes,,,,,,
+Average Delta (Actual - Algorithm),1.9 minutes,,,,,,
+,,,,,,,
+COMMUTE IMPROVEMENTS,,,,,,,
+Algorithm Better (Saves Time),2,,,,,,
+Actual Better (Current Faster),2,,,,,,
+Perfect Matches,3,,,,,,
+,,,,,,,
+DETAILED DELTA ANALYSIS,,,,,,,
+Intern Name,Actual Restaurant,Algorithm Restaurant,Actual Commute,Algorithm Commute,Delta (min),Delta %,Status
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,35.0,9.0,26.0,74.3%,Algorithm Better
+Dana,Ssal,Arquet,51.0,47.0,4.0,7.8%,Algorithm Better
+Nae,The Holbrook House,Teranga ,19.0,24.0,-5.0,-26.3%,Actual Better
+Imani,Tarts de Feybesse,The Holbrook House,35.0,47.0,-12.0,-34.3%,Actual Better
+JP,Ofena,Ofena,27.0,27.0,0.0,N/A,Perfect Match
+Angel,alaMar Dominican Kitchen,alaMar Dominican Kitchen,17.0,17.0,0.0,N/A,Perfect Match
+Melanie Sanchez,Snail Bar,Snail Bar,10.0,10.0,0.0,N/A,Perfect Match
+,,,,,,,
+TOP COMMUTE IMPROVEMENTS,,,,,,,
+Intern Name,Current Commute,Algorithm Commute,Time Saved,Percentage,,,
+Dana,51.0 min,47.0 min,4.0 min,7.8%,,,
+Kaylin,35.0 min,9.0 min,26.0 min,74.3%,,,
+,,,,,,,
+PERFECT MATCHES (No Change Needed),,,,,,,
+Intern Name,Restaurant,Commute Time,,,,,
+JP,Ofena,27.0 min,,,,,
+Angel,alaMar Dominican Kitchen,17.0 min,,,,,
+Melanie Sanchez,Snail Bar,10.0 min,,,,,

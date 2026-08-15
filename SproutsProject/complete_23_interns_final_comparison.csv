@@ -1,0 +1,55 @@
+Complete Fall 2025 vs Algorithm Comparison - All 23 Interns,,,,,
+,,,,,
+KEY METRICS,,,,,
+Total Assigned Interns,23,,,,
+Successfully Matched,19,,,,
+Unmatched,4,,,,
+Match Rate,82.6%,,,,
+,,,,,
+PERFECT MATCHES (Current placements are optimal),,,,,
+Actual Name,Actual Restaurant,Algorithm Restaurant,Commute (min),,
+JP,Ofena,Ofena,27.0,,
+Angel,alaMar Dominican Kitchen,alaMar Dominican Kitchen,17.0,,
+Melanie Sanchez,Snail Bar,Snail Bar,10.0,,
+,,,,,
+TOP 10 OPTIMAL COMMUTES,,,,,
+Actual Name,Actual Restaurant,Algorithm Restaurant,Commute (min),Status,
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,9.0,Different Assignment,
+Melanie Sanchez,Snail Bar,Snail Bar,10.0,Perfect Match,
+Angel,alaMar Dominican Kitchen,alaMar Dominican Kitchen,17.0,Perfect Match,
+Gylli,Sorrel Restaurant,Ssal,20.0,Different Assignment,
+Alexis/bri,Stanford,Millennium Restaurant,22.0,Different Assignment,
+Nae,The Holbrook House,Teranga ,24.0,Different Assignment,
+Ollie,Dalida,Abaca ,25.0,Different Assignment,
+Bosco Liu,The Butcher Shop,Burdell,25.0,Different Assignment,
+JP,Ofena,Ofena,27.0,Perfect Match,
+Enrique,Mago,Abaca ,34.0,Different Assignment,
+,,,,,
+COMPLETE COMPARISON,,,,,
+Actual Name,Actual Restaurant,Algorithm Restaurant,Commute (min),Status,Match Method
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,9.0,Different Assignment,First name match (Kaylin -> Kaylin Lewis)
+Melanie Sanchez,Snail Bar,Snail Bar,10.0,Perfect Match,First name match (Melanie Sanchez -> Melanie Sanchez Ortega)
+Angel,alaMar Dominican Kitchen,alaMar Dominican Kitchen,17.0,Perfect Match,First name match (Angel -> Angel Ruiz)
+Gylli,Sorrel Restaurant,Ssal,20.0,Different Assignment,Special mapping (Gylli -> Gyllibhet  Palacio)
+Alexis/bri,Stanford,Millennium Restaurant,22.0,Different Assignment,Special mapping (Alexis/bri -> Zailea Daniels)
+Nae,The Holbrook House,Teranga ,24.0,Different Assignment,Special mapping (Nae -> Eljanae Robinson)
+Ollie,Dalida,Abaca ,25.0,Different Assignment,First name match (Ollie -> Ollie  O’Malley)
+Bosco Liu,The Butcher Shop,Burdell,25.0,Different Assignment,Special mapping (Bosco Liu -> Zhijian Liu)
+JP,Ofena,Ofena,27.0,Perfect Match,Special mapping (JP -> Samuel  Gonzalez )
+Enrique,Mago,Abaca ,34.0,Different Assignment,First name match (Enrique -> Enrique Marroquin)
+Gio,Nopa Fish,Ssal,38.0,Different Assignment,Special mapping (Gio -> Giovanni Giacomazzi)
+Noel,Stanford,alaMar Dominican Kitchen,39.0,Different Assignment,Special mapping (Noel -> Aliyatt  Rodgers)
+Giselle,Sirene,Tarts de Feybesse,45.0,Different Assignment,First name match (Giselle -> Giselle Contreras )
+Jesus,UC Berkeley,Millennium Restaurant,45.0,Different Assignment,First name match (Jesus -> Jesus Chavez)
+Jesus,Stanford,Millennium Restaurant,45.0,Different Assignment,First name match (Jesus -> Jesus Chavez)
+Dana,Ssal,Arquet,47.0,Different Assignment,Special mapping (Dana -> Catherine Oropeza Huerta)
+Ivory Willows,Foreign Cinema,Broma Restaurant,47.0,Different Assignment,Special mapping (Ivory Willows -> Aaliyah Engram)
+Imani,Tarts de Feybesse,The Holbrook House,47.0,Different Assignment,First name match (Imani -> Imani Jarvis)
+maye,Hahdough bakery,The Holbrook House,50.0,Different Assignment,Special mapping (maye -> Yeimi Diaz )
+,,,,,
+UNMATCHED INTERNS,,,,,
+Actual Name,Actual Restaurant,Status,,,
+Alex,Stanford,No algorithm match,,,
+Andrea,Stanford,No algorithm match,,,
+Shelsea,Burdell,No algorithm match,,,
+Roni,Teranga,No algorithm match,,,

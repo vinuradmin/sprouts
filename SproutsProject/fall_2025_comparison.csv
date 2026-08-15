@@ -1,0 +1,35 @@
+Intern Name,Actual Restaurant,Actual Commute (min),Optimal Restaurant,Optimal Commute (min)
+Jayden Piansay,Ofena,N/A,Snail Bar,28
+Enrique Marroquin,Mago,N/A,Ssal,33
+Giselle Contreras,Sirene,N/A,Tarts de Feybesse,45
+Graciela O'Malley,Dalida,N/A,N/A,N/A
+Ruiqian Li,Ssal,N/A,N/A,N/A
+Zhijian Liu,The Butcher Shop,N/A,Burdell,26
+Angel Ruiz,alaMar Dominican Kitchen,17,alaMar Dominican Kitchen,17
+Gyllibhet Palacio,Sorrel Restaurant,N/A,N/A,N/A
+Jesus Aguilera,UC Berkeley,N/A,Burdell,50
+Alexander Barrios Castaneda,Stanford,N/A,N/A,N/A
+Andrea Caballero,Stanford,N/A,N/A,N/A
+Jesus Chavez,Stanford,N/A,Millennium Restaurant,46
+Noel Mendoza,Stanford,N/A,N/A,N/A
+Alexis Moreno Hernandez,Stanford,N/A,N/A,N/A
+Eljanae Robinson,The Holbrook House,N/A,Teranga ,24
+Samuel Gonzalez,Nopa Fish,N/A,N/A,N/A
+Asslin Espinal,Hahdough bakery,N/A,Arquet,43
+Shelsea Vasquez,Burdell,N/A,N/A,N/A
+Kaylin Lewis,Rethink Food Sustainable Community Kitchen,N/A,2 Chix,10
+Aliyatt Rodgers,Foreign Cinema,N/A,N/A,N/A
+Roni Velasquez,Teranga,N/A,N/A,N/A
+Venus Melanie Sánchez Ortega,Snail Bar,N/A,N/A,N/A
+Giovanni Giacomazzi,Nopa Fish,N/A,Ofena,42
+Imani Analise Jarvis,Tarts de Feybesse,N/A,N/A,N/A
+Marye Green Frazier,,N/A,N/A,N/A
+Spring 2026,,N/A,N/A,N/A
+
+SUMMARY STATISTICS
+Average Actual Commute (min),17.0
+Average Optimal Commute (min),33.1
+Commute Improvement (min),-16.1
+Total Interns Compared,26
+Actual Commutes Calculated,1
+Optimal Commutes Available,11

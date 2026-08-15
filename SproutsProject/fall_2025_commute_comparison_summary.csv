@@ -1,0 +1,32 @@
+Fall 2025 vs Algorithm Commute Comparison,,,,,,
+,,,,,,
+KEY METRICS,,,,,,
+Total Interns Analyzed,7,,,,,
+Perfect Matches,2,,,,,
+Improvement Opportunities,1,,,,,
+Actual Commutes Available,7,,,,,
+Optimal Commutes Available,5,,,,,
+,,,,,,
+COMMUTE COMPARISON,,,,,,
+Average Actual Commute (minutes),22.0,,,,,
+Average Optimal Commute (minutes),21.4,,,,,
+Average Improvement,3.0 minutes,,,,,
+,,,,,,
+PERFECT MATCHES (Current placements are optimal),,,,,,
+Intern Name,Restaurant,Actual Commute,Optimal Commute,,,
+Angel,alaMar Dominican Kitchen,17.0,17.0,,,
+Melanie Sanchez,Snail Bar,10.0,10.0,,,
+,,,,,,
+TOP COMMUTE IMPROVEMENTS,,,,,,
+Intern Name,Actual Restaurant,Optimal Restaurant,Actual,Optimal,Improvement,
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,35.0,9.0,26.0,
+,,,,,,
+COMPLETE COMMUTE COMPARISON,,,,,,
+Intern Name,Actual Restaurant,Optimal Restaurant,Actual Commute,Optimal Commute,Improvement,Status
+Angel,alaMar Dominican Kitchen,alaMar Dominican Kitchen,17.0,17.0,N/A,Perfect Match
+Nae,The Holbrook House,Teranga ,19.0,24.0,-5.0,Different Assignment
+Shelsea,Burdell,Unassigned,19.0,N/A,N/A,Different Assignment
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,35.0,9.0,26.0,Improvement Opportunity
+Roni,Teranga,Unassigned,19.0,N/A,N/A,Different Assignment
+Melanie Sanchez,Snail Bar,Snail Bar,10.0,10.0,N/A,Perfect Match
+Imani,Tarts de Feybesse,The Holbrook House,35.0,47.0,-12.0,Different Assignment

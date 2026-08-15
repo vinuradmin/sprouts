@@ -1,0 +1,154 @@
+{
+  "verified": [
+    {
+      "intern": "Zhijian Liu",
+      "restaurant": "Broma Restaurant"
+    },
+    {
+      "intern": "Samuel  Gonzalez ",
+      "restaurant": "The Holbrook House",
+      "matched_as": "Samuel  Gonzalez"
+    },
+    {
+      "intern": "Enrique Marroquin",
+      "restaurant": "Broma Restaurant"
+    },
+    {
+      "intern": "Zoe Patterson",
+      "restaurant": "Arquet"
+    },
+    {
+      "intern": "Imani Jarvis",
+      "restaurant": "Arquet"
+    },
+    {
+      "intern": "Giselle Contreras ",
+      "restaurant": "The Holbrook House",
+      "matched_as": "Giselle Contreras"
+    },
+    {
+      "intern": "Gyllibhet  Palacio",
+      "restaurant": "Ofena"
+    },
+    {
+      "intern": "Jayden Piansay",
+      "restaurant": "Tarts de Feybesse"
+    },
+    {
+      "intern": "Aliyatt  Rodgers",
+      "restaurant": "Ofena"
+    },
+    {
+      "intern": "Kaylin Lewis",
+      "restaurant": "2 Chix"
+    },
+    {
+      "intern": "Catherine Oropeza Huerta",
+      "restaurant": "Snail Bar"
+    },
+    {
+      "intern": "Jesus Chavez",
+      "restaurant": "Snail Bar"
+    },
+    {
+      "intern": "Aaliyah Engram",
+      "restaurant": "Burdell"
+    },
+    {
+      "intern": "Cristofer  Martin Diaz ",
+      "restaurant": "Burdell",
+      "matched_as": "Cristofer  Martin Diaz"
+    },
+    {
+      "intern": "Melanie Sanchez Ortega",
+      "restaurant": "Millennium Restaurant"
+    },
+    {
+      "intern": "Yeimi Diaz ",
+      "restaurant": "Millennium Restaurant",
+      "matched_as": "Yeimi Diaz"
+    }
+  ],
+  "not_found": [
+    {
+      "intern": "Angel Ruiz",
+      "restaurant": "Abaca ",
+      "available_options": [
+        "Sorrel Restaurant",
+        "R\u00caVE",
+        "Dalida",
+        "Broma Restaurant",
+        "alaMar Dominican Kitchen"
+      ]
+    },
+    {
+      "intern": "Shelsea Vasquez",
+      "restaurant": "Teranga ",
+      "available_options": [
+        "Sorrel Restaurant",
+        "Ofena",
+        "Broma Restaurant",
+        "Mago",
+        "Arquet"
+      ]
+    },
+    {
+      "intern": "Asslin Espinal",
+      "restaurant": "Ssal",
+      "available_options": [
+        "Sorrel Restaurant",
+        "Ofena",
+        "Broma Restaurant",
+        "Mago",
+        "Arquet"
+      ]
+    },
+    {
+      "intern": "Giovanni Giacomazzi",
+      "restaurant": "Ssal",
+      "available_options": [
+        "Sorrel Restaurant",
+        "Ofena",
+        "Broma Restaurant",
+        "Mago",
+        "Arquet"
+      ]
+    },
+    {
+      "intern": "Eljanae Robinson",
+      "restaurant": "Teranga ",
+      "available_options": [
+        "Sorrel Restaurant",
+        "R\u00caVE",
+        "Dalida",
+        "Broma Restaurant",
+        "alaMar Dominican Kitchen"
+      ]
+    },
+    {
+      "intern": "Andrea Caballero ",
+      "restaurant": "Tarts de Feybesse",
+      "matched_as": "Andrea Caballero",
+      "available_options": []
+    },
+    {
+      "intern": "Cristina Cubias ",
+      "restaurant": "alaMar Dominican Kitchen",
+      "matched_as": "Cristina Cubias",
+      "available_options": []
+    },
+    {
+      "intern": "Maryam Washington",
+      "restaurant": "alaMar Dominican Kitchen",
+      "available_options": []
+    }
+  ],
+  "name_mismatch": [
+    {
+      "intern": "Ollie  O\u2019Malley",
+      "restaurant": "Abaca "
+    }
+  ],
+  "total_flask_matches": 25,
+  "total_original_interns": 41
+}

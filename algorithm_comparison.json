@@ -1,0 +1,1308 @@
+{
+  "stats": {
+    "original_count": 41,
+    "flask_count": 25,
+    "common_count": 18,
+    "original_only": [
+      "Roni Velasquez",
+      "Mark",
+      "Naomi  Flores",
+      "Giselle Contreras",
+      "Cristofer  Martin Diaz",
+      "Sebastian",
+      "Yeimi Diaz",
+      "Sean",
+      "Monique",
+      "Jesus Aguilera",
+      "Ollie  O\u0092Malley",
+      "Zailea Daniels",
+      "Matt",
+      "Andrea Caballero",
+      "Guy",
+      "Cristina Cubias",
+      "Eric",
+      "chloe onofre",
+      "Gavin",
+      "Sayat",
+      "Malerie Rogers",
+      "Alexander Barrios Casta\u00f1eda",
+      "Samuel  Gonzalez"
+    ],
+    "flask_only": [
+      "Samuel  Gonzalez ",
+      "Giselle Contreras ",
+      "Ollie  O\u2019Malley",
+      "Andrea Caballero ",
+      "Yeimi Diaz ",
+      "Cristofer  Martin Diaz ",
+      "Cristina Cubias "
+    ]
+  },
+  "original_sample": {
+    "Zhijian Liu": {
+      "Tuesday": [
+        {
+          "restaurant": "The Butcher Shop",
+          "commute": "13 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Hahdough bakery",
+          "commute": "16 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Foreign Cinema",
+          "commute": "17 mins",
+          "availability": [
+            10,
+            15
+          ]
+        },
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "The Holbrook House",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Teranga",
+          "commute": "22 mins",
+          "availability": [
+            10,
+            15
+          ]
+        },
+        {
+          "restaurant": "Mago",
+          "commute": "23 mins",
+          "availability": [
+            12,
+            18
+          ]
+        },
+        {
+          "restaurant": "All Spice",
+          "commute": "23 mins",
+          "availability": [
+            12,
+            17
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "24 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Dalida",
+          "commute": "32 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "R\u00caVE",
+          "commute": "33 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "38 mins",
+          "availability": [
+            12,
+            21
+          ]
+        }
+      ],
+      "Thursday": [
+        {
+          "restaurant": "The Butcher Shop",
+          "commute": "13 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Hahdough bakery",
+          "commute": "16 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Foreign Cinema",
+          "commute": "17 mins",
+          "availability": [
+            10,
+            15
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "19 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Arquet",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "The Holbrook House",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Teranga",
+          "commute": "22 mins",
+          "availability": [
+            10,
+            15
+          ]
+        },
+        {
+          "restaurant": "Mago",
+          "commute": "23 mins",
+          "availability": [
+            12,
+            18
+          ]
+        },
+        {
+          "restaurant": "All Spice",
+          "commute": "23 mins",
+          "availability": [
+            12,
+            17
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "24 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ssal",
+          "commute": "24 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "24 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sorrel Restaurant",
+          "commute": "25 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "Dalida",
+          "commute": "32 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "R\u00caVE",
+          "commute": "33 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "38 mins",
+          "availability": [
+            12,
+            21
+          ]
+        }
+      ],
+      "Friday": [
+        {
+          "restaurant": "The Butcher Shop",
+          "commute": "13 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Hahdough bakery",
+          "commute": "16 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Foreign Cinema",
+          "commute": "17 mins",
+          "availability": [
+            10,
+            15
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "19 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Arquet",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "The Holbrook House",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Teranga",
+          "commute": "22 mins",
+          "availability": [
+            10,
+            15
+          ]
+        },
+        {
+          "restaurant": "Snail Bar",
+          "commute": "23 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Mago",
+          "commute": "23 mins",
+          "availability": [
+            12,
+            18
+          ]
+        },
+        {
+          "restaurant": "All Spice",
+          "commute": "23 mins",
+          "availability": [
+            12,
+            17
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "24 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ssal",
+          "commute": "24 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "24 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sorrel Restaurant",
+          "commute": "25 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "Dalida",
+          "commute": "32 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "R\u00caVE",
+          "commute": "33 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "38 mins",
+          "availability": [
+            12,
+            21
+          ]
+        }
+      ],
+      "Saturday": [
+        {
+          "restaurant": "The Butcher Shop",
+          "commute": "13 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Hahdough bakery",
+          "commute": "16 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Foreign Cinema",
+          "commute": "17 mins",
+          "availability": [
+            10,
+            15
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "19 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Arquet",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Snail Bar",
+          "commute": "23 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Mago",
+          "commute": "23 mins",
+          "availability": [
+            12,
+            18
+          ]
+        },
+        {
+          "restaurant": "All Spice",
+          "commute": "23 mins",
+          "availability": [
+            12,
+            17
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "24 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ssal",
+          "commute": "24 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "24 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sorrel Restaurant",
+          "commute": "25 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "Dalida",
+          "commute": "32 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "R\u00caVE",
+          "commute": "33 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "38 mins",
+          "availability": [
+            12,
+            21
+          ]
+        }
+      ],
+      "Sunday": [
+        {
+          "restaurant": "The Butcher Shop",
+          "commute": "13 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Hahdough bakery",
+          "commute": "16 mins",
+          "availability": [
+            9,
+            15
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "19 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Arquet",
+          "commute": "20 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Snail Bar",
+          "commute": "23 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "24 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ssal",
+          "commute": "24 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sorrel Restaurant",
+          "commute": "25 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "Dalida",
+          "commute": "32 mins",
+          "availability": [
+            9,
+            21
+          ]
+        }
+      ]
+    },
+    "Guy": {},
+    "Samuel  Gonzalez": {
+      "Tuesday": [
+        {
+          "restaurant": "The Holbrook House",
+          "commute": "17 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "22 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "44 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "47 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "49 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "2 hours 5 mins",
+          "availability": [
+            16,
+            21
+          ]
+        }
+      ],
+      "Wednesday": [
+        {
+          "restaurant": "The Holbrook House",
+          "commute": "17 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Teranga",
+          "commute": "21 mins",
+          "availability": [
+            10,
+            15
+          ]
+        },
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "22 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Arquet",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "29 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sorrel Restaurant",
+          "commute": "33 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "44 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "47 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "49 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "52 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "54 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Mago",
+          "commute": "55 mins",
+          "availability": [
+            12,
+            18
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "2 hours 5 mins",
+          "availability": [
+            12,
+            21
+          ]
+        }
+      ],
+      "Thursday": [
+        {
+          "restaurant": "The Holbrook House",
+          "commute": "17 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "22 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Arquet",
+          "commute": "25 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "29 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "44 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "47 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "49 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "52 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "54 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "2 hours 5 mins",
+          "availability": [
+            16,
+            21
+          ]
+        }
+      ],
+      "Friday": [
+        {
+          "restaurant": "The Holbrook House",
+          "commute": "17 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "22 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Arquet",
+          "commute": "25 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "29 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "44 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "47 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "49 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "52 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "54 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Snail Bar",
+          "commute": "56 mins",
+          "availability": [
+            16,
+            21
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "2 hours 5 mins",
+          "availability": [
+            16,
+            21
+          ]
+        }
+      ],
+      "Saturday": [
+        {
+          "restaurant": "Nopa Fish",
+          "commute": "22 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Arquet",
+          "commute": "25 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "29 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "alaMar Dominican Kitchen",
+          "commute": "44 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "47 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Millennium Restaurant",
+          "commute": "49 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "52 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "54 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Mago",
+          "commute": "55 mins",
+          "availability": [
+            14,
+            18
+          ]
+        },
+        {
+          "restaurant": "Snail Bar",
+          "commute": "56 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Broma Restaurant",
+          "commute": "2 hours 5 mins",
+          "availability": [
+            14,
+            21
+          ]
+        }
+      ],
+      "Sunday": [
+        {
+          "restaurant": "Arquet",
+          "commute": "25 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Ofena",
+          "commute": "29 mins",
+          "availability": [
+            14,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sorrel Restaurant",
+          "commute": "33 mins",
+          "availability": [
+            10,
+            17
+          ]
+        },
+        {
+          "restaurant": "Tarts de Feybesse",
+          "commute": "47 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Burdell",
+          "commute": "52 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Sirene",
+          "commute": "54 mins",
+          "availability": [
+            9,
+            21
+          ]
+        },
+        {
+          "restaurant": "Snail Bar",
+          "commute": "56 mins",
+          "availability": [
+            9,
+            21
+          ]
+        }
+      ]
+    }
+  },
+  "flask_sample": {
+    "Zhijian Liu": {
+      "intern_id": 1,
+      "intern_name": "Zhijian Liu",
+      "restaurant_id": 14,
+      "restaurant_name": "Broma Restaurant",
+      "commute": {
+        "text": "39 mins",
+        "value": 2310,
+        "distance_text": "32.1 mi",
+        "distance_value": 51679
+      },
+      "commute_minutes": 38,
+      "overlaps": {
+        "Tuesday": [
+          {
+            "start": 9,
+            "end": 13,
+            "duration": 4
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "duration": 8
+          }
+        ]
+      },
+      "total_overlap_hours": 12,
+      "days_matched": 5,
+      "match_score": 69
+    },
+    "Samuel  Gonzalez ": {
+      "intern_id": 3,
+      "intern_name": "Samuel  Gonzalez ",
+      "restaurant_id": 10,
+      "restaurant_name": "The Holbrook House",
+      "commute": {
+        "text": "17 mins",
+        "value": 1047,
+        "distance_text": "1.9 mi",
+        "distance_value": 3086
+      },
+      "commute_minutes": 17,
+      "overlaps": {
+        "Monday": [
+          {
+            "start": 13,
+            "end": 21,
+            "duration": 8
+          }
+        ],
+        "Tuesday": [
+          {
+            "start": 25,
+            "end": 29,
+            "duration": 4
+          }
+        ]
+      },
+      "total_overlap_hours": 12,
+      "days_matched": 7,
+      "match_score": 121
+    },
+    "Angel Ruiz": {
+      "intern_id": 4,
+      "intern_name": "Angel Ruiz",
+      "restaurant_id": 9,
+      "restaurant_name": "Abaca ",
+      "commute": {
+        "text": "34 mins",
+        "value": 2022,
+        "distance_text": "17.1 mi",
+        "distance_value": 27515
+      },
+      "commute_minutes": 34,
+      "overlaps": {
+        "Monday": [
+          {
+            "start": 9,
+            "end": 13,
+            "duration": 4
+          },
+          {
+            "start": 13,
+            "end": 21,
+            "duration": 8
+          }
+        ]
+      },
+      "total_overlap_hours": 12,
+      "days_matched": 6,
+      "match_score": 82
+    }
+  }
+}

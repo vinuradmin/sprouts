@@ -1,0 +1,49 @@
+FINAL COMPLETE ANALYSIS - ALL RESTAURANTS ADDED,,,,,,,
+,,,,,,,
+OVERALL STATISTICS,,,,,,,
+Total Interns in Database,41,,,,,,
+Total Restaurants in Database,38,,,,,,
+Actual Assigned Interns,23,,,,,,
+Actual Unassigned Interns,1,,,,,,
+Algorithm Assignments Generated,24,,,,,,
+,,,,,,,
+MATCHING STATISTICS,,,,,,,
+Total Assigned Interns,23,,,,,,
+Interns Matched to Database,22,,,,,,
+Actual Restaurants Matched,14,,,,,,
+Algorithm Assignments Found,18,,,,,,
+Complete Commute Data,12,,,,,,
+,,,,,,,
+DELTA COMMUTE METRICS,,,,,,,
+Average Actual Commute,34.3 minutes,,,,,,
+Average Algorithm Commute,32.1 minutes,,,,,,
+Average Delta (Actual - Algorithm),2.2 minutes,,,,,,
+Algorithm Better (Saves Time),5,,,,,,
+Actual Better (Current Faster),5,,,,,,
+Perfect Matches,1,,,,,,
+,,,,,,,
+COMPLETE DELTA COMMUTE ANALYSIS,,,,,,,
+Intern Name,Actual Restaurant,Algorithm Restaurant,Actual Commute,Algorithm Commute,Delta (min),Delta %,Status
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,35.0,9.0,26.0,74.3%,Algorithm Better
+Bosco Liu,The Butcher Shop,Tarts de Feybesse,44.0,25.0,19.0,43.2%,Algorithm Better
+Enrique,Mago,Arquet,39.0,25.0,14.0,35.9%,Algorithm Better
+Ivory Willows,Foreign Cinema,Broma Restaurant,52.0,47.0,5.0,9.6%,Algorithm Better
+Dana,Ssal,Burdell,51.0,50.0,1.0,2.0%,Algorithm Better
+Melanie Sanchez,Snail Bar,Millennium Restaurant,10.0,12.0,-2.0,-20.0%,Actual Better
+Nae,The Holbrook House,Teranga ,19.0,24.0,-5.0,-26.3%,Actual Better
+Gio,Nopa Fish,Abaca ,44.0,50.0,-6.0,-13.6%,Actual Better
+Gylli,Sorrel Restaurant,Snail Bar,39.0,48.0,-9.0,-23.1%,Actual Better
+JP,Ofena,alaMar Dominican Kitchen,27.0,43.0,-16.0,-59.3%,Actual Better
+Angel,alaMar Dominican Kitchen,alaMar Dominican Kitchen,17.0,17.0,0.0,N/A,Perfect Match
+Imani,Tarts de Feybesse,Mago,35.0,35.0,0.0,N/A,Different Assignment
+,,,,,,,
+PARTIAL DATA (One Commute Available),,,,,,,
+Intern Name,Actual Restaurant,Algorithm Restaurant,Actual Commute,Algorithm Commute,Status,,
+Giselle,Sirene,Mago,N/A,48.0,Different Assignment,,
+Jesus,UC Berkeley,Ofena,N/A,48.0,Different Assignment,,
+Jesus,Stanford,Ofena,N/A,48.0,Different Assignment,,
+Noel,Stanford,Abaca ,N/A,42.0,Different Assignment,,
+Alexis/bri,Stanford,Millennium Restaurant,N/A,22.0,Different Assignment,,
+maye,Hahdough bakery,The Holbrook House,N/A,50.0,Different Assignment,,
+Shelsea,Burdell,Unassigned,19.0,N/A,Different Assignment,,
+Roni,Teranga,Unassigned,19.0,N/A,Different Assignment,,

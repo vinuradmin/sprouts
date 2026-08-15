@@ -1,0 +1,711 @@
+{% extends "base.html" %}
+{% set title = "Matching Dashboard" %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <h1 class="fw-bold mb-3">
+                <i class="fas fa-handshake text-success me-2"></i>
+                Matching Dashboard
+            </h1>
+            <p class="lead text-muted">Advanced intern-restaurant matching system with commute optimization</p>
+        </div>
+    </div>
+
+    <!-- Statistics Cards -->
+    <div class="row mb-5">
+        <div class="col-md-4 mb-3">
+            <div class="card dashboard-card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-users text-success mb-3" style="font-size: 2.5rem;"></i>
+                    <h3 class="dashboard-stat">{{ total_interns }}</h3>
+                    <p class="text-muted mb-0">Available Interns</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card dashboard-card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-briefcase text-success mb-3" style="font-size: 2.5rem;"></i>
+                    <h3 class="dashboard-stat">{{ total_internships }}</h3>
+                    <p class="text-muted mb-0">Active Internships</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3">
+            <div class="card dashboard-card h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-store text-success mb-3" style="font-size: 2.5rem;"></i>
+                    <h3 class="dashboard-stat">{{ total_restaurants }}</h3>
+                    <p class="text-muted mb-0">Partner Restaurants</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Cards -->
+    <div class="row mb-5">
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="fas fa-search text-primary me-2"></i>
+                        Find Matches
+                    </h5>
+                    <p class="card-text">Search for optimal intern-restaurant pairings based on availability, location, and preferences.</p>
+                    <div class="d-grid gap-2">
+                        {% if current_user.intern %}
+                            <a href="{{ url_for('main.find_matches_for_intern', intern_id=current_user.intern.id) }}" 
+                               class="btn btn-primary">Find My Matches</a>
+                        {% elif current_user.restaurant_owner %}
+                            <a href="{{ url_for('main.find_matches_for_restaurant', restaurant_id=current_user.restaurant_owner.restaurant_id) }}" 
+                               class="btn btn-primary">Find Intern Matches</a>
+                        {% endif %}
+                        {% if current_user.has_role('admin') %}
+                            <button class="btn btn-primary" onclick="runOptimization()">
+                                <i class="fas fa-cogs"></i> Run Optimization
+                            </button>
+                            <button type="button" class="btn btn-primary" onclick="showCSVUploadModal()">
+                                <i class="fas fa-upload"></i> Load CSV Data
+                            </button>
+                            <button class="btn btn-secondary ms-2" onclick="showCacheStats()">
+                                <i class="fas fa-database"></i> Cache Stats
+                            </button>
+                            <button class="btn btn-warning ms-2" onclick="clearCache()">
+                                <i class="fas fa-trash"></i> Clear Cache
+                            </button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-6 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="fas fa-cogs text-warning me-2"></i>
+                        Optimization Engine
+                    </h5>
+                    <p class="card-text">Run the advanced matching algorithm to find optimal assignments for all interns and restaurants.</p>
+                    <div class="d-grid gap-2">
+                        {% if current_user.has_role('admin') %}
+                            <a href="{{ url_for('main.optimize_matching') }}" class="btn btn-warning">
+                                Run Optimization
+                            </a>
+                            <a href="{{ url_for('main.export_matches') }}" class="btn btn-outline-warning">
+                                Export Results
+                            </a>
+                        {% else %}
+                            <button class="btn btn-warning" disabled>
+                                Admin Access Required
+                            </button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Matches -->
+    {% if recent_matches %}
+    <div class="row mb-4">
+        <div class="col-12">
+            <h3 class="fw-bold mb-3">Recent Matches ({{ recent_matches|length }} found)</h3>
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Intern</th>
+                                    <th>Intern Location</th>
+                                    <th>Restaurant</th>
+                                    <th>Location Match</th>
+                                    <th>Match Score</th>
+                                    <th>Commute</th>
+                                    <th>Hours/Week</th>
+                                    <th>Days</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for match in recent_matches %}
+                                <tr>
+                                    <td>{{ match.intern_name }}</td>
+                                    <td>
+                                        {% set intern_city = match.intern_address.split(',')[1].strip() if match.intern_address and ',' in match.intern_address else 'Unknown' %}
+                                        <span class="badge bg-secondary">{{ intern_city }}</span>
+                                    </td>
+                                    <td>{{ match.restaurant_name }}</td>
+                                    <td>
+                                        {% set intern_city = get_location_type(match.intern_address) %}
+                                        {% set restaurant_city = get_location_type(match.restaurant_address) %}
+                                        <span class="badge {% if match.commute_minutes < 120 %}bg-success{% else %}bg-warning{% endif %}">
+                                            {{ intern_city }} → {{ restaurant_city }}
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="badge bg-info">{{ "%.1f"|format(match.match_score) }}</span>
+                                    </td>
+                                    <td>{{ match.commute_minutes }} min</td>
+                                    <td>{{ match.total_overlap_hours }}h</td>
+                                    <td>
+                                        <span class="badge bg-info">{{ match.days_matched }}</span>
+                                    </td>
+                                    <td>
+                                        <span class="badge bg-info">Pending</span>
+                                    </td>
+                                    <td>
+                                        <button class="btn btn-sm btn-outline-primary" 
+                                                data-match-index="{{ loop.index }}" 
+                                                data-match-data="{{ match|tojson|safe }}"
+                                                onclick="showMatchDetails(this)">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body text-center py-5">
+                    <i class="fas fa-search text-muted mb-3" style="font-size: 3rem;"></i>
+                    <h4>No Matches Found</h4>
+                    <p class="text-muted mb-4">
+                        Run the optimization to generate intern-restaurant matches.
+                    </p>
+                    {% if current_user.has_role('admin') %}
+                    <a href="{{ url_for('main.optimize_matching') }}" class="btn btn-primary">
+                        <i class="fas fa-play me-2"></i>Run Optimization
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Quick Tools -->
+    <div class="row">
+        <div class="col-12">
+            <h3 class="fw-bold mb-3">Quick Tools</h3>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-map-marker-alt text-info mb-2" style="font-size: 2rem;"></i>
+                            <h6 class="card-title">Commute Calculator</h6>
+                            <button class="btn btn-sm btn-outline-info" onclick="showCommuteCalculator()">
+                                Calculate
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-clock text-secondary mb-2" style="font-size: 2rem;"></i>
+                            <h6 class="card-title">Availability Checker</h6>
+                            <button class="btn btn-sm btn-outline-secondary" onclick="showAvailabilityChecker()">
+                                Check
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-chart-bar text-success mb-2" style="font-size: 2rem;"></i>
+                            <h6 class="card-title">Match Analytics</h6>
+                            <button class="btn btn-sm btn-outline-success" onclick="showAnalytics()">
+                                View
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <i class="fas fa-download text-primary mb-2" style="font-size: 2rem;"></i>
+                            <h6 class="card-title">Bulk Export</h6>
+                            {% if current_user.has_role('admin') %}
+                                <a href="{{ url_for('main.export_matches') }}" class="btn btn-sm btn-outline-primary">
+                                    Export
+                                </a>
+                            {% else %}
+                                <button class="btn btn-sm btn-outline-primary" disabled>
+                                    Admin Only
+                                </button>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modals -->
+<!-- CSV Upload Modal -->
+<div class="modal fade" id="csvUploadModal" tabindex="-1" aria-labelledby="csvUploadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="csvUploadModalLabel">Load CSV Data</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="useDefaultFiles" checked>
+                        <label class="form-check-label" for="useDefaultFiles">
+                            Use default CSV files from Documents folder
+                        </label>
+                    </div>
+                    <small class="text-muted">
+                        Default: intern_avail_fall.csv and chef_avail_fall.csv from C:\Users\pierr\OneDrive\Documents\
+                    </small>
+                </div>
+                
+                <div id="customFileSection" style="display: none;">
+                    <div class="mb-3">
+                        <label for="internCsvPath" class="form-label">Intern CSV File Path</label>
+                        <input type="text" class="form-control" id="internCsvPath" 
+                               placeholder="C:\path\to\intern_file.csv">
+                    </div>
+                    <div class="mb-3">
+                        <label for="restaurantCsvPath" class="form-label">Restaurant CSV File Path</label>
+                        <input type="text" class="form-control" id="restaurantCsvPath" 
+                               placeholder="C:\path\to\restaurant_file.csv">
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="clearExisting">
+                        <label class="form-check-label" for="clearExisting">
+                            Clear existing data before loading
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" onclick="loadCSVData()">Load Data</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Commute Calculator Modal -->
+<div class="modal fade" id="commuteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Commute Calculator</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="commuteForm">
+                    <div class="mb-3">
+                        <label class="form-label">Origin Address</label>
+                        <input type="text" class="form-control" id="originAddress" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Destination Address</label>
+                        <input type="text" class="form-control" id="destinationAddress" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Transportation</label>
+                        <select class="form-select" id="transportation">
+                            <option value="driving">Driving</option>
+                            <option value="transit">Public Transit</option>
+                        </select>
+                    </div>
+                </form>
+                <div id="commuteResult" class="mt-3"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="calculateCommute()">Calculate</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function showCommuteCalculator() {
+    new bootstrap.Modal(document.getElementById('commuteModal')).show();
+}
+
+function calculateCommute() {
+    const origin = document.getElementById('originAddress').value;
+    const destination = document.getElementById('destinationAddress').value;
+    const transportation = document.getElementById('transportation').value;
+    
+    if (!origin || !destination) {
+        alert('Please enter both addresses');
+        return;
+    }
+    
+    const resultDiv = document.getElementById('commuteResult');
+    resultDiv.innerHTML = '<div class="text-center"><span class="loading"></span> Calculating...</div>';
+    
+    fetch('/api/matching/calculate-commute', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            origin: origin,
+            destination: destination,
+            transportation: transportation
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.error) {
+            resultDiv.innerHTML = `<div class="alert alert-danger">${data.error}</div>`;
+        } else {
+            resultDiv.innerHTML = `
+                <div class="alert alert-success">
+                    <strong>Commute Time:</strong> ${data.text}<br>
+                    <strong>Distance:</strong> ${data.distance_text || 'N/A'}
+                </div>
+            `;
+        }
+    })
+    .catch(error => {
+        resultDiv.innerHTML = '<div class="alert alert-danger">Error calculating commute</div>';
+    });
+}
+
+function showFindMatchesModal() {
+    // Placeholder for advanced search modal
+    alert('Advanced search functionality coming soon!');
+}
+
+function showAvailabilityChecker() {
+    // Placeholder for availability checker
+    alert('Availability checker coming soon!');
+}
+
+function showAnalytics() {
+    // Placeholder for analytics
+    alert('Match analytics coming soon!');
+}
+
+function runOptimization() {
+    fetch('/matching/optimize', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.error) {
+            alert('Error: ' + data.error);
+        } else {
+            alert('Optimization completed! Found ' + data.matched_interns + ' matches.');
+            location.reload();
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred during optimization.');
+    });
+}
+
+function showCSVUploadModal() {
+    $('#csvUploadModal').modal('show');
+}
+
+function loadCSVData() {
+    const useDefault = document.getElementById('useDefaultFiles').checked;
+    const clearExisting = document.getElementById('clearExisting').checked;
+    
+    let requestData = {
+        clear_existing: clearExisting
+    };
+    
+    if (!useDefault) {
+        const internPath = document.getElementById('internCsvPath').value;
+        const restaurantPath = document.getElementById('restaurantCsvPath').value;
+        
+        if (internPath) requestData.intern_csv_path = internPath;
+        if (restaurantPath) requestData.restaurant_csv_path = restaurantPath;
+    }
+    
+    fetch('/matching/load-csv-data', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(requestData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert(`CSV data loaded successfully!\n${data.message}`);
+            $('#csvUploadModal').modal('hide');
+            location.reload();
+        } else {
+            alert('Error loading CSV data: ' + data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error loading CSV data');
+    });
+}
+
+// Toggle custom file section
+document.getElementById('useDefaultFiles').addEventListener('change', function() {
+    const customSection = document.getElementById('customFileSection');
+    if (this.checked) {
+        customSection.style.display = 'none';
+    } else {
+        customSection.style.display = 'block';
+    }
+});
+
+function showCacheStats() {
+    fetch('/matching/cache-stats')
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            const stats = data.stats;
+            alert(`Commute Cache Statistics:
+- Total cached routes: ${stats.total_cached_routes}
+- Cache file: ${stats.cache_file}
+- Cache exists: ${stats.cache_exists ? 'Yes' : 'No'}`);
+        } else {
+            alert('Error: ' + data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred while getting cache stats.');
+    });
+}
+
+function clearCache() {
+    if (confirm('This will clear all cached commute data. Google API calls will be required for future calculations. Continue?')) {
+        fetch('/matching/clear-cache', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                alert(data.message);
+            } else {
+                alert('Error: ' + data.message);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred while clearing cache.');
+        });
+    }
+}
+
+// Match Details Modal
+function showMatchDetails(button) {
+    const matchData = JSON.parse(button.getAttribute('data-match-data'));
+    console.log('Match data:', matchData);
+    
+    // For sample data, show a simple alert
+    if (!matchData.intern_id || !matchData.restaurant_id) {
+        alert('Sample match data - no detailed information available');
+        return;
+    }
+    
+    // Fetch detailed match information from API
+    fetch(`/api/matching/match-details/${matchData.intern_id}/${matchData.restaurant_id}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.error) {
+                alert('Error: ' + data.error);
+                return;
+            }
+            
+            // Populate modal with match details
+            document.getElementById('modalInternName').textContent = data.intern_name;
+            document.getElementById('modalRestaurantName').textContent = data.current_match.restaurant_name;
+            document.getElementById('modalCommute').textContent = data.current_match.commute_minutes + ' minutes';
+            document.getElementById('modalScore').textContent = data.current_match.match_score.toFixed(1);
+            
+            // Show schedule details
+            const scheduleDetails = document.getElementById('scheduleDetails');
+            let scheduleHTML = `
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>Available Schedule Options:</h6>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="scheduleOption" id="option1" value="2x6" checked>
+                                <label class="form-check-label" for="option1">
+                                    <strong>2 days × 6 hours</strong> - Recommended for longer shifts
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="scheduleOption" id="option2" value="3x4">
+                                <label class="form-check-label" for="option2">
+                                    <strong>3 days × 4 hours</strong> - Recommended for shorter shifts
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Weekly Overlap Details:</h6>
+                        <div class="small">
+            `;
+            
+            // Add actual schedule overlaps
+            if (data.current_match.overlaps) {
+                for (const [day, slots] of Object.entries(data.current_match.overlaps)) {
+                    scheduleHTML += `<div class="mb-1"><strong>${day}:</strong> `;
+                    scheduleHTML += slots.map(slot => `${slot.start}:00-${slot.end}:00`).join(', ');
+                    scheduleHTML += ` (${slots.reduce((sum, slot) => sum + (slot.end - slot.start), 0)}h)</div>`;
+                }
+            }
+            scheduleHTML += `
+                            <div class="mb-1"><strong>Total:</strong> ${data.current_match.total_overlap_hours} hours/week</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            scheduleDetails.innerHTML = scheduleHTML;
+            
+            // Show alternative matches
+            const alternativeMatches = document.getElementById('alternativeMatches');
+            let alternativesHTML = `<h6>Alternative Matches for ${data.intern_name}:</h6><div class="list-group">`;
+            
+            data.alternative_matches.forEach(alt => {
+                // Extract city name from address
+                function getCityName(address) {
+                    if (!address) return 'Unknown';
+                    const parts = address.split(',');
+                    if (parts.length >= 2) {
+                        let cityPart = parts[1].trim();
+                        // Remove ZIP codes and apartment numbers
+                        cityPart = cityPart.replace(/\b\d{5}\b/g, ''); // Remove ZIP codes
+                        cityPart = cityPart.replace(/\bApt\s*\w*\b/gi, ''); // Remove Apt numbers
+                        cityPart = cityPart.trim();
+                        
+                        const cityWords = cityPart.split(' ');
+                        if (cityWords.length >= 2 && ['san', 'new', 'los', 'west', 'east', 'north', 'south'].includes(cityWords[0].toLowerCase())) {
+                            return cityWords.slice(0, 2).join(' ');
+                        }
+                        return cityWords[0];
+                    }
+                    return 'Unknown';
+                }
+                
+                const internCity = getCityName(data.intern_address);
+                const restaurantCity = getCityName(alt.restaurant_address);
+                const badgeClass = alt.commute_minutes < 120 ? 'bg-success' : 'bg-warning';
+                
+                alternativesHTML += `
+                    <div class="list-group-item">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <strong>${alt.restaurant_name}</strong>
+                                <span class="badge ${badgeClass} ms-2">${internCity} → ${restaurantCity}</span>
+                                <br><small class="text-muted">Commute: ${alt.commute_minutes} min | Score: ${alt.match_score.toFixed(1)}</small>
+                            </div>
+                            <button class="btn btn-sm btn-outline-primary" onclick="viewAlternativeMatch(${alt.restaurant_id})">View</button>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            alternativesHTML += '</div>';
+            alternativeMatches.innerHTML = alternativesHTML;
+            
+            // Show the modal
+            const modal = new bootstrap.Modal(document.getElementById('matchDetailsModal'));
+            modal.show();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred while loading match details.');
+        });
+}
+
+function viewAlternativeMatch(restaurantId) {
+    // This would reload the modal with the alternative match details
+    // For now, just close and reopen with new data
+    const modal = bootstrap.Modal.getInstance(document.getElementById('matchDetailsModal'));
+    modal.hide();
+}
+</script>
+
+<!-- Match Details Modal -->
+<div class="modal fade" id="matchDetailsModal" tabindex="-1" aria-labelledby="matchDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="matchDetailsModalLabel">Match Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <h6>Intern</h6>
+                        <p class="mb-1" id="modalInternName"></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Restaurant</h6>
+                        <p class="mb-1" id="modalRestaurantName"></p>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-4">
+                        <h6>Commute Time</h6>
+                        <p class="mb-1" id="modalCommute"></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Match Score</h6>
+                        <p class="mb-1" id="modalScore"></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Hours/Week</h6>
+                        <p class="mb-1">12 hours</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <div id="scheduleDetails"></div>
+                
+                <hr>
+                
+                <div id="alternativeMatches"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Accept Match</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,99 @@
+Intern Name,Actual Restaurant,Algorithm Restaurant,Actual Commute,Algorithm Commute,Delta (min),Delta %,Status,Data Source
+Zhijian Liu,The Butcher Shop,Teranga ,44,45,-1,-2.272727272727273,Actual Better,Intern Availability
+Samuel  Gonzalez ,The Wolf,The Holbrook House,0,17,0,0.0,Same,Intern Availability
+Angel Ruiz,None,Teranga ,0,54,0,0.0,Algorithm Only,None
+Enrique Marroquin,Californios,Ofena,0,83,0,0.0,Same,Intern Availability
+Imani Jarvis,Tarts de Feybesse,Abaca ,43,74,-31,-72.09302325581395,Actual Better,Intern Availability
+Giselle Contreras ,Sirene,Ssal,41,72,-31,-75.60975609756098,Actual Better,Intern Availability
+Ollie  O’Malley,None,Arquet,0,58,0,0.0,Algorithm Only,None
+Gyllibhet  Palacio,Sorrel Restaurant,Arquet,40,21,19,47.5,Algorithm Better,Intern Availability
+Asslin Espinal,Hahdough bakery,Abaca ,40,60,-20,-50.0,Actual Better,Intern Availability
+Jayden Piansay,Ofena,Tarts de Feybesse,41,66,-25,-60.97560975609756,Actual Better,Intern Availability
+Giovanni Giacomazzi,Nopa Fish,Ofena,42,40,2,4.761904761904762,Algorithm Better,Intern Availability
+Eljanae Robinson,None,Burdell,0,48,0,0.0,Algorithm Only,None
+Aliyatt  Rodgers,Foreign Cinema,Tarts de Feybesse,23,42,-19,-82.6086956521739,Actual Better,Intern Availability
+Kaylin Lewis,Rethink Food Sustainable Community Kitchen,2 Chix,38,12,26,68.42105263157895,Algorithm Better,Intern Availability
+Jesus Chavez,None,Broma Restaurant,0,80,0,0.0,Algorithm Only,None
+Jesus Aguilera,None,Burdell,0,49,0,0.0,Algorithm Only,None
+Aaliyah Engram,None,The Holbrook House,0,40,0,0.0,Algorithm Only,None
+Cristofer  Martin Diaz ,None,alaMar Dominican Kitchen,0,42,0,0.0,Algorithm Only,None
+Melanie Sanchez Ortega,Nido's Backyard,Millennium Restaurant,0,50,0,0.0,Same,Intern Availability
+chloe onofre,None,Millennium Restaurant,0,69,0,0.0,Algorithm Only,None
+Zailea Daniels,None,alaMar Dominican Kitchen,0,70,0,0.0,Algorithm Only,None
+Malerie Rogers,None,Snail Bar,0,67,0,0.0,Algorithm Only,None
+Naomi  Flores,None,Snail Bar,0,50,0,0.0,Algorithm Only,None
+Eros Raulins,"Eight Tables Tu/W/F 4-8pm,
+Pacific Union Club Tu/W/F 4-8pm (Tues 430-830) or Fri 11-5, 
+One Market Restaurant Tu/W/F 4-8pm,",None,0,0,0,0.0,Actual Only,Intern Availability
+Ruth Santos,"Burdell Sat/Sun 9am-3pm
+Left Bank Brasserie - Saturday, Sunday 9am-3pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Emilio Ramirez,alaMar Dominican Kitchen Weds/Fri/Sat 4-8pm  Left Bank Brasserie-,None,0,0,0,0.0,Actual Only,Intern Availability
+Eddy Gong,"Snail Bar -  Sat/Sun 11am-5pm, Thursday 4-9,
+Mago - Thurs 4-9, Sat 11-9pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Amire Lofton,"Little Bee Bakeshop - Mon/Thursday 11-5
+
+Ofena - Weds-Sun 11-5
+Foreign Cinema - Weds-Sun 11-5",None,0,0,0,0.0,Actual Only,Intern Availability
+Allysia Salazar,"Mago - Sat 11-5, Th 11-5pm 
+Joodooboo - Tu 9-3pm, Sat 11am-5pm 
+Burdell - Th/Sat 9-3pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Zachary Tang,"Atelier Crenn - Tu/Th 9-3pm 
+Heroic Italian - Th/F/Sa 11-3pm 
+Teranga - Mon/Thur 9am-3pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Daygoro Jimenez,Left Bank Brasserie Tu/Th 9-12 Sat 11-5,None,0,0,0,0.0,Actual Only,Intern Availability
+Darnell Burge,Osito tu/th 9-3pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Ry Mallari,Foreign Cinema - W/Th 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+naijella raybon,"Sorrel W,Th,F 4-8",None,0,0,0,0.0,Actual Only,Intern Availability
+Marie Demus,"3rd cousin T/W/Th 4-8pm
+One Market M/W 11-5pm
+Teranga M/W 9-3pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Leah Meas,Pacific Union Club M/W 4-8pm F 12-4pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Sophia (Juno) Ng,Mister Jiu's Tu/Th 1-7pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Ritzo Maya,Nopa Sat/Sun 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Gedioni Bolio,Greens Tu/W 4-8pm Sat 11-3,None,0,0,0,0.0,Actual Only,Intern Availability
+Melia Klopf,"Ofena W,Th,F 4-8pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Serenity Decuire,3rd cousin T/Th 4-9pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Tyler Mei,"Ediths Pie T/Th 9-12, Sat 11-5",None,0,0,0,0.0,Actual Only,Intern Availability
+gennesis martinez,Tu/Th 4-8pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Pablo Guerrero,Pacific Union Club Tu/W/Th 4-8pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Ana Carpenter,Heroic Italian Sa/Sun 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+marcielo trigueros,One Market M/Tu/Th 4-8pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Teantre Jones,Foreign Cinema (42m) Tu/W 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Oliver Williams,Foreign Cinema Th/Sa 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Graciela Martinez,"Snail Bar M/Sa 9-3pm
+Mago M/W11-5pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Danielle Victorian,"Edith's Pie (48m) 
+Tu/Th 9-3pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Yostin Rodas,Nopa (47m) Tu/Th 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Aunesha Monroe,"Bar Jabroni (43m) Tu/Th 11-5pm
+Atelier Crenn Tu/Th 11-5pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Izzy Wall,Butter Love Bakeshop (34m) W/Fr 9-3pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Luis Peraza,Mister Jiu's Tu/W 9-3pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Sally Zeng,Ofena (18m) W/Th/F 4-8pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Destiny Motley,"Componere Catering 9-3pm
+Mago W/Th 11-3pm 
+Burdell W/Th 9-3pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Gary Mallory,"Componere Catering Tu/Th 9-3pm
+Calabash W/Fr 10-4",None,0,0,0,0.0,Actual Only,Intern Availability
+Michelle Cruz Osornio,"Teranga (9m) Tu/W/Th 11-3pm
+Saison (25m) Tu/W/Th 11-3pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Natalie Zhao,Teranga (45m) M/F 9-3pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Xadani De La Rosa,Abaca (45m) W/Th/F 3-7pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Brisa Piña,Calabash W/Fr 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Jenai Flowers,"Left Bank (48m) Th/Fr 9-3pm
+Calabash (1hr direct) W/Fr 10-4pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Serena Greene,All Spice Tu/Th 3-9pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Jared Magana,"KYU (1hr)
+Tu/W/Th/Fr 3-8pm",None,0,0,0,0.0,Actual Only,Intern Availability
+suekanya meaks,Fulgrances (1hr27m) W/Th 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Sarai Simpson,Raf's W/Fr 9-3pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Davon Mcdonald,Society Cafe (1hr15) Wed 10-6pm Sa/Su 10-4pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Dioneuri Baez,"Musket Room (56m) 
+Tu/Th 11-5pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Chelsea Winkfield,Falansai (40m) W/Th 11-5pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Carlos Ruiz,Peking House (58m) Tu/W/Th/Fr 3-8pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Danajah Young,Margot (1hr17m) Sa/Su 10-6pm W 3-7pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Ervin Rodriguez,"Musket Room (48m)
+Tu/W/Th/Fr 3-8pm",None,0,0,0,0.0,Actual Only,Intern Availability
+Angelina Garcia,Raf's (47m) Tu/Th 9-3pm,None,0,0,0,0.0,Actual Only,Intern Availability
+Christian Goodwin,Society Cafe (36m) Tu 10-6pm Th/F 10-4pm,None,0,0,0,0.0,Actual Only,Intern Availability

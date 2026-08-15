@@ -1,0 +1,32 @@
+Intern Name,Actual Restaurant,Algorithm Restaurant,Actual Commute,Algorithm Commute,Delta (min),Delta %,Status
+Noel,Stanford,alaMar Dominican Kitchen,108.0,40.0,68.0,63.0%,Algorithm Better
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,38.0,12.0,26.0,68.4%,Algorithm Better
+Ivory Willows,Foreign Cinema,The Holbrook House,53.0,40.0,13.0,24.5%,Algorithm Better
+Gio,Nopa Fish,The Holbrook House,42.0,31.0,11.0,26.2%,Algorithm Better
+Angel,alaMar Dominican Kitchen,Mago,54.0,48.0,6.0,11.1%,Algorithm Better
+Enrique,Mago,Sirene,40.0,38.0,2.0,5.0%,Algorithm Better
+Melanie Sanchez,Snail Bar,Millennium Restaurant,52.0,50.0,2.0,3.8%,Algorithm Better
+Bosco Liu,The Butcher Shop,Teranga ,44.0,45.0,-1.0,-2.3%,Actual Better
+Gylli,Sorrel Restaurant,Snail Bar,40.0,46.0,-6.0,-15.0%,Actual Better
+Giselle,Sirene,Tarts de Feybesse,41.0,48.0,-7.0,-17.1%,Actual Better
+Noel,Stanford,alaMar Dominican Kitchen,108.0,40.0,68.0,63.0%,Algorithm Better
+Kaylin,Rethink Food Sustainable Community Kitchen,2 Chix,38.0,12.0,26.0,68.4%,Algorithm Better
+Ivory Willows,Foreign Cinema,The Holbrook House,53.0,40.0,13.0,24.5%,Algorithm Better
+Gio,Nopa Fish,The Holbrook House,42.0,31.0,11.0,26.2%,Algorithm Better
+Angel,alaMar Dominican Kitchen,Mago,54.0,48.0,6.0,11.1%,Algorithm Better
+Enrique,Mago,Sirene,40.0,38.0,2.0,5.0%,Algorithm Better
+Melanie Sanchez,Snail Bar,Millennium Restaurant,52.0,50.0,2.0,3.8%,Algorithm Better
+Bosco Liu,The Butcher Shop,Teranga ,44.0,45.0,-1.0,-2.3%,Actual Better
+Gylli,Sorrel Restaurant,Snail Bar,40.0,46.0,-6.0,-15.0%,Actual Better
+Giselle,Sirene,Tarts de Feybesse,41.0,48.0,-7.0,-17.1%,Actual Better
+Imani,Tarts de Feybesse,Burdell,43.0,50.0,-7.0,-16.3%,Actual Better
+JP,Ofena,alaMar Dominican Kitchen,28.0,45.0,-17.0,-60.7%,Actual Better
+Nae,The Holbrook House,Millennium Restaurant,20.0,47.0,-27.0,-135.0%,Actual Better
+Dana,Ssal,,142.0,,Different Assignment,,
+Jesus,UC Berkeley,,125.0,,Different Assignment,,
+Alex,Stanford,,106.0,,Different Assignment,,
+Andrea,Stanford,,48.0,,Different Assignment,,
+Jesus,Stanford,,110.0,,Different Assignment,,
+maye,Hahdough bakery,,136.0,,Different Assignment,,
+Shelsea,Burdell,,43.0,,Different Assignment,,
+Roni,Teranga,,33.0,,Different Assignment,,

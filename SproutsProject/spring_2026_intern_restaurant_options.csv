@@ -1,0 +1,330 @@
+Intern Name,Restaurant,Commute (min),Commute Text,Days with Overlap
+Gary Burton,Azalina's,7,7 mins,Multiple
+Gary Burton,Meski SF,8,9 mins,Multiple
+Gary Burton,Ssal,11,12 mins,Multiple
+Gary Burton,The Holbrook House,15,16 mins,Multiple
+Gary Burton,The Butcher Shop,16,17 mins,Multiple
+Gary Burton,Hahdough bakery,17,17 mins,Multiple
+Gary Burton,Foreign Cinema,19,20 mins,Multiple
+Gary Burton,Teranga,24,24 mins,Multiple
+Gary Burton,Sorrel Restaurant,24,25 mins,Multiple
+Gary Burton,Nopa Fish,25,25 mins,Multiple
+Ajanay Smith,Sorrel Restaurant,27,28 mins,Multiple
+Ajanay Smith,Dalida,28,29 mins,Multiple
+Ajanay Smith,Azalina's,32,33 mins,Multiple
+Ajanay Smith,Meski SF,33,34 mins,Multiple
+Ajanay Smith,Abaca,36,37 mins,Multiple
+Ajanay Smith,The Holbrook House,37,37 mins,Multiple
+Ajanay Smith,Hahdough bakery,38,39 mins,Multiple
+Ajanay Smith,Ssal,39,39 mins,Multiple
+Ajanay Smith,Teranga,44,45 mins,Multiple
+Ajanay Smith,La Cigale,45,46 mins,Multiple
+Jasmine Bentle,La Cigale,14,14 mins,Multiple
+Jasmine Bentle,The Holbrook House,28,28 mins,Multiple
+Jasmine Bentle,Teranga,33,33 mins,Multiple
+Jasmine Bentle,Nopa Fish,34,34 mins,Multiple
+Jasmine Bentle,Arquet,35,36 mins,Multiple
+Jasmine Bentle,ABURAYA,45,45 mins,Multiple
+Jasmine Bentle,Wolfsbane,47,48 mins,Multiple
+Jasmine Bentle,Meski SF,47,48 mins,Multiple
+Jasmine Bentle,alaMar Dominican Kitchen,48,49 mins,Multiple
+Jasmine Bentle,Ssal,49,49 mins,Multiple
+Angel Miller,Azalina's,5,6 mins,Multiple
+Angel Miller,Meski SF,5,6 mins,Multiple
+Angel Miller,The Holbrook House,11,12 mins,Multiple
+Angel Miller,Ssal,14,15 mins,Multiple
+Angel Miller,Teranga,16,17 mins,Multiple
+Angel Miller,Nopa Fish,18,19 mins,Multiple
+Angel Miller,Arquet,20,20 mins,Multiple
+Angel Miller,Abaca,24,24 mins,Multiple
+Angel Miller,Sorrel Restaurant,25,25 mins,Multiple
+Angel Miller,The Butcher Shop,26,27 mins,Multiple
+Damien Gonzalez,Hahdough bakery,3,4 mins,Multiple
+Damien Gonzalez,The Butcher Shop,6,7 mins,Multiple
+Damien Gonzalez,Foreign Cinema,7,8 mins,Multiple
+Damien Gonzalez,Meski SF,7,7 mins,Multiple
+Damien Gonzalez,Azalina's,8,9 mins,Multiple
+Damien Gonzalez,Ssal,9,10 mins,Multiple
+Damien Gonzalez,Sorrel Restaurant,11,11 mins,Multiple
+Damien Gonzalez,La Cigale,11,12 mins,Multiple
+Damien Gonzalez,Wolfsbane,12,12 mins,Multiple
+Damien Gonzalez,The Holbrook House,13,13 mins,Multiple
+Trinity White,Snail Bar,10,11 mins,Multiple
+Trinity White,Sobre Mesa,10,11 mins,Multiple
+Trinity White,ABURAYA,10,11 mins,Multiple
+Trinity White,Sirene,10,10 mins,Multiple
+Trinity White,Mago,11,11 mins,Multiple
+Trinity White,alaMar Dominican Kitchen,12,12 mins,Multiple
+Trinity White,Burdell,12,13 mins,Multiple
+Trinity White,Millennium Restaurant,13,13 mins,Multiple
+Trinity White,Tarts de Feybesse,13,13 mins,Multiple
+Trinity White,Joodooboo,13,13 mins,Multiple
+Gianna Sobye,La Cigale,11,12 mins,Multiple
+Gianna Sobye,The Holbrook House,30,31 mins,Multiple
+Gianna Sobye,Teranga,35,36 mins,Multiple
+Gianna Sobye,Nopa Fish,37,37 mins,Multiple
+Gianna Sobye,Arquet,38,38 mins,Multiple
+Gianna Sobye,Wolfsbane,42,43 mins,Multiple
+Gianna Sobye,Meski SF,45,46 mins,Multiple
+Gianna Sobye,Ssal,47,47 mins,Multiple
+Gianna Sobye,ABURAYA,52,52 mins,Multiple
+Gianna Sobye,alaMar Dominican Kitchen,55,56 mins,Multiple
+Oscar Pablo-Lucas,Sirene,6,6 mins,Multiple
+Oscar Pablo-Lucas,Mago,7,7 mins,Multiple
+Oscar Pablo-Lucas,Snail Bar,8,8 mins,Multiple
+Oscar Pablo-Lucas,alaMar Dominican Kitchen,9,9 mins,Multiple
+Oscar Pablo-Lucas,Tarts de Feybesse,9,9 mins,Multiple
+Oscar Pablo-Lucas,Millennium Restaurant,10,11 mins,Multiple
+Oscar Pablo-Lucas,ABURAYA,11,11 mins,Multiple
+Oscar Pablo-Lucas,Burdell,11,11 mins,Multiple
+Oscar Pablo-Lucas,ABURAYAxSPATS,17,18 mins,Multiple
+Oscar Pablo-Lucas,Teranga,20,21 mins,Multiple
+Deborah Reina Zarat,The Holbrook House,10,10 mins,Multiple
+Deborah Reina Zarat,Meski SF,13,14 mins,Multiple
+Deborah Reina Zarat,Nopa Fish,14,15 mins,Multiple
+Deborah Reina Zarat,Arquet,15,16 mins,Multiple
+Deborah Reina Zarat,La Cigale,17,17 mins,Multiple
+Deborah Reina Zarat,Teranga,19,20 mins,Multiple
+Deborah Reina Zarat,Ssal,21,22 mins,Multiple
+Deborah Reina Zarat,ABURAYA,27,27 mins,Multiple
+Deborah Reina Zarat,alaMar Dominican Kitchen,30,31 mins,Multiple
+Deborah Reina Zarat,Wolfsbane,32,33 mins,Multiple
+Angelica Cruz,Sirene,7,8 mins,Multiple
+Angelica Cruz,Mago,8,9 mins,Multiple
+Angelica Cruz,Snail Bar,9,10 mins,Multiple
+Angelica Cruz,alaMar Dominican Kitchen,10,11 mins,Multiple
+Angelica Cruz,Tarts de Feybesse,11,11 mins,Multiple
+Angelica Cruz,Millennium Restaurant,12,12 mins,Multiple
+Angelica Cruz,ABURAYA,12,13 mins,Multiple
+Angelica Cruz,Burdell,12,13 mins,Multiple
+Angelica Cruz,ABURAYAxSPATS,19,19 mins,Multiple
+Angelica Cruz,Teranga,22,23 mins,Multiple
+Alex Napoleon,Hahdough bakery,7,7 mins,Multiple
+Alex Napoleon,The Holbrook House,14,15 mins,Multiple
+Alex Napoleon,Foreign Cinema,16,17 mins,Multiple
+Alex Napoleon,Teranga,18,19 mins,Multiple
+Alex Napoleon,Azalina's,18,18 mins,Multiple
+Alex Napoleon,The Butcher Shop,19,20 mins,Multiple
+Alex Napoleon,Meski SF,19,20 mins,Multiple
+Alex Napoleon,Nopa Fish,20,20 mins,Multiple
+Alex Napoleon,Ssal,20,21 mins,Multiple
+Alex Napoleon,Arquet,21,21 mins,Multiple
+Enzo Calero Mastro,La Cigale,12,12 mins,Multiple
+Enzo Calero Mastro,The Holbrook House,27,28 mins,Multiple
+Enzo Calero Mastro,Teranga,31,32 mins,Multiple
+Enzo Calero Mastro,Nopa Fish,33,33 mins,Multiple
+Enzo Calero Mastro,Arquet,34,34 mins,Multiple
+Enzo Calero Mastro,Meski SF,42,42 mins,Multiple
+Enzo Calero Mastro,Ssal,43,44 mins,Multiple
+Enzo Calero Mastro,Sorrel Restaurant,49,50 mins,Multiple
+Enzo Calero Mastro,Wolfsbane,49,50 mins,Multiple
+Enzo Calero Mastro,ABURAYA,51,51 mins,Multiple
+Niko Mundera,Sirene,21,21 mins,Multiple
+Niko Mundera,Mago,25,26 mins,Multiple
+Niko Mundera,alaMar Dominican Kitchen,27,28 mins,Multiple
+Niko Mundera,Tarts de Feybesse,28,28 mins,Multiple
+Niko Mundera,ABURAYA,34,35 mins,Multiple
+Niko Mundera,Burdell,42,43 mins,Multiple
+Niko Mundera,Millennium Restaurant,47,47 mins,Multiple
+Niko Mundera,Snail Bar,47,48 mins,Multiple
+Niko Mundera,ABURAYAxSPATS,49,50 mins,Multiple
+Niko Mundera,The Holbrook House,51,52 mins,Multiple
+Caetano Zapien,Snail Bar,17,17 mins,Multiple
+Caetano Zapien,ABURAYAxSPATS,17,17 mins,Multiple
+Caetano Zapien,Burdell,18,18 mins,Multiple
+Caetano Zapien,ABURAYA,21,22 mins,Multiple
+Caetano Zapien,Mago,24,24 mins,Multiple
+Caetano Zapien,Millennium Restaurant,25,26 mins,Multiple
+Caetano Zapien,alaMar Dominican Kitchen,25,25 mins,Multiple
+Caetano Zapien,Sirene,27,27 mins,Multiple
+Caetano Zapien,The Holbrook House,33,34 mins,Multiple
+Caetano Zapien,Tarts de Feybesse,35,35 mins,Multiple
+Emmanuel Bruins,D GARDEN CARIBBEAN,32,33 mins,Multiple
+Emmanuel Bruins,PJ's on the Bay,56,57 mins,Multiple
+Emmanuel Bruins,Kokomo Hospitality Group,67,1 hour 8 mins,Multiple
+Emmanuel Bruins,Nudibranch,69,1 hour 10 mins,Multiple
+Emmanuel Bruins,Manousheh,69,1 hour 10 mins,Multiple
+Emmanuel Bruins,Aska,76,1 hour 17 mins,Multiple
+Emmanuel Bruins,Rethink Food Sustainable Community Kitchen,84,1 hour 24 mins,Multiple
+Jose Guallpa,Nudibranch,30,31 mins,Multiple
+Jose Guallpa,Kokomo Hospitality Group,31,31 mins,Multiple
+Jose Guallpa,Aska,31,32 mins,Multiple
+Jose Guallpa,Manousheh,32,32 mins,Multiple
+Jose Guallpa,Rethink Food Sustainable Community Kitchen,39,40 mins,Multiple
+Jose Guallpa,D GARDEN CARIBBEAN,58,58 mins,Multiple
+Jose Guallpa,The Nourish Spot,59,1 hour 0 mins,Multiple
+Jose Guallpa,PJ's on the Bay,83,1 hour 23 mins,Multiple
+jayda williams,D GARDEN CARIBBEAN,17,18 mins,Multiple
+jayda williams,Manousheh,44,45 mins,Multiple
+jayda williams,Rethink Food Sustainable Community Kitchen,46,46 mins,Multiple
+jayda williams,Nudibranch,50,50 mins,Multiple
+jayda williams,PJ's on the Bay,51,52 mins,Multiple
+jayda williams,Kokomo Hospitality Group,59,59 mins,Multiple
+jayda williams,Aska,59,59 mins,Multiple
+jayda williams,The Nourish Spot,74,1 hour 14 mins,Multiple
+Khyree Robinson,Sirene,11,12 mins,Multiple
+Khyree Robinson,Mago,12,13 mins,Multiple
+Khyree Robinson,Snail Bar,13,14 mins,Multiple
+Khyree Robinson,Millennium Restaurant,14,14 mins,Multiple
+Khyree Robinson,alaMar Dominican Kitchen,14,15 mins,Multiple
+Khyree Robinson,Joodooboo,14,14 mins,Multiple
+Khyree Robinson,Tarts de Feybesse,15,15 mins,Multiple
+Khyree Robinson,Co Nam Restaurant,15,15 mins,Multiple
+Khyree Robinson,ABURAYA,16,17 mins,Multiple
+Khyree Robinson,Burdell,16,17 mins,Multiple
+Diego Rodríguez,Sirene,9,9 mins,Multiple
+Diego Rodríguez,Mago,10,10 mins,Multiple
+Diego Rodríguez,Snail Bar,11,12 mins,Multiple
+Diego Rodríguez,ABURAYA,11,11 mins,Multiple
+Diego Rodríguez,alaMar Dominican Kitchen,12,13 mins,Multiple
+Diego Rodríguez,Tarts de Feybesse,12,13 mins,Multiple
+Diego Rodríguez,Millennium Restaurant,13,13 mins,Multiple
+Diego Rodríguez,Burdell,14,15 mins,Multiple
+Diego Rodríguez,ABURAYAxSPATS,20,21 mins,Multiple
+Diego Rodríguez,Nopa Fish,22,23 mins,Multiple
+Wasseem Ferhi,Abaca,1,2 mins,Multiple
+Wasseem Ferhi,Ssal,5,5 mins,Multiple
+Wasseem Ferhi,Teranga,9,9 mins,Multiple
+Wasseem Ferhi,Nopa Fish,9,10 mins,Multiple
+Wasseem Ferhi,The Holbrook House,10,11 mins,Multiple
+Wasseem Ferhi,Arquet,10,10 mins,Multiple
+Wasseem Ferhi,Meski SF,10,10 mins,Multiple
+Wasseem Ferhi,Dalida,13,13 mins,Multiple
+Wasseem Ferhi,Sorrel Restaurant,14,14 mins,Multiple
+Wasseem Ferhi,Wolfsbane,23,23 mins,Multiple
+Julissa Munguia,Sirene,13,13 mins,Multiple
+Julissa Munguia,Mago,14,14 mins,Multiple
+Julissa Munguia,Snail Bar,15,15 mins,Multiple
+Julissa Munguia,alaMar Dominican Kitchen,16,17 mins,Multiple
+Julissa Munguia,Tarts de Feybesse,16,17 mins,Multiple
+Julissa Munguia,ABURAYA,16,16 mins,Multiple
+Julissa Munguia,Millennium Restaurant,17,17 mins,Multiple
+Julissa Munguia,Burdell,18,18 mins,Multiple
+Julissa Munguia,ABURAYAxSPATS,24,25 mins,Multiple
+Julissa Munguia,Teranga,27,28 mins,Multiple
+Alondra Atecas Martinez,La Cigale,22,23 mins,Multiple
+Alondra Atecas Martinez,The Holbrook House,33,34 mins,Multiple
+Alondra Atecas Martinez,Wolfsbane,37,38 mins,Multiple
+Alondra Atecas Martinez,Meski SF,43,44 mins,Multiple
+Alondra Atecas Martinez,Ssal,50,51 mins,Multiple
+Alondra Atecas Martinez,Teranga,51,51 mins,Multiple
+Alondra Atecas Martinez,Abaca,51,51 mins,Multiple
+Alondra Atecas Martinez,Nopa Fish,52,52 mins,Multiple
+Alondra Atecas Martinez,Arquet,53,54 mins,Multiple
+Alondra Atecas Martinez,ABURAYA,61,1 hour 2 mins,Multiple
+Sidney (Jiyuan) Huang,Wolfsbane,33,33 mins,Multiple
+Sidney (Jiyuan) Huang,La Cigale,37,38 mins,Multiple
+Sidney (Jiyuan) Huang,The Holbrook House,41,42 mins,Multiple
+Sidney (Jiyuan) Huang,All Spice,45,46 mins,Multiple
+Sidney (Jiyuan) Huang,Meski SF,51,51 mins,Multiple
+Sidney (Jiyuan) Huang,Ssal,55,56 mins,Multiple
+Sidney (Jiyuan) Huang,Teranga,58,58 mins,Multiple
+Sidney (Jiyuan) Huang,Abaca,59,59 mins,Multiple
+Sidney (Jiyuan) Huang,Nopa Fish,59,1 hour 0 mins,Multiple
+Sidney (Jiyuan) Huang,Arquet,60,1 hour 1 min,Multiple
+Bryan Lopez,La Cigale,28,29 mins,Multiple
+Bryan Lopez,The Holbrook House,32,32 mins,Multiple
+Bryan Lopez,Teranga,36,37 mins,Multiple
+Bryan Lopez,Nopa Fish,37,38 mins,Multiple
+Bryan Lopez,Arquet,39,39 mins,Multiple
+Bryan Lopez,Ssal,45,45 mins,Multiple
+Bryan Lopez,Meski SF,45,46 mins,Multiple
+Bryan Lopez,Abaca,55,56 mins,Multiple
+Bryan Lopez,ABURAYA,57,57 mins,Multiple
+Bryan Lopez,Wolfsbane,58,58 mins,Multiple
+Jesus VAZQUEZ,La Cigale,8,8 mins,Multiple
+Jesus VAZQUEZ,Wolfsbane,12,13 mins,Multiple
+Jesus VAZQUEZ,The Butcher Shop,13,13 mins,Multiple
+Jesus VAZQUEZ,Foreign Cinema,15,15 mins,Multiple
+Jesus VAZQUEZ,Hahdough bakery,16,17 mins,Multiple
+Jesus VAZQUEZ,Azalina's,18,18 mins,Multiple
+Jesus VAZQUEZ,Meski SF,19,20 mins,Multiple
+Jesus VAZQUEZ,Nopa Fish,20,20 mins,Multiple
+Jesus VAZQUEZ,Arquet,20,20 mins,Multiple
+Jesus VAZQUEZ,The Holbrook House,21,21 mins,Multiple
+Carlos Ruiz,Kokomo Hospitality Group,45,46 mins,Multiple
+Carlos Ruiz,Rethink Food Sustainable Community Kitchen,46,47 mins,Multiple
+Carlos Ruiz,Manousheh,51,51 mins,Multiple
+Carlos Ruiz,The Nourish Spot,52,52 mins,Multiple
+Carlos Ruiz,Aska,57,58 mins,Multiple
+Carlos Ruiz,Nudibranch,58,58 mins,Multiple
+Paul Dancer,The Holbrook House,38,38 mins,Multiple
+Paul Dancer,La Cigale,38,38 mins,Multiple
+Paul Dancer,Dalida,39,39 mins,Multiple
+Paul Dancer,Hahdough bakery,41,42 mins,Multiple
+Paul Dancer,Teranga,42,42 mins,Multiple
+Paul Dancer,Nopa Fish,43,43 mins,Multiple
+Paul Dancer,Arquet,44,45 mins,Multiple
+Paul Dancer,Azalina's,44,44 mins,Multiple
+Paul Dancer,Abaca,45,45 mins,Multiple
+Paul Dancer,Sorrel Restaurant,46,46 mins,Multiple
+Jhakari Butler,Meski SF,2,3 mins,Multiple
+Jhakari Butler,Azalina's,6,7 mins,Multiple
+Jhakari Butler,Ssal,13,14 mins,Multiple
+Jhakari Butler,The Holbrook House,16,17 mins,Multiple
+Jhakari Butler,Nopa Fish,20,21 mins,Multiple
+Jhakari Butler,Sorrel Restaurant,21,21 mins,Multiple
+Jhakari Butler,The Butcher Shop,22,23 mins,Multiple
+Jhakari Butler,Hahdough bakery,22,22 mins,Multiple
+Jhakari Butler,Arquet,22,22 mins,Multiple
+Jhakari Butler,Teranga,24,24 mins,Multiple
+Ryan Obrien,Meski SF,2,3 mins,Multiple
+Ryan Obrien,Azalina's,6,7 mins,Multiple
+Ryan Obrien,Ssal,13,14 mins,Multiple
+Ryan Obrien,The Holbrook House,16,17 mins,Multiple
+Ryan Obrien,Nopa Fish,20,21 mins,Multiple
+Ryan Obrien,Sorrel Restaurant,21,21 mins,Multiple
+Ryan Obrien,The Butcher Shop,22,23 mins,Multiple
+Ryan Obrien,Hahdough bakery,22,22 mins,Multiple
+Ryan Obrien,Arquet,22,22 mins,Multiple
+Ryan Obrien,Teranga,24,24 mins,Multiple
+Grace Beitia,Sorrel Restaurant,27,28 mins,Multiple
+Grace Beitia,Dalida,29,29 mins,Multiple
+Grace Beitia,Azalina's,32,33 mins,Multiple
+Grace Beitia,Meski SF,33,34 mins,Multiple
+Grace Beitia,The Holbrook House,37,37 mins,Multiple
+Grace Beitia,Abaca,38,38 mins,Multiple
+Grace Beitia,Hahdough bakery,39,39 mins,Multiple
+Grace Beitia,Ssal,40,41 mins,Multiple
+Grace Beitia,Teranga,44,45 mins,Multiple
+Grace Beitia,La Cigale,45,46 mins,Multiple
+Onye Timms,Sobre Mesa,9,10 mins,Multiple
+Onye Timms,ABURAYA,10,10 mins,Multiple
+Onye Timms,alaMar Dominican Kitchen,14,15 mins,Multiple
+Onye Timms,Tarts de Feybesse,16,16 mins,Multiple
+Onye Timms,Co Nam Restaurant,18,18 mins,Multiple
+Onye Timms,Burdell,19,20 mins,Multiple
+Onye Timms,Sirene,19,20 mins,Multiple
+Onye Timms,Joodooboo,20,20 mins,Multiple
+Onye Timms,Millennium Restaurant,23,23 mins,Multiple
+Onye Timms,The Holbrook House,23,24 mins,Multiple
+Darren Chan,Foreign Cinema,6,6 mins,Multiple
+Darren Chan,La Cigale,10,11 mins,Multiple
+Darren Chan,The Holbrook House,12,12 mins,Multiple
+Darren Chan,Teranga,17,18 mins,Multiple
+Darren Chan,Azalina's,17,18 mins,Multiple
+Darren Chan,Nopa Fish,19,19 mins,Multiple
+Darren Chan,Arquet,20,20 mins,Multiple
+Darren Chan,Wolfsbane,21,21 mins,Multiple
+Darren Chan,Hahdough bakery,25,25 mins,Multiple
+Darren Chan,The Butcher Shop,26,27 mins,Multiple
+Grace Beitia,Sorrel Restaurant,27,28 mins,Multiple
+Grace Beitia,Dalida,29,29 mins,Multiple
+Grace Beitia,Azalina's,32,33 mins,Multiple
+Grace Beitia,Meski SF,33,34 mins,Multiple
+Grace Beitia,The Holbrook House,37,37 mins,Multiple
+Grace Beitia,Abaca,38,38 mins,Multiple
+Grace Beitia,Hahdough bakery,39,39 mins,Multiple
+Grace Beitia,Ssal,40,41 mins,Multiple
+Grace Beitia,Teranga,44,45 mins,Multiple
+Grace Beitia,La Cigale,45,46 mins,Multiple
+Grace Beitia,Azalina's,9,9 mins,Multiple
+Grace Beitia,Meski SF,9,10 mins,Multiple
+Grace Beitia,Ssal,14,14 mins,Multiple
+Grace Beitia,Hahdough bakery,16,17 mins,Multiple
+Grace Beitia,The Holbrook House,18,18 mins,Multiple
+Grace Beitia,Sorrel Restaurant,19,19 mins,Multiple
+Grace Beitia,The Butcher Shop,24,24 mins,Multiple
+Grace Beitia,Foreign Cinema,24,24 mins,Multiple
+Grace Beitia,Teranga,25,26 mins,Multiple
+Grace Beitia,Nopa Fish,27,27 mins,Multiple

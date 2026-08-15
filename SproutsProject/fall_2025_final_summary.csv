@@ -1,0 +1,65 @@
+Fall 2025 Intern Matching Analysis
+
+KEY METRICS
+Total Interns Analyzed,32
+Perfect Matches,1
+Different Matches,31
+Actual Commutes Available,32
+Optimal Commutes Available,32
+
+COMMUTE COMPARISON
+Average Actual Commute (minutes),17.0
+Average Optimal Commute (minutes),33.1
+Note,Limited actual commute data available
+
+PERFECT MATCHES (Current placements are optimal)
+Intern Name,Restaurant,Commute (minutes)
+Angel Ruiz,alaMar Dominican Kitchen,17.0
+
+TOP 10 OPTIMAL COMMUTES
+Intern Name,Current Restaurant,Optimal Restaurant,Optimal Commute (minutes)
+Kaylin Lewis,Rethink Food Sustainable Community Kitchen,2 Chix,10.0
+Angel Ruiz,alaMar Dominican Kitchen,alaMar Dominican Kitchen,17.0
+Eljanae Robinson,The Holbrook House,Teranga ,24.0
+Zhijian Liu,The Butcher Shop,Burdell,26.0
+Jayden Piansay,Ofena,Snail Bar,28.0
+Enrique Marroquin,Mago,Ssal,33.0
+Giovanni Giacomazzi,Nopa Fish,Ofena,42.0
+Asslin Espinal,Hahdough bakery,Arquet,43.0
+Giselle Contreras,Sirene,Tarts de Feybesse,45.0
+Jesus Chavez,Stanford,Millennium Restaurant,46.0
+
+COMPLETE COMPARISON
+Intern Name,Actual Restaurant,Optimal Restaurant,Status
+Jayden Piansay,Ofena,Snail Bar,Improvement Opportunity
+Enrique Marroquin,Mago,Ssal,Improvement Opportunity
+Giselle Contreras,Sirene,Tarts de Feybesse,Improvement Opportunity
+Graciela O'Malley,Dalida,nan,Improvement Opportunity
+Ruiqian Li,Ssal,nan,Improvement Opportunity
+Zhijian Liu,The Butcher Shop,Burdell,Improvement Opportunity
+Angel Ruiz,alaMar Dominican Kitchen,alaMar Dominican Kitchen,Perfect Match
+Gyllibhet Palacio,Sorrel Restaurant,nan,Improvement Opportunity
+Jesus Aguilera,UC Berkeley,Burdell,Improvement Opportunity
+Alexander Barrios Castaneda,Stanford,nan,Improvement Opportunity
+Andrea Caballero,Stanford,nan,Improvement Opportunity
+Jesus Chavez,Stanford,Millennium Restaurant,Improvement Opportunity
+Noel Mendoza,Stanford,nan,Improvement Opportunity
+Alexis Moreno Hernandez,Stanford,nan,Improvement Opportunity
+Eljanae Robinson,The Holbrook House,Teranga ,Improvement Opportunity
+Samuel Gonzalez,Nopa Fish,nan,Improvement Opportunity
+Asslin Espinal,Hahdough bakery,Arquet,Improvement Opportunity
+Shelsea Vasquez,Burdell,nan,Improvement Opportunity
+Kaylin Lewis,Rethink Food Sustainable Community Kitchen,2 Chix,Improvement Opportunity
+Aliyatt Rodgers,Foreign Cinema,nan,Improvement Opportunity
+Roni Velasquez,Teranga,nan,Improvement Opportunity
+Venus Melanie Sánchez Ortega,Snail Bar,nan,Improvement Opportunity
+Giovanni Giacomazzi,Nopa Fish,Ofena,Improvement Opportunity
+Imani Analise Jarvis,Tarts de Feybesse,nan,Improvement Opportunity
+Marye Green Frazier,nan,nan,Improvement Opportunity
+Spring 2026,nan,nan,Improvement Opportunity
+Average Actual Commute (min),17.0,nan,Improvement Opportunity
+Average Optimal Commute (min),33.1,nan,Improvement Opportunity
+Commute Improvement (min),-16.1,nan,Improvement Opportunity
+Total Interns Compared,26,nan,Improvement Opportunity
+Actual Commutes Calculated,1,nan,Improvement Opportunity
+Optimal Commutes Available,11,nan,Improvement Opportunity
