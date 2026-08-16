@@ -447,7 +447,7 @@ def sprouts_matching(request):
     # Serve HTML form for GET requests
     if request.method == 'GET':
         html = get_html_form()
-        return (html, 200, {'Content-Type': 'text/html'})
+        return (html, 200, {'Content-Type': 'text/html; charset=utf-8'})
     
     # Matching endpoint (POST)
     try:
