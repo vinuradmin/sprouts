@@ -36,3 +36,6 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Local matching output (run_local.py)
+*_matches_local_*.csv

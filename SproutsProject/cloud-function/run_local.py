@@ -13,6 +13,9 @@ Usage:
 Credentials (one of):
     - Place service-account-key.json in this directory
     - Set GOOGLE_SERVICE_ACCOUNT_KEY env var with the JSON content
+
+Also reads GOOGLE_MAPS_API_KEY from a local .env file in this directory if present
+(see .env.example). Real values in .env are gitignored.
 """
 
 import csv
@@ -21,6 +24,28 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
+
+
+def _load_dotenv():
+    """Minimal .env loader — avoids adding python-dotenv as a dependency.
+
+    Only sets variables not already present in the environment, so an explicit
+    `export` still takes precedence.
+    """
+    env_path = Path(__file__).parent / '.env'
+    if not env_path.exists():
+        return
+    for line in env_path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith('#') or '=' not in line:
+            continue
+        key, _, value = line.partition('=')
+        key, value = key.strip(), value.strip()
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+_load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Auth
@@ -131,7 +156,54 @@ def save_cache(cache):
 # Core classes (copied from main.py so this file is self-contained)
 # ---------------------------------------------------------------------------
 
+import re
+
 GOOGLE_MAPS_API_KEY = os.environ.get('GOOGLE_MAPS_API_KEY', '')
+
+DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+
+def get_day_availability_raw(row: dict, day: str) -> str:
+    """
+    Read a day's raw availability string from a sheet row.
+
+    The Chef/Intern Availability forms have been edited over time, which orphans
+    the original short-named columns (e.g. 'Monday') in favor of new long-named
+    ones (e.g. '...Scroll across to view more times.  [Monday]' or
+    '...[Tuesday ]' with a stray trailing space before the bracket). Older rows
+    may only have the short column populated; current rows only have the long
+    one. Prefer the short column when present, otherwise search for any header
+    ending in a bracketed day name.
+    """
+    short_value = row.get(day, '').strip()
+    if short_value:
+        return short_value
+
+    pattern = re.compile(rf'\[\s*{re.escape(day)}\s*\]\s*$', re.IGNORECASE)
+    for key, value in row.items():
+        if pattern.search(key) and value and value.strip():
+            return value.strip()
+
+    return ''
+
+
+def find_column_value(row: dict, name_substring: str) -> str:
+    """Find a row value by a distinctive substring of its column header.
+
+    Sheet question text carries incidental whitespace/punctuation drift across
+    form edits, so match on a stable substring rather than the full header.
+    """
+    for key, value in row.items():
+        if name_substring.lower() in key.lower():
+            return (value or '').strip()
+    return ''
+
+
+def parse_languages(raw: str) -> list:
+    """Split a 'Select all that apply' language answer into normalized parts."""
+    if not raw:
+        return []
+    return [part.strip() for part in re.split(r'[,/]', raw) if part.strip()]
 
 
 class Slot:
@@ -222,8 +294,10 @@ class Commute:
     @staticmethod
     def get_commute_time(origin, destination):
         if not GOOGLE_MAPS_API_KEY:
-            print('[WARN] No GOOGLE_MAPS_API_KEY — commute defaulting to 0')
-            return Commute('0 mins', 0)
+            raise RuntimeError(
+                'GOOGLE_MAPS_API_KEY is not set — refusing to fabricate a commute time. '
+                'Set the environment variable before running.'
+            )
         import googlemaps
         client = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
         try:
@@ -241,6 +315,9 @@ class Commute:
 
 
 class Chef:
+    # Col BC: "What languages do you & your staff speak in the kitchen? Select all that apply."
+    LANGUAGE_COLUMN_HINT = 'languages do you & your staff speak in the kitchen'
+
     def __init__(self, row):
         self.restaurant_name = row.get('Restaurant Name', '').strip()
         self.restaurant_address = row.get('Restaurant Address', '').strip()
@@ -249,23 +326,28 @@ class Chef:
         self.over_18_only = row.get(
             'Do interns need to be over 18 to work in your kitchen?', ''
         ).strip().lower() != 'no'
-        self.kitchen_language = row.get('Kitchen Language', '').strip()  # col BC (future)
+        self.languages = parse_languages(find_column_value(row, self.LANGUAGE_COLUMN_HINT))
         self.availability = {
-            day: Slot.combine_slots(row.get(day, ''))
-            for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+            day: Slot.combine_slots(get_day_availability_raw(row, day))
+            for day in DAYS
         }
 
     def get_full_address(self):
         return f"{self.restaurant_address}, {self.restaurant_location}"
 
     def is_spanish_only(self):
-        return self.kitchen_language.lower() == 'spanish'
+        """True only when Spanish is the sole language listed for the kitchen."""
+        langs = {lang.lower() for lang in self.languages}
+        return langs == {'spanish'}
 
     def display_name(self):
         return f"{self.restaurant_name} *" if self.is_spanish_only() else self.restaurant_name
 
 
 class InternLocal:
+    # Col BP: "What languages do you speak fluently?"
+    LANGUAGE_COLUMN_HINT = 'languages do you speak fluently'
+
     def __init__(self, row):
         self.first_name = row.get('First Name', '').strip()
         self.last_name = row.get('Last Name', '').strip()
@@ -275,11 +357,15 @@ class InternLocal:
         self.zip_code = row.get('Zip Code', '').strip()
         self.over_18 = row.get('Are you over 18 years old?', '').strip().lower() == 'yes'
         self.transportation = row.get('What transportation will you use?', '').strip()
-        self.speaks_spanish = row.get('Do you speak Spanish?', '').strip().lower() == 'yes'  # col BP (future)
+        self.languages = parse_languages(find_column_value(row, self.LANGUAGE_COLUMN_HINT))
         self.availability = {
-            day: Slot.combine_slots(row.get(day, ''))
-            for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+            day: Slot.combine_slots(get_day_availability_raw(row, day))
+            for day in DAYS
         }
+
+    @property
+    def speaks_spanish(self):
+        return 'spanish' in {lang.lower() for lang in self.languages}
 
     def get_full_address(self):
         return f"{self.address}, {self.city}, {self.zip_code}"
@@ -329,8 +415,12 @@ def find_intern_restaurant_overlaps(chefs, intern, day, intern_slots, cache):
                     commute = Commute.get_commute_time(
                         intern.get_full_address(), chef.get_full_address()
                     )
-                    cache[cache_key] = commute.to_dict()
-                    cache_dirty = True
+                    # Don't persist failed lookups (e.g. an expired API key) —
+                    # doing so would permanently poison the cache with bogus
+                    # "no commute possible" results for that pair.
+                    if commute.text != 'Error':
+                        cache[cache_key] = commute.to_dict()
+                        cache_dirty = True
 
                 if commute.value > 10_800:  # 3 hours in seconds
                     continue
@@ -442,6 +532,14 @@ def current_cohort():
 # ---------------------------------------------------------------------------
 
 def main():
+    if not GOOGLE_MAPS_API_KEY:
+        print(
+            "ERROR: GOOGLE_MAPS_API_KEY is not set.\n"
+            "Commute times cannot be fabricated — export a real key before running:\n"
+            "  export GOOGLE_MAPS_API_KEY='...'\n"
+        )
+        sys.exit(1)
+
     cohort = sys.argv[1] if len(sys.argv) > 1 else current_cohort()
     print(f"{'='*60}")
     print(f"Sprouts Local Runner — cohort: {cohort}")
