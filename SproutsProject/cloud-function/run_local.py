@@ -358,6 +358,10 @@ class InternLocal:
         self.over_18 = row.get('Are you over 18 years old?', '').strip().lower() == 'yes'
         self.transportation = row.get('What transportation will you use?', '').strip()
         self.languages = parse_languages(find_column_value(row, self.LANGUAGE_COLUMN_HINT))
+        # Col G: 'restaurantname' — set when this intern was already placed in
+        # a prior matching round. A non-empty value means this intern is not
+        # up for matching; their restaurant is fixed.
+        self.pre_matched_restaurant = row.get('restaurantname', '').strip()
         self.availability = {
             day: Slot.combine_slots(get_day_availability_raw(row, day))
             for day in DAYS
@@ -383,6 +387,47 @@ def language_constraint_passes(chef: Chef, intern: InternLocal) -> bool:
     if chef.is_spanish_only():
         return intern.speaks_spanish
     return True
+
+
+# ---------------------------------------------------------------------------
+# Pre-matched interns and restaurant capacity
+# ---------------------------------------------------------------------------
+
+DEFAULT_RESTAURANT_CAPACITY = 2
+
+# Restaurants exempt from the capacity cap — university/special-program
+# partners that intentionally host more interns than a normal kitchen.
+# No sheet column currently identifies these, so this is a hardcoded list
+# pending a real data source; pass a different set via
+# run_matching(..., capacity_exempt_restaurants=...) to override.
+CAPACITY_EXEMPT_RESTAURANTS = set()
+
+
+def partition_pre_matched(interns: dict):
+    """Split interns into (already placed, still need matching), preserving order."""
+    pre_matched = []
+    unmatched = []
+    for intern in interns.values():
+        if intern.pre_matched_restaurant:
+            pre_matched.append(intern)
+        else:
+            unmatched.append(intern)
+    return pre_matched, unmatched
+
+
+def compute_full_restaurants(pre_matched: list, capacity: int, exempt: set) -> set:
+    """Restaurant names that have hit capacity purely from fixed (pre-matched)
+    assignments, and so shouldn't be offered as a new option to remaining
+    unmatched interns. Exempt restaurants are never considered full."""
+    counts = {}
+    for intern in pre_matched:
+        name = intern.pre_matched_restaurant
+        counts[name] = counts.get(name, 0) + 1
+
+    return {
+        name for name, count in counts.items()
+        if count >= capacity and name not in exempt
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -435,7 +480,100 @@ def find_intern_restaurant_overlaps(chefs, intern, day, intern_slots, cache):
     return sorted_overlaps, cache_dirty
 
 
-def run_matching(intern_dicts, chef_dicts, cache):
+def dedupe_intern_rows(intern_dicts: list):
+    """Parse intern rows into a name-keyed dict, resolving duplicate rows.
+
+    The sheet sometimes has two rows for the same person after whitespace
+    normalization (e.g. a stray leading/trailing space on First/Last Name from
+    a re-submitted form). When that happens, prefer whichever row has a
+    non-empty pre-matched restaurant over a blank one — an already-made
+    placement decision shouldn't be silently discarded because of a blank
+    duplicate. If both rows have a restaurant and they disagree, that's a real
+    conflict that needs a human, so we keep the first one and flag it loudly
+    rather than guessing.
+
+    Returns (interns, notes) where notes maps full_name -> a note describing
+    any judgment call made, to be surfaced in the output.
+    """
+    interns = {}
+    notes = {}
+
+    for row in intern_dicts:
+        try:
+            intern = InternLocal(row)
+        except Exception as e:
+            print(f'[WARN] Intern row error: {e}')
+            continue
+
+        if not intern.full_name.strip():
+            continue
+
+        existing = interns.get(intern.full_name)
+        if existing is None:
+            interns[intern.full_name] = intern
+            continue
+
+        # Duplicate row for this name — decide which one is authoritative.
+        if existing.pre_matched_restaurant and intern.pre_matched_restaurant:
+            if existing.pre_matched_restaurant != intern.pre_matched_restaurant:
+                note = (
+                    f"CONFLICT: duplicate rows list different restaurants "
+                    f"({existing.pre_matched_restaurant!r} vs {intern.pre_matched_restaurant!r}) "
+                    f"— kept {existing.pre_matched_restaurant!r}, needs manual review"
+                )
+                notes[intern.full_name] = note
+                print(f'[WARN] {intern.full_name}: {note}')
+            # Same restaurant on both — harmless duplicate, nothing to flag.
+            continue
+
+        if intern.pre_matched_restaurant and not existing.pre_matched_restaurant:
+            note = (
+                f"Duplicate row detected — kept the row with a restaurant "
+                f"assignment ({intern.pre_matched_restaurant!r}), ignored a blank duplicate"
+            )
+            notes[intern.full_name] = note
+            print(f'[WARN] {intern.full_name}: {note}')
+            interns[intern.full_name] = intern
+            continue
+
+        if existing.pre_matched_restaurant and not intern.pre_matched_restaurant:
+            note = (
+                f"Duplicate row detected — kept the row with a restaurant "
+                f"assignment ({existing.pre_matched_restaurant!r}), ignored a blank duplicate"
+            )
+            notes[intern.full_name] = note
+            print(f'[WARN] {intern.full_name}: {note}')
+            continue
+
+        # Both blank — harmless duplicate, nothing to flag.
+
+    return interns, notes
+
+
+def _fixed_row_for_pre_matched(intern: InternLocal, chefs: dict, note: str = '') -> dict:
+    """Build a result row for an intern whose restaurant is already decided.
+
+    Every day shows the same fixed restaurant — there's no algorithm decision
+    to make. If the decided restaurant isn't in this cohort's current chef
+    list (e.g. it dropped out), report the name exactly as the sheet has it
+    rather than fabricating or silently dropping it.
+    """
+    chef = chefs.get(intern.pre_matched_restaurant)
+    display_name = chef.display_name() if chef else intern.pre_matched_restaurant
+
+    fixed_match = {'restaurant': display_name, 'commute': 'Already matched', 'slots': ''}
+    return {
+        'intern_name': intern.full_name,
+        'days': {day: [fixed_match] for day in DAYS},
+        'notes': note,
+    }
+
+
+def run_matching(intern_dicts, chef_dicts, cache,
+                  restaurant_capacity=DEFAULT_RESTAURANT_CAPACITY,
+                  capacity_exempt_restaurants=None):
+    exempt = capacity_exempt_restaurants if capacity_exempt_restaurants is not None else CAPACITY_EXEMPT_RESTAURANTS
+
     chefs = {}
     for row in chef_dicts:
         try:
@@ -445,26 +583,31 @@ def run_matching(intern_dicts, chef_dicts, cache):
         except Exception as e:
             print(f'[WARN] Chef row error: {e}')
 
-    interns = {}
-    for row in intern_dicts:
-        try:
-            intern = InternLocal(row)
-            if intern.full_name.strip():
-                interns[intern.full_name] = intern
-        except Exception as e:
-            print(f'[WARN] Intern row error: {e}')
+    interns, notes = dedupe_intern_rows(intern_dicts)
 
     print(f"Loaded {len(chefs)} restaurants, {len(interns)} interns")
+
+    pre_matched, unmatched = partition_pre_matched(interns)
+    full_restaurants = compute_full_restaurants(pre_matched, restaurant_capacity, exempt)
+    if full_restaurants:
+        print(f"Restaurants at capacity from prior matches (excluded from new matches): {sorted(full_restaurants)}")
+
+    available_chefs = {name: c for name, c in chefs.items() if name not in full_restaurants}
 
     results = []
     cache_dirty = False
 
     for intern in interns.values():
+        if intern.pre_matched_restaurant:
+            print(f"\n{intern}: already matched to {intern.pre_matched_restaurant}")
+            results.append(_fixed_row_for_pre_matched(intern, chefs, notes.get(intern.full_name, '')))
+            continue
+
         print(f"\nProcessing: {intern}")
-        row_result = {'intern_name': intern.full_name, 'days': {}}
+        row_result = {'intern_name': intern.full_name, 'days': {}, 'notes': notes.get(intern.full_name, '')}
 
         for day, slots in intern.availability.items():
-            day_overlaps, dirty = find_intern_restaurant_overlaps(chefs, intern, day, slots, cache)
+            day_overlaps, dirty = find_intern_restaurant_overlaps(available_chefs, intern, day, slots, cache)
             cache_dirty = cache_dirty or dirty
 
             matches = []
@@ -491,7 +634,7 @@ def write_local_csv(results, cohort_name):
     output_path = Path(__file__).parent / filename
 
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-    header = ['Intern Name'] + days
+    header = ['Intern Name'] + days + ['Notes']
 
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
@@ -505,6 +648,7 @@ def write_local_csv(results, cohort_name):
                     f"{m['restaurant']} ({m['commute']}): {m['slots']}" for m in matches
                 )
                 row.append(cell)
+            row.append(r.get('notes', ''))
             writer.writerow(row)
 
     print(f"\nOutput: {output_path}")
