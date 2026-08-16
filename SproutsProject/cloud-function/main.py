@@ -7,229 +7,31 @@ from google.oauth2 import service_account
 from google.auth import default
 from googleapiclient.discovery import build
 from google.cloud import storage
-import googlemaps
 import json
 import os
+import sys
 from datetime import datetime
+
+# Shares the same tested matching engine as the local CLI runner (language
+# constraint, pre-matched interns, capacity cap, weekly recommendations,
+# duplicate-row handling) instead of a second, drifted copy of the same
+# logic living in this file.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from run_local import (
+    filter_by_cohort,
+    rows_to_dicts,
+    run_matching as run_local_matching,
+    build_result_row,
+    RESULT_HEADER,
+)
 
 # Configuration
 SPREADSHEET_ID = '1c1A-FY8I16Jmq5FhXWEXiOvz9_eybAZNBXMqHVIAB-M'
-GOOGLE_MAPS_API_KEY = os.environ.get('GOOGLE_MAPS_API_KEY', 'AIzaSyAILDN2YIseCh_iFMZVj5pTgZvS5hxiJbg')
 CACHE_BUCKET = os.environ.get('CACHE_BUCKET', 'sprouts-commute-cache')
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
-# Initialize Google Maps client
-gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
-
 # Commute cache
 commute_cache = {}
-
-# ============================================================================
-# SLOT CLASS (from Slot.py)
-# ============================================================================
-
-class Slot:
-    start = 0
-    end = 0
-
-    def __init__(self, string="Unavailable"):
-        self.fromString(string)
-
-    def __str__(self):
-        return str(self.start) + "-" + str(self.end)
-
-    def __repr__(self):
-        return str(self.start) + "-" + str(self.end)
-
-    @staticmethod
-    def to24(stringAmPm):
-        if 'AM' in stringAmPm:
-            return int(stringAmPm.replace('AM', ''))
-        elif stringAmPm.strip() == '12PM':
-            return 12
-        else:
-            return 12 + int(stringAmPm.replace('PM', ''))
-
-    @staticmethod
-    def combineSlots(daySlots):
-        slots = []
-        individualSlots = daySlots.split(',')
-        prevSlot = Slot()
-        for slot in individualSlots:
-            newSlot = Slot(slot)
-            if newSlot.isAllDay():
-                slots.append(newSlot)
-                break
-            if (prevSlot.isAdjacent(newSlot)):
-                prevSlot.addAndCombine(newSlot)
-                continue
-            if prevSlot.duration() < 4:
-                prevSlot = newSlot
-                continue
-            slots.append(prevSlot)
-            prevSlot = newSlot
-        if prevSlot.duration() >= 4:
-            slots.append(prevSlot)
-        return slots
-
-    def fromString(self, string):
-        if string == 'All Day (9AM-9PM)':
-            self.start = 9
-            self.end = 21
-        elif string == '' or string.strip() == 'Unavailable':
-            return
-        else:
-            startEnd = string.split('-')
-            self.start = Slot.to24(startEnd[0])
-            self.end = Slot.to24(startEnd[1])
-
-    def isAdjacent(self, other):
-        return self.start == other.end or self.end == other.start
-
-    def addAndCombine(self, other):
-        if not self.isAdjacent(other):
-            raise ValueError("can't combine slots that are not adjacent")
-        elif self.start == other.end:
-            self.start = other.start
-        else:
-            self.end = other.end
-
-    def duration(self):
-        return self.end - self.start
-
-    def isAllDay(self):
-        return self.start == 9 and self.end == 21
-
-    def getOverlap(self, otherslot):
-        overlap = Slot('')
-        overlap.start = max(self.start, otherslot.start)
-        overlap.end = min(self.end, otherslot.end)
-        return overlap
-
-# ============================================================================
-# COMMUTE CLASS (from commute.py)
-# ============================================================================
-
-class Commute:
-    def __init__(self, text, value):
-        self.text = text
-        self.value = value
-    
-    def to_dict(self):
-        return {'text': self.text, 'value': self.value}
-    
-    @staticmethod
-    def from_dict(d):
-        return Commute(d['text'], d['value'])
-    
-    @staticmethod
-    def getCommuteTime(transportationType, origin, destination):
-        """Always use transit mode (public transportation)"""
-        try:
-            result = gmaps.distance_matrix(origin, destination, mode='transit')
-            
-            if result['status'] == 'OK':
-                element = result['rows'][0]['elements'][0]
-                if 'duration' in element:
-                    return Commute(element['duration']['text'], element['duration']['value'])
-        except Exception as e:
-            print(f"Error calculating commute: {e}")
-        
-        return Commute('Error', 100000)
-    
-    def __str__(self):
-        return str(self.text)
-    
-    def __repr__(self):
-        return str(self.text)
-
-# ============================================================================
-# CHEF CLASS (from chef.py)
-# ============================================================================
-
-class Chef:
-    timestamp = ''
-    restaurantName = ''
-    restaurantLocation = ''
-    restaurantAddress = ''
-    chefFullName = ''
-    chefCell = ''
-    chefEmail = ''
-    chefOver18Only = True
-    availability = {}
-
-    def __init__(self, row={}):
-        self.timestamp = row.get('Timestamp', '')
-        self.restaurantName = row.get('Restaurant Name', '')
-        self.restaurantLocation = row.get('Restaurant Location', '')
-        self.restaurantAddress = row.get('Restaurant Address', '')
-        self.chefFullName = row.get("Primary Mentor's Full Name (First and Last)", '')
-        self.chefCell = row.get("Primary Mentor's Cell Phone Number", '')
-        self.chefEmail = row.get("Primary Mentor's Email Address", '')
-        self.chefOver18Only = False if row.get('Do interns need to be over 18 to work in your kitchen?', '') == 'No' else True
-        print('Processing chef: ' + str(self))
-        self.availability = self.getChefAvailability(row)
-
-    def getChefAvailability(self, rowObject):
-        avail = {}
-        for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']:
-            day_avail = rowObject.get(day, '')
-            print(f"{day} - {day_avail}")
-            avail[day] = Slot.combineSlots(day_avail)
-        return avail
-
-    def getFullAddress(self):
-        return self.restaurantAddress + ', ' + self.restaurantLocation
-
-    def __str__(self):
-        return str(self.chefFullName) + " - from - " + str(self.restaurantName)
-
-# ============================================================================
-# INTERN CLASS (from intern.py)
-# ============================================================================
-
-class Intern:
-    internFirstName = ''
-    internLastName = ''
-    internFullName = ''
-    internPhone = ''
-    internAddress = ''
-    internCity = ''
-    internZip = ''
-    internOver18 = True
-    internAge = 0
-    internTransportation = ''
-    internCommutePreference = ''
-    availability = {}
-
-    def __init__(self, row={}):
-        self.internFirstName = row.get('First Name', '')
-        self.internLastName = row.get('Last Name', '')
-        self.internFullName = self.internFirstName + ' ' + self.internLastName
-        self.internPhone = row.get('intern phone', '')
-        self.internAddress = row.get('Street Address', '')
-        self.internCity = row.get('City', '')
-        self.internZip = row.get('Zip Code', '')
-        self.internOver18 = True if row.get('Are you over 18 years old?', '') == 'Yes' else False
-        self.internAge = row.get('Age', 0)
-        self.internTransportation = row.get('What transportation will you use?', '')
-        self.internCommutePreference = row.get('How long are you willing to commute to your internship?', '')
-        print('Processing intern: ' + str(self))
-        self.availability = self.getInternAvailability(row)
-
-    def getInternAvailability(self, rowObject):
-        avail = {}
-        for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']:
-            day_avail = rowObject.get(day, '')
-            print(f"{day} - {day_avail}")
-            avail[day] = Slot.combineSlots(day_avail)
-        return avail
-
-    def getFullAddress(self):
-        return self.internAddress + ', ' + self.internCity + ', ' + self.internZip
-
-    def __str__(self):
-        return str(self.internFullName)
 
 # ============================================================================
 # CACHE FUNCTIONS
@@ -296,162 +98,32 @@ def read_sheet_data(sheet_name):
     ).execute()
     return result.get('values', [])
 
-def find_column_index(header_row, column_name):
-    """Find the index of a column by name"""
-    for i, cell in enumerate(header_row):
-        if str(cell).strip() == column_name:
-            return i
-    return None
-
-def filter_by_cohort(data, cohort_name):
-    """Filter data by Season/Year column"""
-    if not data or len(data) < 2:
-        return []
-    
-    header_row = None
-    season_year_col = None
-    
-    for i, row in enumerate(data):
-        season_year_col = find_column_index(row, 'Season/Year')
-        if season_year_col is not None:
-            header_row = i
-            break
-    
-    if header_row is None or season_year_col is None:
-        return []
-    
-    filtered = [data[header_row]]
-    
-    for i in range(header_row + 1, len(data)):
-        row = data[i]
-        if len(row) > season_year_col:
-            if str(row[season_year_col]).strip() == cohort_name:
-                filtered.append(row)
-    
-    return filtered
-
-def rows_to_dict_list(rows):
-    """Convert rows (with header) to list of dictionaries"""
-    if not rows or len(rows) < 2:
-        return []
-    
-    headers = rows[0]
-    dict_list = []
-    
-    for row in rows[1:]:
-        row_dict = {}
-        for i, header in enumerate(headers):
-            row_dict[header] = row[i] if i < len(row) else ''
-        dict_list.append(row_dict)
-    
-    return dict_list
+# filter_by_cohort and rows_to_dicts are imported from run_local — same
+# logic, one source of truth.
 
 # ============================================================================
-# MATCHING ALGORITHM (from matching_algo.py)
+# MATCHING ALGORITHM
 # ============================================================================
 
-def findInternsToRestaurantOverlap(chefsAvail, intern, day, listOfInternsAvail):
-    """Find restaurant matches for an intern on a specific day"""
+def run_matching_algorithm(intern_rows, chef_rows, enable_language_matching=True,
+                            enable_respect_prior_matches=True):
+    """Run the matching algorithm and return results.
+
+    Delegates to run_local.run_matching — the same engine used by the local
+    CLI runner, covering the language constraint, pre-matched interns,
+    restaurant capacity cap, and weekly schedule recommendations.
+    """
     global commute_cache
-    overlaps = {}
-    
-    for chefAvail in chefsAvail:
-        chefDayAvail = chefsAvail[chefAvail].availability[day]
-        for chefSlot in chefDayAvail:
-            for internSlot in listOfInternsAvail:
-                # Check age requirement
-                if (chefsAvail[chefAvail].chefOver18Only and not intern.internOver18):
-                    print(intern.internFullName + ' skipped ' + chefsAvail[chefAvail].restaurantName + " because of age")
-                    continue
-                
-                # Calculate overlap
-                overlap = chefSlot.getOverlap(internSlot)
-                if (overlap.duration() >= 4):
-                    # Get or calculate commute
-                    com_key = intern.getFullAddress() + "|" + chefsAvail[chefAvail].getFullAddress()
-                    
-                    if com_key in commute_cache:
-                        print("Commute found in cache")
-                        commute = Commute.from_dict(commute_cache[com_key]) if isinstance(commute_cache[com_key], dict) else commute_cache[com_key]
-                    else:
-                        print("New call to Google API")
-                        commute = Commute.getCommuteTime(intern.internTransportation, intern.getFullAddress(), chefsAvail[chefAvail].getFullAddress())
-                        commute_cache[com_key] = commute.to_dict()
-                    
-                    # Skip if commute too long (180 minutes = 10800 seconds)
-                    if (commute.value > 10800):
-                        continue
-                    
-                    # Add to overlaps
-                    if chefAvail not in overlaps:
-                        overlaps[chefsAvail[chefAvail].restaurantName] = {}
-                        overlaps[chefsAvail[chefAvail].restaurantName]['commute'] = commute
-                        print(overlaps[chefsAvail[chefAvail].restaurantName]['commute'].text)
-                    
-                    if day not in overlaps[chefsAvail[chefAvail].restaurantName]:
-                        overlaps[chefsAvail[chefAvail].restaurantName][day] = []
-                    
-                    overlaps[chefsAvail[chefAvail].restaurantName][day].append(overlap)
-    
-    # Sort by commute time
-    sorted_overlaps = dict(sorted(overlaps.items(), key=lambda item: item[1]['commute'].value))
-    return sorted_overlaps
 
-def run_matching_algorithm(intern_rows, chef_rows):
-    """Run the matching algorithm and return results"""
-    
-    # Convert rows to dictionaries
-    intern_dicts = rows_to_dict_list(intern_rows)
-    chef_dicts = rows_to_dict_list(chef_rows)
-    
-    # Create Intern and Chef objects
-    interns = {}
-    for row_dict in intern_dicts:
-        try:
-            intern = Intern(row_dict)
-            interns[intern.internFullName] = intern
-        except Exception as e:
-            print(f"Error processing intern: {e}")
-    
-    chefs = {}
-    for row_dict in chef_dicts:
-        try:
-            chef = Chef(row_dict)
-            chefs[chef.restaurantName] = chef
-        except Exception as e:
-            print(f"Error processing chef: {e}")
-    
-    print(f"Loaded {len(chefs)} chefs/restaurants")
-    print(f"Loaded {len(interns)} interns")
-    
-    # Run matching for each intern
-    results = []
-    
-    for intern_name in interns:
-        intern = interns[intern_name]
-        days = intern.availability
-        
-        intern_result = {
-            'intern_name': intern_name,
-            'days': {}
-        }
-        
-        for day in days:
-            overlaps = findInternsToRestaurantOverlap(chefs, intern, day, days[day])
-            
-            day_matches = []
-            for restaurant in overlaps:
-                match_info = {
-                    'restaurant': restaurant,
-                    'commute': overlaps[restaurant]['commute'].text,
-                    'time_slots': str(overlaps[restaurant][day])
-                }
-                day_matches.append(match_info)
-            
-            intern_result['days'][day] = day_matches
-        
-        results.append(intern_result)
-    
+    intern_dicts = rows_to_dicts(intern_rows)
+    chef_dicts = rows_to_dicts(chef_rows)
+
+    results, cache_dirty = run_local_matching(
+        intern_dicts, chef_dicts, commute_cache,
+        enable_language_matching=enable_language_matching,
+        enable_respect_prior_matches=enable_respect_prior_matches,
+    )
+
     return results
 
 def write_results_to_sheet(cohort_name, results):
@@ -495,22 +167,9 @@ def write_results_to_sheet(cohort_name, results):
             sheet_id = response['replies'][0]['addSheet']['properties']['sheetId']
             print(f"Created new sheet: {tab_name}")
         
-        # Prepare data
-        data = [['Intern Name', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']]
-        
-        for intern_result in results:
-            row = [intern_result['intern_name']]
-            
-            for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']:
-                day_matches = intern_result['days'].get(day, [])
-                
-                cell_text = ""
-                for match in day_matches:
-                    cell_text += f"{match['restaurant']} ({match['commute']}): {match['time_slots']}\n"
-                
-                row.append(cell_text.strip())
-            
-            data.append(row)
+        # Prepare data — same row shape as the local CSV output, so the
+        # production sheet and local iteration stay visually consistent.
+        data = [RESULT_HEADER] + [build_result_row(r) for r in results]
         
         # Write data
         body = {'values': data}
@@ -596,6 +255,11 @@ def get_html_form():
                 font-size: 13px; color: #666; }
         .link { color: #667eea; text-decoration: none; font-weight: 500; }
         .link:hover { text-decoration: underline; }
+        .checkbox-group { margin-bottom: 20px; }
+        .checkbox-row { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; }
+        .checkbox-row input[type="checkbox"] { width: 18px; height: 18px; margin-top: 2px; cursor: pointer; flex-shrink: 0; }
+        .checkbox-row label { margin-bottom: 0; font-weight: 500; cursor: pointer; }
+        .checkbox-row .hint { display: block; font-weight: 400; color: #888; font-size: 12px; margin-top: 2px; }
     </style>
 </head>
 <body>
@@ -619,7 +283,22 @@ def get_html_form():
                     <select id="year" name="year"></select>
                 </div>
             </div>
-            
+
+            <div class="checkbox-group">
+                <div class="checkbox-row">
+                    <input type="checkbox" id="languageMatching" name="languageMatching" checked>
+                    <label for="languageMatching">Language matching
+                        <span class="hint">Spanish-only kitchens are only offered to Spanish-speaking interns</span>
+                    </label>
+                </div>
+                <div class="checkbox-row">
+                    <input type="checkbox" id="respectPriorMatches" name="respectPriorMatches" checked>
+                    <label for="respectPriorMatches">Respect Prior Matches
+                        <span class="hint">Interns already placed at a restaurant are kept fixed, not re-matched</span>
+                    </label>
+                </div>
+            </div>
+
             <button type="submit" id="runButton">Run Matching Algorithm</button>
         </form>
         
@@ -693,21 +372,27 @@ def get_html_form():
             const season = document.getElementById('season').value;
             const year = document.getElementById('year').value;
             const cohort = season + ' ' + year;
-            
+            const languageMatching = document.getElementById('languageMatching').checked;
+            const respectPriorMatches = document.getElementById('respectPriorMatches').checked;
+
             const button = document.getElementById('runButton');
             const status = document.getElementById('status');
-            
+
             button.disabled = true;
             button.textContent = 'Running...';
             status.className = 'status running';
-            status.innerHTML = '<span class="spinner"></span>Running matching for ' + cohort + 
+            status.innerHTML = '<span class="spinner"></span>Running matching for ' + cohort +
                                '...<br>This may take 1-2 minutes.';
-            
+
             try {
                 const response = await fetch(window.location.href, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ cohort: cohort })
+                    body: JSON.stringify({
+                        cohort: cohort,
+                        enable_language_matching: languageMatching,
+                        enable_respect_prior_matches: respectPriorMatches
+                    })
                 });
                 
                 const result = await response.json();
@@ -766,41 +451,49 @@ def sprouts_matching(request):
     
     # Matching endpoint (POST)
     try:
-        request_json = request.get_json(silent=True)
-        cohort_name = request_json.get('cohort', 'Spring 2026') if request_json else 'Spring 2026'
-        
+        request_json = request.get_json(silent=True) or {}
+        cohort_name = request_json.get('cohort', 'Spring 2026')
+        enable_language_matching = request_json.get('enable_language_matching', True)
+        enable_respect_prior_matches = request_json.get('enable_respect_prior_matches', True)
+
         print(f"Running matching for cohort: {cohort_name}")
-        
+        print(f"  Language matching: {'ON' if enable_language_matching else 'OFF'}")
+        print(f"  Respect prior matches: {'ON' if enable_respect_prior_matches else 'OFF'}")
+
         # Load cache
         print("Loading commute cache from GCS...")
         load_commute_cache()
-        
+
         # Read data from Google Sheets
         print("Reading Intern Availabilities...")
         intern_data = read_sheet_data('Intern Availabilities')
-        
+
         print("Reading Chef Availabilities...")
         chef_data = read_sheet_data('Chef Availabilities')
-        
+
         # Filter by cohort
         print(f"Filtering by cohort: {cohort_name}")
         filtered_interns = filter_by_cohort(intern_data, cohort_name)
         filtered_chefs = filter_by_cohort(chef_data, cohort_name)
-        
+
         print(f"Found {len(filtered_interns)-1} interns and {len(filtered_chefs)-1} chefs")
-        
+
         # Run matching algorithm
         print("Running matching algorithm...")
-        results = run_matching_algorithm(filtered_interns, filtered_chefs)
-        
+        results = run_matching_algorithm(
+            filtered_interns, filtered_chefs,
+            enable_language_matching=enable_language_matching,
+            enable_respect_prior_matches=enable_respect_prior_matches,
+        )
+
         # Write results to spreadsheet
         print("Writing results to spreadsheet...")
         tab_name = write_results_to_sheet(cohort_name, results)
-        
+
         # Save cache
         print("Saving commute cache to GCS...")
         save_commute_cache()
-        
+
         # Return response
         response_data = {
             'success': True,
@@ -808,9 +501,11 @@ def sprouts_matching(request):
             'intern_count': len(filtered_interns) - 1,
             'chef_count': len(filtered_chefs) - 1,
             'tab_name': tab_name,
+            'enable_language_matching': enable_language_matching,
+            'enable_respect_prior_matches': enable_respect_prior_matches,
             'message': 'Matching completed and results written to spreadsheet'
         }
-        
+
         return (json.dumps(response_data), 200, headers)
         
     except Exception as e:

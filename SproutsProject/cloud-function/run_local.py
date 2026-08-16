@@ -799,34 +799,39 @@ def run_matching(intern_dicts, chef_dicts, cache,
 
 DAY_CELL_DISPLAY_LIMIT = 3
 
+RESULT_HEADER = ['Intern Name', 'Top 3 Recommended'] + DAYS + ['Notes']
+
+
+def build_result_row(r: dict, days: list = DAYS) -> list:
+    """Turn one run_matching() result dict into a flat row matching
+    RESULT_HEADER — shared by the local CSV writer and the production
+    Sheets writer so both stay in sync.
+    """
+    row = [r['intern_name'], '\n'.join(r.get('weekly_recommendations', []))]
+    for day in days:
+        matches = r['days'].get(day, [])
+        # Already sorted by commute time; keep the output scannable by
+        # capping each cell and noting how many more exist rather than
+        # dumping every option into one wall of text.
+        shown = matches[:DAY_CELL_DISPLAY_LIMIT]
+        lines = [f"{m['restaurant']} · {m['commute']} · {m['slots']}" for m in shown]
+        if len(matches) > DAY_CELL_DISPLAY_LIMIT:
+            lines.append(f"+{len(matches) - DAY_CELL_DISPLAY_LIMIT} more")
+        row.append('\n'.join(lines))
+    row.append(r.get('notes', ''))
+    return row
+
 
 def write_local_csv(results, cohort_name):
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     filename = f"{cohort_name.replace(' ', '_').lower()}_matches_local_{timestamp}.csv"
     output_path = Path(__file__).parent / filename
 
-    days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-    header = ['Intern Name', 'Top 3 Recommended'] + days + ['Notes']
-
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
-        writer.writerow(header)
-
+        writer.writerow(RESULT_HEADER)
         for r in results:
-            row = [r['intern_name']]
-            row.append('\n'.join(r.get('weekly_recommendations', [])))
-            for day in days:
-                matches = r['days'].get(day, [])
-                # Already sorted by commute time; keep the CSV scannable by
-                # capping each cell and noting how many more exist rather
-                # than dumping every option into one wall of text.
-                shown = matches[:DAY_CELL_DISPLAY_LIMIT]
-                lines = [f"{m['restaurant']} · {m['commute']} · {m['slots']}" for m in shown]
-                if len(matches) > DAY_CELL_DISPLAY_LIMIT:
-                    lines.append(f"+{len(matches) - DAY_CELL_DISPLAY_LIMIT} more")
-                row.append('\n'.join(lines))
-            row.append(r.get('notes', ''))
-            writer.writerow(row)
+            writer.writerow(build_result_row(r))
 
     print(f"\nOutput: {output_path}")
     return output_path
