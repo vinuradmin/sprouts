@@ -6,9 +6,12 @@ Pulls live data from Google Sheets, runs the same algorithm as the cloud functio
 and writes results to a local CSV instead of pushing back to Sheets.
 
 Usage:
-    python run_local.py                        # uses current/upcoming cohort
-    python run_local.py "Fall 2026"            # specific cohort
-    python run_local.py "Fall 2026" --cohort   # same
+    python run_local.py                                     # uses current/upcoming cohort
+    python run_local.py "Fall 2026"                         # specific cohort
+    python run_local.py "Fall 2026" --no-language-matching  # run without Spanish-only kitchen gating
+    python run_local.py "Fall 2026" --no-respect-prior-matches  # ignore prior placements, re-run everyone
+
+Both enhancements default to ON; pass the --no-* flag to opt out for a run.
 
 Credentials (one of):
     - Place service-account-key.json in this directory
@@ -18,6 +21,7 @@ Also reads GOOGLE_MAPS_API_KEY from a local .env file in this directory if prese
 (see .env.example). Real values in .env are gitignored.
 """
 
+import argparse
 import csv
 import json
 import os
@@ -434,7 +438,7 @@ def compute_full_restaurants(pre_matched: list, capacity: int, exempt: set) -> s
 # Matching
 # ---------------------------------------------------------------------------
 
-def find_intern_restaurant_overlaps(chefs, intern, day, intern_slots, cache):
+def find_intern_restaurant_overlaps(chefs, intern, day, intern_slots, cache, enable_language_matching=True):
     overlaps = {}
     cache_dirty = False
 
@@ -442,7 +446,7 @@ def find_intern_restaurant_overlaps(chefs, intern, day, intern_slots, cache):
         if chef.over_18_only and not intern.over_18:
             continue
 
-        if not language_constraint_passes(chef, intern):
+        if enable_language_matching and not language_constraint_passes(chef, intern):
             print(f"  {intern.full_name} skipped {chef.restaurant_name} (Spanish-only kitchen)")
             continue
 
@@ -571,7 +575,24 @@ def _fixed_row_for_pre_matched(intern: InternLocal, chefs: dict, note: str = '')
 
 def run_matching(intern_dicts, chef_dicts, cache,
                   restaurant_capacity=DEFAULT_RESTAURANT_CAPACITY,
-                  capacity_exempt_restaurants=None):
+                  capacity_exempt_restaurants=None,
+                  enable_language_matching=True,
+                  enable_respect_prior_matches=True):
+    """
+    enable_language_matching: gate Spanish-only kitchens to Spanish-speaking
+        interns. When False, all kitchens are open to all interns regardless
+        of language (the Spanish-only '*' marker still displays either way —
+        it's informational, not the enforcement).
+    enable_respect_prior_matches: treat interns with a decided restaurant
+        (col G 'restaurantname') as fixed placements, and exclude restaurants
+        that prior matches have filled from new recommendations. When False,
+        prior-match data is ignored entirely and every intern goes through
+        the normal algorithm with the full restaurant pool.
+
+    TODO: once wired into the deployed cloud function, expose both of these
+    as checkboxes in the HTML popup (cloud-function/main.py), defaulted to
+    checked, so a user can opt out of either enhancement for a given run.
+    """
     exempt = capacity_exempt_restaurants if capacity_exempt_restaurants is not None else CAPACITY_EXEMPT_RESTAURANTS
 
     chefs = {}
@@ -587,10 +608,13 @@ def run_matching(intern_dicts, chef_dicts, cache,
 
     print(f"Loaded {len(chefs)} restaurants, {len(interns)} interns")
 
-    pre_matched, unmatched = partition_pre_matched(interns)
-    full_restaurants = compute_full_restaurants(pre_matched, restaurant_capacity, exempt)
-    if full_restaurants:
-        print(f"Restaurants at capacity from prior matches (excluded from new matches): {sorted(full_restaurants)}")
+    if enable_respect_prior_matches:
+        pre_matched, unmatched = partition_pre_matched(interns)
+        full_restaurants = compute_full_restaurants(pre_matched, restaurant_capacity, exempt)
+        if full_restaurants:
+            print(f"Restaurants at capacity from prior matches (excluded from new matches): {sorted(full_restaurants)}")
+    else:
+        pre_matched, full_restaurants = [], set()
 
     available_chefs = {name: c for name, c in chefs.items() if name not in full_restaurants}
 
@@ -598,7 +622,7 @@ def run_matching(intern_dicts, chef_dicts, cache,
     cache_dirty = False
 
     for intern in interns.values():
-        if intern.pre_matched_restaurant:
+        if enable_respect_prior_matches and intern.pre_matched_restaurant:
             print(f"\n{intern}: already matched to {intern.pre_matched_restaurant}")
             results.append(_fixed_row_for_pre_matched(intern, chefs, notes.get(intern.full_name, '')))
             continue
@@ -607,7 +631,10 @@ def run_matching(intern_dicts, chef_dicts, cache,
         row_result = {'intern_name': intern.full_name, 'days': {}, 'notes': notes.get(intern.full_name, '')}
 
         for day, slots in intern.availability.items():
-            day_overlaps, dirty = find_intern_restaurant_overlaps(available_chefs, intern, day, slots, cache)
+            day_overlaps, dirty = find_intern_restaurant_overlaps(
+                available_chefs, intern, day, slots, cache,
+                enable_language_matching=enable_language_matching,
+            )
             cache_dirty = cache_dirty or dirty
 
             matches = []
@@ -675,6 +702,21 @@ def current_cohort():
 # Main
 # ---------------------------------------------------------------------------
 
+def parse_args():
+    parser = argparse.ArgumentParser(description='Sprouts local matching runner')
+    parser.add_argument('cohort', nargs='?', default=None, help='e.g. "Fall 2026" (default: current/upcoming cohort)')
+    parser.add_argument(
+        '--no-language-matching', dest='enable_language_matching', action='store_false',
+        help='Disable Spanish-only kitchen gating — run without the language matching enhancement'
+    )
+    parser.add_argument(
+        '--no-respect-prior-matches', dest='enable_respect_prior_matches', action='store_false',
+        help='Ignore prior placements — re-run matching for every intern regardless of a decided restaurant'
+    )
+    parser.set_defaults(enable_language_matching=True, enable_respect_prior_matches=True)
+    return parser.parse_args()
+
+
 def main():
     if not GOOGLE_MAPS_API_KEY:
         print(
@@ -684,9 +726,12 @@ def main():
         )
         sys.exit(1)
 
-    cohort = sys.argv[1] if len(sys.argv) > 1 else current_cohort()
+    args = parse_args()
+    cohort = args.cohort or current_cohort()
     print(f"{'='*60}")
     print(f"Sprouts Local Runner — cohort: {cohort}")
+    print(f"  Language matching: {'ON' if args.enable_language_matching else 'OFF'}")
+    print(f"  Respect prior matches: {'ON' if args.enable_respect_prior_matches else 'OFF'}")
     print(f"{'='*60}\n")
 
     cache = load_cache()
@@ -719,7 +764,11 @@ def main():
     intern_dicts = rows_to_dicts(intern_rows)
     chef_dicts = rows_to_dicts(chef_rows)
 
-    results, cache_dirty = run_matching(intern_dicts, chef_dicts, cache)
+    results, cache_dirty = run_matching(
+        intern_dicts, chef_dicts, cache,
+        enable_language_matching=args.enable_language_matching,
+        enable_respect_prior_matches=args.enable_respect_prior_matches,
+    )
 
     if cache_dirty:
         save_cache(cache)
