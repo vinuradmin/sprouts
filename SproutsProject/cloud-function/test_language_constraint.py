@@ -228,3 +228,26 @@ def test_intern_availability_parses_from_live_column_shape():
     intern = InternLocal(make_intern_row('Maria', 'Lopez', 'Spanish', monday_hours='All Day (9AM-9PM)'))
     assert [str(s) for s in intern.availability['Monday']] == ['9-21']
     assert intern.availability['Tuesday'] == []
+
+
+# ---------------------------------------------------------------------------
+# Regression: find_intern_restaurant_overlaps was appending each overlap
+# twice (once via .append(), once via a redundant reassignment reading the
+# just-updated list) — every match showed the same time slot duplicated,
+# e.g. "5PM-9PM, 5PM-9PM" on live output.
+# ---------------------------------------------------------------------------
+
+def test_single_overlap_is_not_duplicated():
+    from run_local import find_intern_restaurant_overlaps, Slot
+
+    chef = Chef(make_chef_row('The Grill', 'English', monday_hours='5PM-9PM'))
+    intern = InternLocal(make_intern_row('Alice', 'Smith', 'English', monday_hours='5PM-9PM'))
+    chefs = {chef.restaurant_name: chef}
+
+    overlaps, _ = find_intern_restaurant_overlaps(
+        chefs, intern, 'Monday', intern.availability['Monday'], cache={}
+    )
+
+    day_slots = overlaps['The Grill']['Monday']
+    assert len(day_slots) == 1
+    assert str(day_slots[0]) == '17-21'

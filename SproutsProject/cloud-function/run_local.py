@@ -477,11 +477,145 @@ def find_intern_restaurant_overlaps(chefs, intern, day, intern_slots, cache, ena
                 name = chef.display_name()
                 if name not in overlaps:
                     overlaps[name] = {'commute': commute}
-                overlaps.setdefault(name, {}).setdefault(day, []).append(overlap)
-                overlaps[name][day] = overlaps[name].get(day, []) + [overlap]
+                overlaps[name].setdefault(day, []).append(overlap)
 
     sorted_overlaps = dict(sorted(overlaps.items(), key=lambda x: x[1]['commute'].value))
     return sorted_overlaps, cache_dirty
+
+
+# ---------------------------------------------------------------------------
+# Weekly schedule recommendations
+#
+# Interns target 12 hours/week at a single restaurant, delivered as either
+# 2 days x 6 hours or 3 days x 4 hours (the same pattern used elsewhere in
+# this codebase — see the schedule_suggestions logic in
+# app/main/matching_routes.py and the 12-hour trim logic in
+# app/services/hungarian_matching.py). Rather than showing every raw overlap
+# per day, this surfaces the top 3 restaurants that can actually deliver a
+# full week's schedule, ranked by whether they hit 12h and by commute.
+# ---------------------------------------------------------------------------
+
+TARGET_WEEKLY_HOURS = 12.0
+
+
+def format_commute_minutes(minutes: float) -> str:
+    """Compact commute text, e.g. '45m' or '1h14m'."""
+    total = round(minutes)
+    hours, mins = divmod(total, 60)
+    return f"{hours}h{mins}m" if hours else f"{mins}m"
+
+
+def _short_day(day: str) -> str:
+    return day[:3]
+
+
+def _format_hour_12(hour: int) -> str:
+    period = 'AM' if hour < 12 else 'PM'
+    display_hour = hour % 12 or 12
+    return f"{display_hour}{period}"
+
+
+def format_slot_time(slot: Slot) -> str:
+    """Human-readable time range, e.g. '5PM-9PM' instead of '17-21'."""
+    return f"{_format_hour_12(slot.start)}-{_format_hour_12(slot.end)}"
+
+
+def compute_weekly_plan(day_options: dict, target_hours: float = TARGET_WEEKLY_HOURS):
+    """
+    day_options: {day: {'hours': float, 'commute_minutes': float}} for one
+    restaurant — only days where that restaurant is otherwise a valid option
+    for the intern (age/language/commute-cutoff already applied upstream).
+
+    Prefers 2 days x 6h, then 3 days x 4h (trimming a longer overlap down to
+    the pattern's hours, matching the "exactly 12h" convention used
+    elsewhere). Falls back to a best-effort combination of whatever days are
+    available when neither clean pattern fits. Returns None when fewer than
+    2 days are available — a single day isn't a viable weekly placement.
+    """
+    days_by_length = sorted(day_options.keys(), key=lambda d: -day_options[d]['hours'])
+
+    def build(selected_days, per_day_hours):
+        total = sum(per_day_hours.values())
+        avg_commute = sum(day_options[d]['commute_minutes'] for d in selected_days) / len(selected_days)
+        return {
+            'days': selected_days,
+            'per_day_hours': per_day_hours,
+            'total_hours': total,
+            'avg_commute_minutes': avg_commute,
+            'meets_target': total >= target_hours - 1e-9,
+        }
+
+    two_day_candidates = [d for d in days_by_length if day_options[d]['hours'] >= 6]
+    if len(two_day_candidates) >= 2:
+        chosen = two_day_candidates[:2]
+        return build(chosen, {d: 6.0 for d in chosen})
+
+    if len(days_by_length) >= 3:
+        chosen = days_by_length[:3]
+        return build(chosen, {d: 4.0 for d in chosen})
+
+    if len(days_by_length) >= 2:
+        chosen = days_by_length
+        return build(chosen, {d: day_options[d]['hours'] for d in chosen})
+
+    return None
+
+
+def describe_plan(plan: dict) -> str:
+    """Human-readable text for a weekly plan, for the CSV cell."""
+    per_day = plan['per_day_hours']
+    if len(plan['days']) == 2 and all(h == 6 for h in per_day.values()):
+        pattern = '2×6h'
+    elif len(plan['days']) == 3 and all(h == 4 for h in per_day.values()):
+        pattern = '3×4h'
+    else:
+        pattern = f"{plan['total_hours']:g}h"
+
+    days_str = ', '.join(_short_day(d) for d in plan['days'])
+    commute = format_commute_minutes(plan['avg_commute_minutes'])
+    target_note = '' if plan['meets_target'] else ' (under 12h target)'
+
+    return f"{plan['restaurant']} — {plan['total_hours']:g}h/wk ({pattern}: {days_str}) · avg {commute}{target_note}"
+
+
+def compute_top_weekly_recommendations(chefs: dict, intern, cache: dict,
+                                        enable_language_matching: bool = True, top_n: int = 3):
+    """
+    For one intern, find the best weekly plan per restaurant across all 7
+    days and return the top N, ranked by whether they hit the 12h target
+    (yes before no) and then by average commute (lower is better).
+
+    Returns (plans, cache_dirty).
+    """
+    by_restaurant = {}
+    cache_dirty = False
+
+    for day, slots in intern.availability.items():
+        day_overlaps, dirty = find_intern_restaurant_overlaps(
+            chefs, intern, day, slots, cache, enable_language_matching=enable_language_matching,
+        )
+        cache_dirty = cache_dirty or dirty
+
+        for name, info in day_overlaps.items():
+            day_slots = info.get(day, [])
+            if not day_slots:
+                continue
+            best_slot = max(day_slots, key=lambda s: s.duration())
+            by_restaurant.setdefault(name, {})[day] = {
+                'hours': best_slot.duration(),
+                'commute_minutes': info['commute'].value / 60,
+            }
+
+    plans = []
+    for name, day_options in by_restaurant.items():
+        plan = compute_weekly_plan(day_options)
+        if plan:
+            plan['restaurant'] = name
+            plans.append(plan)
+
+    plans.sort(key=lambda p: (not p['meets_target'], p['avg_commute_minutes']))
+
+    return plans[:top_n], cache_dirty
 
 
 def dedupe_intern_rows(intern_dicts: list):
@@ -569,6 +703,7 @@ def _fixed_row_for_pre_matched(intern: InternLocal, chefs: dict, note: str = '')
     return {
         'intern_name': intern.full_name,
         'days': {day: [fixed_match] for day in DAYS},
+        'weekly_recommendations': [f'Already matched: {display_name}'],
         'notes': note,
     }
 
@@ -639,12 +774,19 @@ def run_matching(intern_dicts, chef_dicts, cache,
 
             matches = []
             for restaurant_name, info in day_overlaps.items():
+                day_slots = info.get(day, [])
                 matches.append({
                     'restaurant': restaurant_name,
                     'commute': info['commute'].text,
-                    'slots': str(info.get(day, [])),
+                    'slots': ', '.join(format_slot_time(s) for s in day_slots),
                 })
             row_result['days'][day] = matches
+
+        weekly_plans, dirty = compute_top_weekly_recommendations(
+            available_chefs, intern, cache, enable_language_matching=enable_language_matching,
+        )
+        cache_dirty = cache_dirty or dirty
+        row_result['weekly_recommendations'] = [describe_plan(p) for p in weekly_plans]
 
         results.append(row_result)
 
@@ -655,13 +797,16 @@ def run_matching(intern_dicts, chef_dicts, cache,
 # Local CSV output
 # ---------------------------------------------------------------------------
 
+DAY_CELL_DISPLAY_LIMIT = 3
+
+
 def write_local_csv(results, cohort_name):
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     filename = f"{cohort_name.replace(' ', '_').lower()}_matches_local_{timestamp}.csv"
     output_path = Path(__file__).parent / filename
 
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-    header = ['Intern Name'] + days + ['Notes']
+    header = ['Intern Name', 'Top 3 Recommended'] + days + ['Notes']
 
     with open(output_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
@@ -669,12 +814,17 @@ def write_local_csv(results, cohort_name):
 
         for r in results:
             row = [r['intern_name']]
+            row.append('\n'.join(r.get('weekly_recommendations', [])))
             for day in days:
                 matches = r['days'].get(day, [])
-                cell = '\n'.join(
-                    f"{m['restaurant']} ({m['commute']}): {m['slots']}" for m in matches
-                )
-                row.append(cell)
+                # Already sorted by commute time; keep the CSV scannable by
+                # capping each cell and noting how many more exist rather
+                # than dumping every option into one wall of text.
+                shown = matches[:DAY_CELL_DISPLAY_LIMIT]
+                lines = [f"{m['restaurant']} · {m['commute']} · {m['slots']}" for m in shown]
+                if len(matches) > DAY_CELL_DISPLAY_LIMIT:
+                    lines.append(f"+{len(matches) - DAY_CELL_DISPLAY_LIMIT} more")
+                row.append('\n'.join(lines))
             row.append(r.get('notes', ''))
             writer.writerow(row)
 
