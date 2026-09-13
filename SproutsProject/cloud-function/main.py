@@ -463,7 +463,7 @@ def get_html_form():
                                '...<br>This may take 1-2 minutes.';
 
             try {
-                const response = await fetch(window.location.href, {
+                const response = await fetch('https://us-central1-sprouts-446222.cloudfunctions.net/sprouts-matching', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
