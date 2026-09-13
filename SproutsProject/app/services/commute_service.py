@@ -17,7 +17,7 @@ class CommuteService:
     
     def _initialize_client(self):
         """Initialize Google Maps client with API key."""
-        api_key = 'AIzaSyAILDN2YIseCh_iFMZVj5pTgZvS5hxiJbg'
+        api_key = os.environ.get('GOOGLE_MAPS_API_KEY')
         if api_key:
             self.gmaps = googlemaps.Client(key=api_key)
     

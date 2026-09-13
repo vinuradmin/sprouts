@@ -30,6 +30,12 @@ SPREADSHEET_ID = '1c1A-FY8I16Jmq5FhXWEXiOvz9_eybAZNBXMqHVIAB-M'
 CACHE_BUCKET = os.environ.get('CACHE_BUCKET', 'sprouts-commute-cache')
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
+# Shared secret the caller (Apps Script dialog) must present. The function is
+# invoked unauthenticated (allUsers) because the dialog calls it via
+# client-side fetch() with no way to attach IAM credentials, so this is the
+# only gate against random internet callers burning Maps API quota.
+SHARED_SECRET = os.environ.get('SPROUTS_SHARED_SECRET')
+
 # Commute cache
 commute_cache = {}
 
@@ -289,217 +295,6 @@ def write_results_to_sheet(cohort_name, results):
         raise
 
 # ============================================================================
-# HTML FORM
-# ============================================================================
-
-def get_html_form():
-    """Return HTML form for web interface"""
-    return '''
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Sprouts Matching Algorithm</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-               background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-               min-height: 100vh; display: flex; align-items: center; justify-content: center;
-               padding: 20px; }
-        .container { background: white; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-                     max-width: 500px; width: 100%; padding: 40px; }
-        h1 { color: #333; margin-bottom: 10px; font-size: 28px; }
-        .subtitle { color: #666; margin-bottom: 30px; font-size: 14px; }
-        label { display: block; margin-bottom: 8px; color: #555; font-weight: 500; }
-        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px; }
-        .form-group { display: flex; flex-direction: column; }
-        select { width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 6px;
-                 font-size: 16px; background: white; cursor: pointer; }
-        select:focus { outline: none; border-color: #667eea; }
-        button { width: 100%; padding: 14px; background: #667eea; color: white; border: none;
-                 border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer;
-                 transition: background 0.3s; }
-        button:hover { background: #5568d3; }
-        button:disabled { background: #ccc; cursor: not-allowed; }
-        .status { margin-top: 20px; padding: 15px; border-radius: 6px; display: none; }
-        .status.running { background: #e3f2fd; color: #1976d2; display: block; }
-        .status.success { background: #e8f5e9; color: #388e3c; display: block; }
-        .status.error { background: #ffebee; color: #c62828; display: block; }
-        .spinner { border: 3px solid #1976d2; border-top-color: transparent; border-radius: 50%;
-                   width: 20px; height: 20px; display: inline-block; animation: spin 1s linear infinite;
-                   vertical-align: middle; margin-right: 10px; }
-        @keyframes spin { to { transform: rotate(360deg); } }
-        .info { background: #f5f5f5; padding: 15px; border-radius: 6px; margin-top: 20px;
-                font-size: 13px; color: #666; }
-        .link { color: #667eea; text-decoration: none; font-weight: 500; }
-        .link:hover { text-decoration: underline; }
-        .checkbox-group { margin-bottom: 20px; }
-        .checkbox-row { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; }
-        .checkbox-row input[type="checkbox"] { width: 18px; height: 18px; margin-top: 2px; cursor: pointer; flex-shrink: 0; }
-        .checkbox-row label { margin-bottom: 0; font-weight: 500; cursor: pointer; }
-        .checkbox-row .hint { display: block; font-weight: 400; color: #888; font-size: 12px; margin-top: 2px; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>🌱 Sprouts Matching</h1>
-        <p class="subtitle">Match interns with restaurant opportunities</p>
-        
-        <form id="matchingForm">
-            <div class="form-row">
-                <div class="form-group">
-                    <label for="season">Season:</label>
-                    <select id="season" name="season">
-                        <option value="Spring">Spring</option>
-                        <option value="Summer">Summer</option>
-                        <option value="Fall">Fall</option>
-                        <option value="Winter">Winter</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="year">Year:</label>
-                    <select id="year" name="year"></select>
-                </div>
-            </div>
-
-            <div class="checkbox-group">
-                <div class="checkbox-row">
-                    <input type="checkbox" id="languageMatching" name="languageMatching" checked>
-                    <label for="languageMatching">Language matching
-                        <span class="hint">Spanish-only kitchens are only offered to Spanish-speaking interns</span>
-                    </label>
-                </div>
-                <div class="checkbox-row">
-                    <input type="checkbox" id="respectPriorMatches" name="respectPriorMatches" checked>
-                    <label for="respectPriorMatches">Respect Prior Matches
-                        <span class="hint">Interns already placed at a restaurant are kept fixed, not re-matched</span>
-                    </label>
-                </div>
-            </div>
-
-            <button type="submit" id="runButton">Run Matching Algorithm</button>
-        </form>
-        
-        <div id="status" class="status"></div>
-        
-        <div class="info">
-            Results will be written to a new tab in your 
-            <a href="https://docs.google.com/spreadsheets/d/1c1A-FY8I16Jmq5FhXWEXiOvz9_eybAZNBXMqHVIAB-M" 
-               target="_blank" class="link">Google Spreadsheet</a>.
-            Tab name: "{Season Year} Matches"
-        </div>
-    </div>
-    
-    <script>
-        // Initialize form with smart defaults
-        function initializeForm() {
-            const now = new Date();
-            const currentYear = now.getFullYear();
-            const currentMonth = now.getMonth(); // 0-11
-            
-            // Populate year dropdown (2024 to next year)
-            const yearSelect = document.getElementById('year');
-            const startYear = 2024;
-            const endYear = currentYear + 1;
-            
-            for (let year = startYear; year <= endYear; year++) {
-                const option = document.createElement('option');
-                option.value = year;
-                option.textContent = year;
-                if (year === currentYear) {
-                    option.selected = true;
-                }
-                yearSelect.appendChild(option);
-            }
-            
-            // Set default season to upcoming season
-            const seasonSelect = document.getElementById('season');
-            let defaultSeason;
-            let defaultYear = currentYear;
-            
-            // Determine upcoming season based on current month
-            if (currentMonth >= 0 && currentMonth <= 1) {
-                defaultSeason = 'Spring'; // Jan-Feb -> Spring (current year)
-            } else if (currentMonth >= 2 && currentMonth <= 4) {
-                defaultSeason = 'Summer'; // Mar-May -> Summer
-            } else if (currentMonth >= 5 && currentMonth <= 7) {
-                defaultSeason = 'Fall'; // Jun-Aug -> Fall
-            } else if (currentMonth >= 8 && currentMonth <= 10) {
-                defaultSeason = 'Winter'; // Sep-Nov -> Winter
-            } else {
-                defaultSeason = 'Spring'; // Dec -> Spring (next year)
-                defaultYear = currentYear + 1;
-            }
-            
-            // If upcoming season is Spring (Jan-Feb or Dec), use next year
-            if (defaultSeason === 'Spring' && (currentMonth === 11 || currentMonth === 0 || currentMonth === 1)) {
-                defaultYear = currentYear + 1;
-            }
-            
-            seasonSelect.value = defaultSeason;
-            yearSelect.value = defaultYear;
-        }
-        
-        // Initialize on page load
-        initializeForm();
-        
-        // Handle form submission
-        document.getElementById('matchingForm').addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
-            const season = document.getElementById('season').value;
-            const year = document.getElementById('year').value;
-            const cohort = season + ' ' + year;
-            const languageMatching = document.getElementById('languageMatching').checked;
-            const respectPriorMatches = document.getElementById('respectPriorMatches').checked;
-
-            const button = document.getElementById('runButton');
-            const status = document.getElementById('status');
-
-            button.disabled = true;
-            button.textContent = 'Running...';
-            status.className = 'status running';
-            status.innerHTML = '<span class="spinner"></span>Running matching for ' + cohort +
-                               '...<br>This may take 1-2 minutes.';
-
-            try {
-                const response = await fetch('https://us-central1-sprouts-446222.cloudfunctions.net/sprouts-matching', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        cohort: cohort,
-                        enable_language_matching: languageMatching,
-                        enable_respect_prior_matches: respectPriorMatches
-                    })
-                });
-                
-                const result = await response.json();
-                
-                if (result.success) {
-                    status.className = 'status success';
-                    status.innerHTML = '✓ <strong>Success!</strong><br>' +
-                                     'Matched ' + result.intern_count + ' interns with ' + 
-                                     result.chef_count + ' chefs<br>' +
-                                     'Results written to tab: <strong>' + result.tab_name + '</strong><br>' +
-                                     '<a href="https://docs.google.com/spreadsheets/d/1c1A-FY8I16Jmq5FhXWEXiOvz9_eybAZNBXMqHVIAB-M" ' +
-                                     'target="_blank" class="link">View Spreadsheet →</a>';
-                } else {
-                    throw new Error(result.error || 'Matching failed');
-                }
-            } catch (error) {
-                status.className = 'status error';
-                status.innerHTML = '✗ <strong>Error:</strong><br>' + error.message;
-            } finally {
-                button.disabled = false;
-                button.textContent = 'Run Matching Algorithm';
-            }
-        });
-    </script>
-</body>
-</html>
-'''
-
-# ============================================================================
 # CLOUD FUNCTION ENTRY POINT
 # ============================================================================
 
@@ -522,14 +317,23 @@ def sprouts_matching(request):
     if request.path == '/health' or request.path.endswith('/health'):
         return (json.dumps({'status': 'healthy'}), 200, headers)
     
-    # Serve HTML form for GET requests
+    # The standalone GET form has been disabled: it had no access gate at all
+    # (unlike the Apps Script dialog, which requires spreadsheet access), so
+    # it was the one truly public, zero-barrier way to trigger paid API calls.
     if request.method == 'GET':
-        html = get_html_form()
-        return (html, 200, {'Content-Type': 'text/html; charset=utf-8'})
-    
-    # Matching endpoint (POST)
+        return (
+            json.dumps({'status': 'ok', 'message': 'Use the 🌱 Sprouts Matching menu in the spreadsheet.'}),
+            200, headers
+        )
+
+    # Matching endpoint (POST) — requires the shared secret the Apps Script
+    # dialog sends, so bare/scanned URLs can't trigger a run.
     try:
         request_json = request.get_json(silent=True) or {}
+
+        if not SHARED_SECRET or request_json.get('secret') != SHARED_SECRET:
+            return (json.dumps({'success': False, 'error': 'Unauthorized'}), 403, headers)
+
         cohort_name = request_json.get('cohort', 'Spring 2026')
         enable_language_matching = request_json.get('enable_language_matching', True)
         enable_respect_prior_matches = request_json.get('enable_respect_prior_matches', True)
