@@ -126,6 +126,102 @@ def run_matching_algorithm(intern_rows, chef_rows, enable_language_matching=True
 
     return results
 
+def _build_format_requests(sheet_id, results):
+    """Return batchUpdate requests for rich sheet formatting."""
+    num_rows = len(results) + 1  # +1 for header
+    requests = []
+
+    # Freeze header row
+    requests.append({
+        'updateSheetProperties': {
+            'properties': {
+                'sheetId': sheet_id,
+                'gridProperties': {'frozenRowCount': 1}
+            },
+            'fields': 'gridProperties.frozenRowCount'
+        }
+    })
+
+    # Wrap text + align top for all cells
+    requests.append({
+        'repeatCell': {
+            'range': {'sheetId': sheet_id, 'startRowIndex': 0, 'endRowIndex': num_rows},
+            'cell': {
+                'userEnteredFormat': {
+                    'wrapStrategy': 'WRAP',
+                    'verticalAlignment': 'TOP'
+                }
+            },
+            'fields': 'userEnteredFormat(wrapStrategy,verticalAlignment)'
+        }
+    })
+
+    # Header: blue background, white bold text, center-aligned
+    requests.append({
+        'repeatCell': {
+            'range': {'sheetId': sheet_id, 'startRowIndex': 0, 'endRowIndex': 1},
+            'cell': {
+                'userEnteredFormat': {
+                    'backgroundColor': {'red': 0.26, 'green': 0.52, 'blue': 0.96},
+                    'textFormat': {
+                        'foregroundColor': {'red': 1.0, 'green': 1.0, 'blue': 1.0},
+                        'bold': True,
+                        'fontSize': 10
+                    },
+                    'horizontalAlignment': 'CENTER'
+                }
+            },
+            'fields': 'userEnteredFormat(backgroundColor,textFormat,horizontalAlignment)'
+        }
+    })
+
+    # Row shading: light green for pre-matched, alternating white/light-gray for others
+    WHITE = {'red': 1.0, 'green': 1.0, 'blue': 1.0}
+    LIGHT_GRAY = {'red': 0.95, 'green': 0.96, 'blue': 0.98}
+    LIGHT_GREEN = {'red': 0.88, 'green': 0.96, 'blue': 0.88}
+    alt_idx = 0
+    for i, r in enumerate(results):
+        row_idx = i + 1
+        is_pre_matched = any(
+            'Already matched' in rec
+            for rec in r.get('weekly_recommendations', [])
+        )
+        if is_pre_matched:
+            bg = LIGHT_GREEN
+        else:
+            bg = WHITE if alt_idx % 2 == 0 else LIGHT_GRAY
+            alt_idx += 1
+        requests.append({
+            'repeatCell': {
+                'range': {
+                    'sheetId': sheet_id,
+                    'startRowIndex': row_idx,
+                    'endRowIndex': row_idx + 1
+                },
+                'cell': {'userEnteredFormat': {'backgroundColor': bg}},
+                'fields': 'userEnteredFormat.backgroundColor'
+            }
+        })
+
+    # Column widths: Name, Top3, Mon–Sun, Notes
+    col_widths = [180, 340, 210, 210, 210, 210, 210, 210, 210, 200]
+    for i, width in enumerate(col_widths):
+        requests.append({
+            'updateDimensionProperties': {
+                'range': {
+                    'sheetId': sheet_id,
+                    'dimension': 'COLUMNS',
+                    'startIndex': i,
+                    'endIndex': i + 1
+                },
+                'properties': {'pixelSize': width},
+                'fields': 'pixelSize'
+            }
+        })
+
+    return requests
+
+
 def write_results_to_sheet(cohort_name, results):
     """Write matching results to spreadsheet"""
     try:
@@ -180,27 +276,9 @@ def write_results_to_sheet(cohort_name, results):
             body=body
         ).execute()
         
-        # Format header row
-        requests = [{
-            'repeatCell': {
-                'range': {
-                    'sheetId': sheet_id,
-                    'startRowIndex': 0,
-                    'endRowIndex': 1
-                },
-                'cell': {
-                    'userEnteredFormat': {
-                        'backgroundColor': {'red': 0.26, 'green': 0.52, 'blue': 0.96},
-                        'textFormat': {'foregroundColor': {'red': 1, 'green': 1, 'blue': 1}, 'bold': True}
-                    }
-                },
-                'fields': 'userEnteredFormat(backgroundColor,textFormat)'
-            }
-        }]
-        
         service.spreadsheets().batchUpdate(
             spreadsheetId=SPREADSHEET_ID,
-            body={'requests': requests}
+            body={'requests': _build_format_requests(sheet_id, results)}
         ).execute()
         
         print(f"Successfully wrote {len(results)} intern results to {tab_name}")

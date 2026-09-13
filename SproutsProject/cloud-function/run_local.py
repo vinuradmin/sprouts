@@ -797,8 +797,6 @@ def run_matching(intern_dicts, chef_dicts, cache,
 # Local CSV output
 # ---------------------------------------------------------------------------
 
-DAY_CELL_DISPLAY_LIMIT = 3
-
 RESULT_HEADER = ['Intern Name', 'Top 3 Recommended'] + DAYS + ['Notes']
 
 
@@ -810,14 +808,8 @@ def build_result_row(r: dict, days: list = DAYS) -> list:
     row = [r['intern_name'], '\n'.join(r.get('weekly_recommendations', []))]
     for day in days:
         matches = r['days'].get(day, [])
-        # Already sorted by commute time; keep the output scannable by
-        # capping each cell and noting how many more exist rather than
-        # dumping every option into one wall of text.
-        shown = matches[:DAY_CELL_DISPLAY_LIMIT]
-        lines = [f"{m['restaurant']} · {m['commute']} · {m['slots']}" for m in shown]
-        if len(matches) > DAY_CELL_DISPLAY_LIMIT:
-            lines.append(f"+{len(matches) - DAY_CELL_DISPLAY_LIMIT} more")
-        row.append('\n'.join(lines))
+        lines = [f"{m['restaurant']} · {m['commute']} · {m['slots']}" for m in matches]
+        row.append('\n'.join(lines) if lines else 'NONE')
     row.append(r.get('notes', ''))
     return row
 
